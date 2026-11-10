@@ -10,6 +10,19 @@ TABLES = ["team_totals", "players", "goalies", "players_conf",
 PAIR_COLS = {"G": "goals", "A": "assists", "Shots": "shots", "On Goal": "sog",
              "Corners": "corners", "YC": "yellows", "RC": "reds"}
 
+# how each conference team's name is spelled on the different sites
+CONF_NAMES = {
+    "ncf": ["New College of Florida", "New College of Flori", "New College"],
+    "keiser": ["Keiser"],
+    "stthomas": ["St. Thomas", "St. Thomas (Fla.)", "St. Thomas (FL)"],
+    "scad": ["SCAD Savannah", "SCAD", "SCAD (Ga.)"],
+    "southeastern": ["Southeastern", "Southeastern (Fla.)"],
+    "fmu": ["Florida Memorial (FL)", "Florida Memorial", "Florida Memorial (Fla.)", "Fla. Memorial"],
+    "webber": ["Webber International (FL)", "Webber International", "Webber Int'l", "Webber International (Fla.)"],
+    "avemaria": ["Ave Maria (FL)", "Ave Maria", "Ave Maria (Fla.)"],
+    "warner": ["Warner (FL)", "Warner", "Warner (Fla.)"],
+}
+
 def combine(table):
     # stack every team/season file of one table type into one DataFrame
     files = sorted(glob.glob(f"data/raw/*_{table}.csv"))
@@ -42,6 +55,13 @@ def fix_name(name):
         name = name + ")"
     return name
 
+def team_key(name):
+    # "Webber Int'l" -> "webber"; None if not a conference team
+    for key, names in CONF_NAMES.items():
+        if name in names:
+            return key
+    return None
+
 def clean_games(df):
     df = df.copy()
     # text -> real dates; the "Totals" row isn't a date, so it becomes empty and gets dropped
@@ -68,6 +88,14 @@ def clean_games(df):
         keep += [name + "_for", name + "_against"]
     return df[keep]
 
+def add_conference_flags(games):
+    games = games.copy()
+    games["opp_key"] = [team_key(n) for n in games["opponent"]]
+    # NCF only joined the conference in 2024 (2023 was friendlies)
+    ncf_2023 = (games["season"] == 2023) & ((games["team"] == "ncf") | (games["opp_key"] == "ncf"))
+    games["conference_game"] = games["opp_key"].notna() & ~ncf_2023
+    return games
+
 if __name__ == "__main__":
     os.makedirs("data/combined", exist_ok=True)
     for table in TABLES:
@@ -76,9 +104,19 @@ if __name__ == "__main__":
         print(f"{table}: {df.shape[0]} rows, {df.shape[1]} columns")
 
     games = clean_games(pd.read_csv("data/combined/comparison.csv"))
+    games = add_conference_flags(games)
     os.makedirs("data/clean", exist_ok=True)
     games.to_csv("data/clean/games.csv", index=False)
     print("\ngames:", games.shape)
-    print(games.head())
-    print("\nmissing values per column:")
-    print(games.isna().sum())
+    print("missing values:", games.isna().sum().sum(), "(opp_key is empty for non-conference opponents, that's fine)")
+
+    print("\nconference games per team and season:")
+    print(games[games["conference_game"]].groupby(["team", "season"]).size().unstack())
+
+    # any opponent that looks like a conference team but didn't match a spelling?
+    unmatched = games[games["opp_key"].isna()]["opponent"].unique()
+    words = ["Thomas", "Webber", "Warner", "Memorial", "Keiser", "SCAD", "Southeastern", "Ave Maria", "New College"]
+    for name in unmatched:
+        for w in words:
+            if w in name:
+                print("check spelling:", name)
