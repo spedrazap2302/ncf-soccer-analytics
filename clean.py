@@ -88,6 +88,66 @@ def clean_games(df):
         keep += [name + "_for", name + "_against"]
     return df[keep]
 
+def fix_player_name(raw):
+    # "Johnson, Cameron  22Johnson, Cameron" -> "Cameron Johnson"
+    name = str(raw).split("  ")[0].strip()
+    if ", " in name:
+        last, first = name.split(", ", 1)
+        name = first + " " + last
+    return name
+
+def split_dash(df, col, first, second):
+    # "5-0" -> two number columns
+    parts = df[col].astype(str).str.split("-", expand=True)
+    df[first] = pd.to_numeric(parts[0], errors="coerce")
+    df[second] = pd.to_numeric(parts[1], errors="coerce")
+    return df
+
+def clean_players(df):
+    df = df.copy()
+    # drop the summary rows at the bottom of each table
+    df = df[~df["Player"].isin(["Total", "Totals", "Opponent", "Opponents"])]
+    df = df[~df["Player"].astype(str).str.startswith("Team")]
+    df["player"] = [fix_player_name(p) for p in df["Player"]]
+    df["number"] = pd.to_numeric(df["#"], errors="coerce")
+    # a row with no jersey number is a team line (e.g. "Ave Maria University"), not a player
+    df = df.dropna(subset=["number"])
+    df["GS"] = pd.to_numeric(df["GS"], errors="coerce")
+    df = split_dash(df, "YC-RC", "yellows", "reds")
+    df = split_dash(df, "PG-PA", "pk_goals", "pk_attempts")
+    df = df.rename(columns={"GP": "games", "GS": "starts", "MIN": "minutes", "G": "goals",
+                            "A": "assists", "PTS": "points", "SH": "shots", "SH%": "shot_pct",
+                            "SOG": "sog", "SOG%": "sog_pct", "GW": "game_winners"})
+    keep = ["team", "season", "player", "number", "games", "starts", "minutes", "goals",
+            "assists", "points", "shots", "shot_pct", "sog", "sog_pct", "yellows", "reds",
+            "game_winners", "pk_goals", "pk_attempts"]
+    return df[keep]
+
+def to_minutes(text):
+    # goalie minutes look like "522:49" (minutes:seconds)
+    text = str(text)
+    if ":" in text:
+        m, sec = text.split(":")
+        return int(m) + int(sec) / 60
+    return pd.to_numeric(text, errors="coerce")
+
+def clean_goalies(df):
+    df = df.copy()
+    df = df[~df["Player"].isin(["Total", "Totals", "Opponent", "Opponents"])]
+    df = df[~df["Player"].astype(str).str.startswith("Team")]
+    df["player"] = [fix_player_name(p) for p in df["Player"]]
+    df["minutes"] = [to_minutes(m) for m in df["MIN"]]
+    df["GS"] = pd.to_numeric(df["GS"], errors="coerce")
+    # some sites write shutouts as "0/1" (solo/combined), keep the first number
+    df["SHO"] = pd.to_numeric(df["SHO"].astype(str).str.split("/").str[0], errors="coerce")
+    df = df.rename(columns={"GP": "games", "GS": "starts", "GA": "goals_against", "GAA": "gaa",
+                            "SV": "saves", "SV%": "save_pct", "W": "wins", "L": "losses",
+                            "T": "ties", "SHO": "shutouts", "SF": "shots_faced"})
+    keep = ["team", "season", "player", "games", "starts", "minutes", "goals_against", "gaa",
+            "saves", "save_pct", "wins", "losses", "ties", "shutouts", "shots_faced"]
+    # the same goalie is sometimes listed twice with the exact same line
+    return df[keep].drop_duplicates()
+
 def add_conference_flags(games):
     games = games.copy()
     games["opp_key"] = [team_key(n) for n in games["opponent"]]
@@ -120,3 +180,13 @@ if __name__ == "__main__":
         for w in words:
             if w in name:
                 print("check spelling:", name)
+
+    for table in ["players", "players_conf"]:
+        p = clean_players(pd.read_csv(f"data/combined/{table}.csv"))
+        p.to_csv(f"data/clean/{table}.csv", index=False)
+        print(f"\n{table}: {p.shape}, missing values: {p.isna().sum().sum()}")
+    for table in ["goalies", "goalies_conf"]:
+        g = clean_goalies(pd.read_csv(f"data/combined/{table}.csv"))
+        g.to_csv(f"data/clean/{table}.csv", index=False)
+        print(f"{table}: {g.shape}, missing values: {g.isna().sum().sum()}")
+    print(p.head())
