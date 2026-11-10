@@ -49,7 +49,21 @@ def scrape_season(team, base_url, season):
         t.to_csv(f"data/raw/{team}_{season}_{name}.csv", index=False)
         print(f"saved {team}_{season}_{name}.csv ({len(t)} rows)")
 
+# each Sun Conference school's athletics website
+TEAMS = {
+    "ncf": "https://gomightybanyans.com",
+    "keiser": "https://kuseahawks.com",
+    "stthomas": "https://stubobcats.com",
+    "scad": "https://savannah.scadathletics.com",
+    "southeastern": "https://fire.seu.edu",
+    "fmu": "https://athletics.fmu.edu",
+    "webber": "https://webberathletics.com",
+    "avemaria": "https://avemariagyrenes.com",
+    "warner": "https://warnerroyals.com",
+}
+
 if __name__ == "__main__":
-    for season in [2023, 2024, 2025, 2026]:
-        scrape_season("ncf", "https://gomightybanyans.com", season)
-        time.sleep(2)  # wait between requests so we don't hammer the site
+    for team, url in TEAMS.items():
+        for season in [2023, 2024, 2025, 2026]:
+            scrape_season(team, url, season)
+            time.sleep(2)  # wait between requests so we don't hammer the sites
