@@ -90,7 +90,13 @@ def clean_games(df):
 
 def fix_player_name(raw):
     # "Johnson, Cameron  22Johnson, Cameron" -> "Cameron Johnson"
-    name = str(raw).split("  ")[0].strip()
+    # the cell repeats the name after the jersey number, so keep what comes before the first digit
+    name = ""
+    for ch in str(raw):
+        if ch.isdigit():
+            break
+        name += ch
+    name = name.strip()
     if ", " in name:
         last, first = name.split(", ", 1)
         name = first + " " + last
