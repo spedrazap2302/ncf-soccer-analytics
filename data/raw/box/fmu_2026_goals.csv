@@ -1,0 +1,73 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+fmu,2026,3662,8/20/2026,13:36,FNU,Juan Pugin,,False,False
+fmu,2026,3662,8/20/2026,40:32,FMU,Gabriel Zapata,Rafael Coronado,False,False
+fmu,2026,3662,8/20/2026,81:13,FMU,Jared Arevalo,Gabriel Zapata,False,False
+fmu,2026,3661,8/22/2026,19:57,FALCONS,Santiago Balza,Benjamin Brake,False,False
+fmu,2026,3661,8/22/2026,23:35,FLORIDA,Luis Gutierrez,Team,False,False
+fmu,2026,3664,8/29/2026,54:30,WIU,Jack Chalmers,Rick Mael Petit Frere,False,False
+fmu,2026,3667,9/12/2026,17:59,BU,Biel Vallverdu Campo,Pierre Fabre,False,False
+fmu,2026,3667,9/12/2026,51:52,FMU,Gabriel Zapata,Rafael Coronado,False,False
+fmu,2026,3667,9/12/2026,53:40,BU,Biel Vallverdu Campo,,False,False
+fmu,2026,3667,9/12/2026,55:58,FMU,Rafael Coronado,,True,False
+fmu,2026,3667,9/12/2026,87:18,BU,Yoan Ponio,,False,False
+fmu,2026,3668,9/16/2026,8:00,KU,Raul Cedillo,"Keanu Does , Ian Garnero",False,False
+fmu,2026,3668,9/16/2026,53:20,KU,Mikael Baisotti,Mohammed Mouzoune,False,False
+fmu,2026,3668,9/16/2026,55:56,KU,Mikael Baisotti,Ian Garnero,False,False
+fmu,2026,3668,9/16/2026,57:23,FMU,Rafael Coronado,Frank Sanchez,False,False
+fmu,2026,3668,9/16/2026,79:24,KU,Raul Cedillo,Mohammed Mouzoune,False,False
+fmu,2026,3669,9/19/2026,3:50,FMU,Jared Arevalo,Frank Sanchez,False,False
+fmu,2026,3669,9/19/2026,5:01,FNU,David Luque,,False,False
+fmu,2026,3669,9/19/2026,7:55,FNU,Kylian Behem,Juan Pugin,False,False
+fmu,2026,3669,9/19/2026,32:13,FNU,Pablo Goyet,Juan Pugin,False,False
+fmu,2026,3669,9/19/2026,52:20,FNU,Alex Tabachnikov,Santiago Martinez,False,False
+fmu,2026,3669,9/19/2026,55:49,FNU,Yosuke Shimizu,David Luque,False,False
+fmu,2026,3669,9/19/2026,57:38,FNU,Yosuke Shimizu,"David Luque , Santiago Martinez",False,False
+fmu,2026,3669,9/19/2026,63:47,FNU,Juan Pugin,,False,False
+fmu,2026,3669,9/19/2026,66:15,FMU,Vicente Silva,,False,False
+fmu,2026,3669,9/19/2026,72:38,FMU,Frank Sanchez,Brayan Rodriguez,False,False
+fmu,2026,3670,09/23/2026,23:55,PBA,Yassir Smlali,Quinlan Van Arkel,False,False
+fmu,2026,3670,09/23/2026,62:07,PBA,Robi Lukau,Kobi Thomas,False,False
+fmu,2026,3670,09/23/2026,67:48,PBA,Kobi Thomas,,False,False
+fmu,2026,3670,09/23/2026,73:33,PBA,Kobi Thomas,"Robi Lukau , Nicola Brocca",False,False
+fmu,2026,3670,09/23/2026,78:26,PBA,Kobi Thomas,Ole Lichter,False,False
+fmu,2026,3670,09/23/2026,82:40,PBA,Ole Lichter,,True,False
+fmu,2026,3670,09/23/2026,88:01,PBA,Veit Klement,Kobi Thomas,False,False
+fmu,2026,3670,09/23/2026,89:15,PBA,Kobi Thomas,Livio Von Holzen,False,False
+fmu,2026,3671,9/30/2026,70:00,FMU,Frank Sanchez,,False,False
+fmu,2026,3671,9/30/2026,73:38,FMU,Sergio Alvarez,,False,False
+fmu,2026,3671,9/30/2026,78:23,STU,Albert Feixas,Okan Erkocu,False,False
+fmu,2026,3671,9/30/2026,86:43,STU,Julien Laborde,Juan Braz,False,False
+fmu,2026,3672,10/3/2026,24:13,SEU,Thomas Hardouin,Filipe Santana,False,False
+fmu,2026,3672,10/3/2026,45:52,FMU,Frank Sanchez,,False,False
+fmu,2026,3672,10/3/2026,78:01,SEU,Ricardo Agote Perez,,False,False
+fmu,2026,3673,10/7/2026,21:38,FLORIDA,Frank Sanchez,Gabriel Zapata,False,False
+fmu,2026,3673,10/7/2026,35:27,FLORIDA,Vicente Silva,Frank Sanchez,False,False
+fmu,2026,3673,10/7/2026,59:59,FLORIDA,Gabriel Zapata,Frank Sanchez,False,False
+fmu,2026,3673,10/7/2026,75:45,WARNER (,Wade Bishop,Xavier Lozada,False,False
+fmu,2026,3674,10/10/2026,64:25,FPU,Tarquin Adams,,False,False
+fmu,2026,3675,10/14/2026,72:41,FMU,Rafael Coronado,Juan Curtidor,False,False
+fmu,2026,3676,10/17/2026,21:27,FMU,Sergio Alvarez,,False,False
+fmu,2026,3676,10/17/2026,29:53,AMU,Sava Cadjenovic,,False,False
+fmu,2026,3676,10/17/2026,69:28,FMU,Julio Lopez,Vicente Silva,False,False
+fmu,2026,3677,10/21/2026,10:29,FMU,Frank Sanchez,Vicente Silva,False,False
+fmu,2026,3677,10/21/2026,71:13,NCF,Darius Beckford,Cuba Soerensen,False,False
+fmu,2026,3677,10/21/2026,88:47,NCF,Cameron Johnson,Sebastian Jimenez,False,False
+fmu,2026,3678,10/24/2026,20:27,SCAD,Moritz Zettl,,False,False
+fmu,2026,3678,10/24/2026,24:59,SCAD,Mika Friz,"Moritz Zettl , Marko Pranjic",False,False
+fmu,2026,3678,10/24/2026,34:03,SCAD,Wenzel Lindmoser,,False,False
+fmu,2026,3678,10/24/2026,45:39,FMU,Rafael Coronado,Brayan Rodriguez,False,False
+fmu,2026,3678,10/24/2026,58:33,SCAD,Moritz Zettl,,False,False
+fmu,2026,3678,10/24/2026,88:39,FMU,Santiago Medina,,False,False
+fmu,2026,3679,10/28/2026,11:58,KU,Xabi Souto,"Mikael Baisotti , Timo Boomkens",False,False
+fmu,2026,3679,10/28/2026,23:01,KU,Francis Bolland,Joao Loureiro,False,False
+fmu,2026,3679,10/28/2026,36:24,KU,Joao Loureiro,"Santiago Duque , Xabi Souto",False,False
+fmu,2026,3679,10/28/2026,65:19,KU,Team,,False,False
+fmu,2026,3679,10/28/2026,67:34,KU,Raul Cedillo,"Mohammed Mouzoune , Fami Konate",False,False
+fmu,2026,3679,10/28/2026,69:14,KU,Mohammed Mouzoune,Raul Cedillo,False,False
+fmu,2026,3679,10/28/2026,74:33,KU,Nicolaj Kamarin,"Mohammed Mouzoune , Sergio Padin-Rey",False,False
+fmu,2026,3679,10/28/2026,85:51,KU,Mohammed Mouzoune,,False,False
+fmu,2026,3785,11/4/2026,17:30,SCAD,Lejs Plicanic,Marko Pranjic,False,False
+fmu,2026,3785,11/4/2026,34:30,SCAD,Wenzel Lindmoser,Marko Pranjic,False,False
+fmu,2026,3785,11/4/2026,40:41,SCAD,Simeon Dishman,Nicolas Lozano,False,False
+fmu,2026,3785,11/4/2026,59:44,FMU,Gabriel Zapata,Rafael Coronado,False,False
+fmu,2026,3785,11/4/2026,89:45,FMU,Frank Sanchez,Sebastian Arape,False,False

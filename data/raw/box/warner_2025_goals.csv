@@ -1,0 +1,68 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+warner,2025,8376,8/21/2025,33:06,NEW COLL,Ducamel Jeannestin,,False,False
+warner,2025,8376,8/21/2025,47:29,NEW COLL,Cameron Johnson,,False,False
+warner,2025,8376,8/21/2025,86:01,NEW COLL,Andrew Scott,,False,False
+warner,2025,8377,8/23/2025,24:26,WARNER (,Vlad Andersen,Marcel Tovar,False,False
+warner,2025,8377,8/23/2025,45:42,SHAWNEE,Alfie Maynard,Trevor Aviero Masanjala,False,False
+warner,2025,8377,8/23/2025,57:21,SHAWNEE,Nikos Pontikis,Marco Riva,False,False
+warner,2025,8377,8/23/2025,69:31,SHAWNEE,Esau Chavez,Alfie Maynard,False,False
+warner,2025,8378,8/26/2025,74:00,WEBBER I,Jack Chalmers,,False,False
+warner,2025,8379,8/29/2025,5:16,WARNER (,Vlad Andersen,Filip Mo,False,False
+warner,2025,8379,8/29/2025,42:51,FLORIDA,Mateo Cigaina,,False,False
+warner,2025,8379,8/29/2025,49:07,FLORIDA,Mateo Cigaina,,False,False
+warner,2025,8379,8/29/2025,65:08,WARNER (,Jason Flaming,Marcel Tovar,False,False
+warner,2025,8379,8/29/2025,75:31,FLORIDA,Juan Pugin,,False,False
+warner,2025,8379,8/29/2025,88:35,WARNER (,Vlad Andersen,Jason Flaming,False,False
+warner,2025,8380,9/1/2025,6:18,WARNER (,Filip Mo,"Chad McAuliff , Vlad Andersen",False,False
+warner,2025,8380,9/1/2025,23:30,LIFE,Andrei Apostu,Devin Koorn,False,False
+warner,2025,8380,9/1/2025,33:23,LIFE,Andrei Apostu,Augusto Del Rio,False,False
+warner,2025,8380,9/1/2025,52:05,LIFE,Thomas Rodella,Finn Seijsener,False,False
+warner,2025,8380,9/1/2025,56:34,WARNER (,Filip Mo,,True,False
+warner,2025,8380,9/1/2025,73:03,LIFE,Manuel Carrillo,,False,False
+warner,2025,8380,9/1/2025,88:09,LIFE,Alvaro Hidalgo,,True,False
+warner,2025,8380,9/1/2025,89:04,LIFE,Finn Seijsener,Donovan Smiech,False,False
+warner,2025,8381,9/6/2025,20:31,AVE,Mateo Rolon,,False,False
+warner,2025,8381,9/6/2025,22:34,AVE,Hayden Wysocki,,False,False
+warner,2025,8381,9/6/2025,48:34,AVE,Mateo Rolon,,False,False
+warner,2025,8381,9/6/2025,66:44,WU,Euan Bunn,,False,False
+warner,2025,8381,9/6/2025,70:09,AVE,Jael Parraga,Sava Cadjenovic,False,False
+warner,2025,8381,9/6/2025,79:41,AVE,Sava Cadjenovic,,False,False
+warner,2025,8382,9/13/2025,6:18,MIDDLE G,Jatniel Ardila,Oscar Mina,False,False
+warner,2025,8382,9/13/2025,9:55,WARNER (,Jason Flaming,Marcel Tovar,False,False
+warner,2025,8382,9/13/2025,35:44,MIDDLE G,Samuel Hoyos,,False,False
+warner,2025,8382,9/13/2025,76:52,MIDDLE G,Branden Glover,,False,False
+warner,2025,8382,9/13/2025,76:52,MIDDLE G,Carlos Hernandez,Lathan Johnson,False,False
+warner,2025,8383,09/17/2025,15:43,ECKERD,Harrison Thompson,Gavin Spuler,False,False
+warner,2025,8383,09/17/2025,34:51,ECKERD,Connor Mackay,Gavin Spuler,False,False
+warner,2025,8383,09/17/2025,79:09,ECKERD,Aaron Ristorcelli,Harrison Thompson,False,False
+warner,2025,8383,09/17/2025,88:32,ECKERD,Tristan Bassette,Manuel Gonzalez,False,False
+warner,2025,8386,9/27/2025,13:13,NEW COLL,Cameron Johnson,Fabien Donal,False,False
+warner,2025,8386,9/27/2025,45:33,NEW COLL,Cameron Johnson,Martin Pascual,False,False
+warner,2025,8386,9/27/2025,75:39,NEW COLL,Matthew Dynarski,,False,False
+warner,2025,8507,9/30/2025,88:02,FLORIDA,John Solis,"Leo Hackett , Jokubas Samsonas",False,False
+warner,2025,8388,10/4/2025,0:53,SCAD SAV,Tim Rothe,Team,False,False
+warner,2025,8388,10/4/2025,88:21,SCAD SAV,Sebastian Gomez,Kimi Husler,False,False
+warner,2025,8389,10/8/2025,54:38,FMU,Frank Sanchez,,False,False
+warner,2025,8389,10/8/2025,60:36,FMU,Carlo Lopez,,False,False
+warner,2025,8389,10/8/2025,78:49,FMU,Nasreddine Benbella,,False,False
+warner,2025,8390,10/11/2025,46:48,AVE MARI,Mateo Mencos,,False,False
+warner,2025,8390,10/11/2025,82:53,AVE MARI,Sava Cadjenovic,,False,False
+warner,2025,8390,10/11/2025,83:16,AVE MARI,Jael Parraga,,False,False
+warner,2025,8391,10/18/2025,2:44,ST. THOM,Tim Kreuzpeintner,,False,False
+warner,2025,8391,10/18/2025,40:50,ST. THOM,Tim Kreuzpeintner,Kay Maletzki,False,False
+warner,2025,8391,10/18/2025,47:02,ST. THOM,Hugo Rego,Tim Kreuzpeintner,False,False
+warner,2025,8391,10/18/2025,85:32,WARNER (,Filip Mo,,True,False
+warner,2025,8391,10/18/2025,86:19,ST. THOM,Angelo Bernardes,,True,False
+warner,2025,8392,10/22/2025,24:40,KU,Mohammed Mouzoune,"Fami Konate , Mikael Baisotti",False,False
+warner,2025,8392,10/22/2025,48:28,KU,Alejandro Molina,Mohammed Mouzoune,False,False
+warner,2025,8392,10/22/2025,52:54,KU,Santiago Duque,Fami Konate,False,False
+warner,2025,8392,10/22/2025,59:37,KU,Eden Barlow,Xabi Soute,False,True
+warner,2025,8393,10/25/2025,15:30,SOUTHEAS,Jacob Dennis,Jman Dieng,False,False
+warner,2025,8393,10/25/2025,41:43,WARNER (,Filip Mo,,False,False
+warner,2025,8393,10/25/2025,49:39,WARNER (,Michael Mote,,False,False
+warner,2025,8393,10/25/2025,62:49,SOUTHEAS,Adam Cooil,Fabio De Paula,False,False
+warner,2025,8393,10/25/2025,81:01,SOUTHEAS,Jman Dieng,Francesco Calicchio,False,False
+warner,2025,8394,10/29/2025,54:10,WIU,Cristian Fernandez,Emanuel Barajas,False,False
+warner,2025,8394,10/29/2025,60:26,WU,Filip Mo,,False,False
+warner,2025,8394,10/29/2025,76:55,WIU,Miguel da Silva,Jose Dlima,False,False
+warner,2025,8394,10/29/2025,83:10,WIU,Jose Dlima,Jesus Perez,False,False

@@ -1,0 +1,52 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+stthomas,2024,10525,8/27/2024,59:27,STU,Francisco Tolaba,Teo Rondon,False,False
+stthomas,2024,10525,8/27/2024,71:46,STU,Nick In't Zand,Guido Cacciabue,False,False
+stthomas,2024,10526,2024-09-01,15:45,GRC,Kyle Holwerda,"SantosRosa,Daniel , Saldivar,Julian",False,False
+stthomas,2024,10526,2024-09-01,27:23,STUM,Joaquin Domber,"Cacciabue,Guido ,",False,False
+stthomas,2024,10526,2024-09-01,74:39,STUM,Bouget Bouzis,"Mugosa,Aleksa ,",False,False
+stthomas,2024,10527,9/2/2024,5:10,ST. THOM,Guido Cacciabue,,False,False
+stthomas,2024,10527,9/2/2024,13:49,ST. THOM,Guido Cacciabue,Bouget Bouzis,False,False
+stthomas,2024,10527,9/2/2024,25:46,ST. THOM,Bouget Bouzis,,False,False
+stthomas,2024,10527,9/2/2024,40:44,LINDSEY,Kenn Muendo,,False,False
+stthomas,2024,10528,9/11/2024,2:31,STU,Bouget Bouzis,Guido Cacciabue,False,False
+stthomas,2024,10528,9/11/2024,88:32,STU,Hernando Suarez,Lucas Caferra,False,False
+stthomas,2024,10529,9/18/2024,8:56,STU,Bouget Bouzis,,False,False
+stthomas,2024,10529,9/18/2024,88:19,STU,Guido Cacciabue,,False,False
+stthomas,2024,10530,9/21/2024,63:56,STU,Nick In't Zand,,False,False
+stthomas,2024,10531,9/25/2024,58:48,STU,Guido Cacciabue,,False,False
+stthomas,2024,10532,9/28/2024,11:10,KEISER,Juan Terresa,Manex Landa,False,False
+stthomas,2024,10535,10/16/2024,3:09,STU,Angelo Bernandes,Team,False,False
+stthomas,2024,10535,10/16/2024,7:49,STU,Hernando Suarez,Francisco Tolaba,False,False
+stthomas,2024,10535,10/16/2024,14:59,STU,Guido Cacciabue,,False,False
+stthomas,2024,10535,10/16/2024,15:54,STU,Angelo Bernandes,Francisco Tolaba,False,False
+stthomas,2024,10535,10/16/2024,26:52,STU,Hernando Suarez,Angelo Bernandes,False,False
+stthomas,2024,10535,10/16/2024,34:58,STU,Francisco Tolaba,,False,False
+stthomas,2024,10535,10/16/2024,36:20,STU,Lorenzo DiMercurio,,False,False
+stthomas,2024,10535,10/16/2024,42:02,STU,Hugo Rego,,True,False
+stthomas,2024,10535,10/16/2024,50:35,STU,Tim Kreuzpeinter,,False,False
+stthomas,2024,10535,10/16/2024,61:31,STU,Tim Kreuzpeinter,Lorenzo DiMercurio,False,False
+stthomas,2024,10536,10/19/2024,1:11,STU,Hernando Suarez,,False,False
+stthomas,2024,10536,10/19/2024,1:35,SEU,Murilo Ramos,Liam Fisch,False,False
+stthomas,2024,10536,10/19/2024,8:34,STU,Angelo Bernandes,,False,False
+stthomas,2024,10536,10/19/2024,21:55,SEU,Victor Cavalcante,,True,False
+stthomas,2024,10536,10/19/2024,76:15,STU,Guido Cacciabue,,True,False
+stthomas,2024,10537,10/23/2024,51:19,STU,Guido Cacciabue,Kay Maletzki,False,False
+stthomas,2024,10538,10/27/2024,15:22,STU,Nicolas Lund,Lorenzo DiMercurio,False,False
+stthomas,2024,10538,10/27/2024,16:03,STU,Nicolas Lund,Hugo Rego,False,False
+stthomas,2024,10539,10/30/2024,76:51,SCADSAV,Raffael Mohr,,False,False
+stthomas,2024,10540,11/2/2024,21:05,AVE MARI,Sava Cadjenovic,Team,False,False
+stthomas,2024,10540,11/2/2024,25:16,STU,Nicolas Lund,Brian Schiegg,False,False
+stthomas,2024,10540,11/2/2024,60:11,STU,Bouget Bouzis,Guido Cacciabue,False,False
+stthomas,2024,10540,11/2/2024,66:53,STU,Francisco Tolaba,,False,False
+stthomas,2024,10540,11/2/2024,74:16,AVE MARI,Mateo Rolon,Sava Cadjenovic,False,False
+stthomas,2024,10713,11/7/2024,25:47,FLORIDA,Rafael Coronado,Johan Arevalo,False,False
+stthomas,2024,10713,11/7/2024,39:59,STU,Guido Cacciabue,Team,False,False
+stthomas,2024,10713,11/7/2024,58:27,STU,Francisco Tolaba,,False,False
+stthomas,2024,10713,11/7/2024,68:54,STU,Angelo Bernandes,,False,False
+stthomas,2024,10713,11/7/2024,72:59,STU,Angelo Bernandes,Team,False,False
+stthomas,2024,10713,11/7/2024,75:04,STU,Nicolas Lund,Guido Cacciabue,False,False
+stthomas,2024,10716,11/11/2024,6:37,ST. THOM,Angelo Bernandes,Francisco Tolaba,False,False
+stthomas,2024,10716,11/11/2024,13:59,SCAD SAV,Mario Goic,,True,False
+stthomas,2024,10716,11/11/2024,39:43,SCAD SAV,Mario Goic,,True,False
+stthomas,2024,10716,11/11/2024,64:46,SCAD SAV,Raffael Mohr,Murilo Lara,False,False
+stthomas,2024,10716,11/11/2024,80:43,ST. THOM,Francisco Tolaba,,False,False

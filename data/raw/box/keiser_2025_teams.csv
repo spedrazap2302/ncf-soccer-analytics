@@ -1,0 +1,39 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+keiser,2025,14390,9/4/2025,SAU,Spring Arbor (MI),0,2,5,5,10,0,1,7,10
+keiser,2025,14390,9/4/2025,KU,Keiser,6,10,23,0,2,7,15,8,13
+keiser,2025,14391,9/6/2025,MACU,Mid-America Christia,2,3,3,1,7,1,1,9,16
+keiser,2025,14391,9/6/2025,KU,Keiser,3,6,20,1,1,4,12,2,10
+keiser,2025,14392,9/11/2025,KU,Keiser,1,6,14,0,0,1,5,6,10
+keiser,2025,14392,9/11/2025,TU,Thomas,1,1,2,6,10,1,1,4,8
+keiser,2025,14393,9/13/2025,KU,Keiser,6,8,25,1,1,1,4,11,21
+keiser,2025,14393,9/13/2025,BPCU,Brewton-Parker (GA),0,3,4,3,9,1,1,5,9
+keiser,2025,14394,9/19/2025,MU,Mobile,0,3,8,2,6,2,3,4,7
+keiser,2025,14394,9/19/2025,KU,Keiser,6,12,22,0,2,2,4,4,12
+keiser,2025,14396,9/24/2025,FMU,Florida Memorial (FL,0,4,5,2,6,2,4,8,11
+keiser,2025,14396,9/24/2025,KU,Keiser,4,8,19,2,2,3,9,6,14
+keiser,2025,14397,9/27/2025,STU,St. Thomas,0,4,9,1,2,1,3,6,14
+keiser,2025,14397,9/27/2025,KU,Keiser,1,4,9,1,3,2,3,5,8
+keiser,2025,14398,10/1/2025,NCF,New College of Flori,0,4,7,5,10,1,1,10,19
+keiser,2025,14398,10/1/2025,KU,Keiser,3,13,29,1,2,5,7,5,9
+keiser,2025,14399,10/6/2025,FNU,Florida National (FL,1,2,5,4,6,0,6,2,7
+keiser,2025,14399,10/6/2025,KU,Keiser,2,9,13,1,2,2,4,5,10
+keiser,2025,14400,10/8/2025,KU,Keiser,5,9,20,2,3,2,4,4,15
+keiser,2025,14400,10/8/2025,AVE,Ave Maria (FL),0,3,4,3,8,1,1,5,11
+keiser,2025,14413,10/11/2025,KU,Keiser,1,12,22,1,2,5,11,4,8
+keiser,2025,14413,10/11/2025,FCU,Florida College (FL),0,2,7,7,13,5,7,4,8
+keiser,2025,14401,10/15/2025,KU,Keiser,2,9,12,0,3,6,8,4,10
+keiser,2025,14401,10/15/2025,SEU,Southeastern,0,3,6,4,5,0,1,6,19
+keiser,2025,14402,10/18/2025,KU,Keiser,1,3,11,0,1,2,5,7,19
+keiser,2025,14402,10/18/2025,SCAD,SCAD Savannah,1,1,5,2,5,0,2,3,9
+keiser,2025,14403,10/22/2025,WU,Warner (FL),0,0,1,2,9,0,1,0,5
+keiser,2025,14403,10/22/2025,KU,Keiser,4,17,36,0,0,4,10,6,9
+keiser,2025,14404,10/25/2025,WIU,Webber International,0,2,4,2,8,0,1,5,9
+keiser,2025,14404,10/25/2025,KU,Keiser,5,10,22,0,2,5,11,9,15
+keiser,2025,14405,10/29/2025,KU,Keiser,2,10,24,5,8,3,8,6,9
+keiser,2025,14405,10/29/2025,FMU,Florida Memorial (FL,1,8,13,3,9,3,4,6,18
+keiser,2025,14406,11/8/2025,NCF,New College of Flori,2,4,11,1,5,1,2,3,10
+keiser,2025,14406,11/8/2025,KU,Keiser,3,6,15,3,5,0,3,6,9
+keiser,2025,14408,11/12/2025,STU,St. Thomas,1,1,12,1,7,0,1,6,16
+keiser,2025,14408,11/12/2025,KU,Keiser,2,6,17,1,5,3,7,11,16
+keiser,2025,14409,11/22/2025,WPU,Warner Pacific (OR),2,2,7,3,9,2,3,11,15
+keiser,2025,14409,11/22/2025,KU,Keiser,1,6,27,0,0,5,12,8,16

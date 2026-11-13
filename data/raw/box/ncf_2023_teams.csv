@@ -1,0 +1,13 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+ncf,2023,1,9/2/2023,FLORIDA,Florida College (FL),2,4,9,2,3,4,6,0,0
+ncf,2023,1,9/2/2023,NEW COLL,New College of Flori,3,4,6,5,11,1,1,0,0
+ncf,2023,2,9/9/2023,TRINITY,Trinity Baptist College,1,1,8,0,13,0,2,0,0
+ncf,2023,2,9/9/2023,NEW COLL,New College of Florida,7,1,23,0,4,0,4,0,0
+ncf,2023,3,9/16/2023,MILLENNI,Millennia Atlantic U,1,1,3,0,1,0,0,0,0
+ncf,2023,3,9/16/2023,NEW COLL,New College of Flori,2,2,4,0,2,0,4,0,0
+ncf,2023,6,10/3/2023,TRINITY,Trinity Baptist College,3,1,3,0,0,0,0,0,0
+ncf,2023,6,10/3/2023,NEW COLL,New College of Florida,4,1,4,0,0,0,0,0,0
+ncf,2023,11,10/17/2023,ATLANTIS,Atlantis University,1,2,5,0,1,0,1,0,0
+ncf,2023,11,10/17/2023,NEW COLL,New College of Florida,4,3,8,1,4,2,5,0,0
+ncf,2023,15,11/3/2023,UNIVERSI,University of Fort Lauderdale,0,0,1,3,4,0,0,0,0
+ncf,2023,15,11/3/2023,NEW COLL,New College of Florida,7,9,14,0,1,0,0,0,0

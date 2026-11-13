@@ -1,0 +1,63 @@
+ncf 2023: 6 box scores
+  saved 35 goals, 6 games
+ncf 2024: 15 box scores
+  saved 43 goals, 15 games
+ncf 2025: already done, skipping
+ncf 2026: already done, skipping
+keiser 2023: already done, skipping
+keiser 2024: already done, skipping
+keiser 2025: already done, skipping
+keiser 2026: already done, skipping
+stthomas 2023: already done, skipping
+stthomas 2024: already done, skipping
+stthomas 2025: already done, skipping
+stthomas 2026: already done, skipping
+scad 2023: already done, skipping
+scad 2024: 18 box scores
+  saved 74 goals, 18 games
+scad 2025: 18 box scores
+  saved 59 goals, 18 games
+scad 2026: 18 box scores
+  saved 76 goals, 18 games
+southeastern 2023: 19 box scores
+  saved 77 goals, 19 games
+southeastern 2024: 18 box scores
+  saved 61 goals, 18 games
+southeastern 2025: 16 box scores
+  saved 52 goals, 16 games
+southeastern 2026: 18 box scores
+  saved 59 goals, 18 games
+fmu 2023: 19 box scores
+  saved 71 goals, 19 games
+fmu 2024: 17 box scores
+  saved 77 goals, 17 games
+fmu 2025: 18 box scores
+  saved 68 goals, 18 games
+fmu 2026: 17 box scores
+  saved 72 goals, 17 games
+webber 2023: 19 box scores
+  saved 69 goals, 19 games
+webber 2024: 17 box scores
+  saved 48 goals, 17 games
+webber 2025: 18 box scores
+  saved 75 goals, 18 games
+webber 2026: 17 box scores
+  saved 68 goals, 17 games
+avemaria 2023: 18 box scores
+  saved 72 goals, 18 games
+avemaria 2024: 16 box scores
+  saved 44 goals, 16 games
+avemaria 2025: 18 box scores
+  saved 81 goals, 18 games
+avemaria 2026: 18 box scores
+  saved 63 goals, 18 games
+warner 2023: 18 box scores
+  saved 65 goals, 18 games
+warner 2024: 19 box scores
+  saved 72 goals, 19 games
+warner 2025: 17 box scores
+  saved 67 goals, 17 games
+warner 2026: 18 box scores
+  saved 67 goals, 18 games
+scad 2023: 18 box scores
+  saved 71 goals, 18 games

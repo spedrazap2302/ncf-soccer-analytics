@@ -1,0 +1,37 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+warner,2023,7350,8/23/2023,FLORIDA,Florida National (FL,2,11,27,0,2,3,8,7,11
+warner,2023,7350,8/23/2023,WARNER (,Warner (FL),1,3,7,6,14,0,1,3,9
+warner,2023,7400,8/26/2023,NEW COLL,New College of Florida,1,3,9,5,9,0,1,7,11
+warner,2023,7400,8/26/2023,WARNER,Warner (FL),2,9,20,2,5,2,7,8,15
+warner,2023,7353,9/1/2023,THOMAS,Thomas,2,4,12,1,2,3,5,8,16
+warner,2023,7353,9/1/2023,WARNER,Warner (FL),0,4,8,2,8,2,3,6,12
+warner,2023,7354,9/3/2023,POINT PA,Point Park,1,7,18,1,4,3,5,4,10
+warner,2023,7354,9/3/2023,WARNER (,Warner (FL),2,5,15,1,4,1,3,6,8
+warner,2023,7357,9/13/2023,WARNER (,Warner (FL),1,7,11,2,4,1,4,3,7
+warner,2023,7357,9/13/2023,SCAD SAV,SCAD Savannah,1,9,17,4,5,1,2,5,6
+warner,2023,7358,9/16/2023,WARNER (,Warner (FL),0,0,0,4,7,0,0,6,8
+warner,2023,7358,9/16/2023,STU,St. Thomas,5,13,21,0,0,2,5,4,9
+warner,2023,7360,9/23/2023,WU,Warner (FL),2,9,14,4,11,0,2,5,12
+warner,2023,7360,9/23/2023,SEU,Southeastern,3,7,24,2,2,9,11,5,11
+warner,2023,7361,9/27/2023,WEBBER I,Webber International (FL),0,7,14,1,4,1,3,7,18
+warner,2023,7361,9/27/2023,WARNER,Warner (FL),0,1,7,6,11,0,4,16,23
+warner,2023,7362,9/30/2023,AVE MARI,Ave Maria (FL),3,5,11,1,4,2,4,8,14
+warner,2023,7362,9/30/2023,WARNER (,Warner (FL),1,4,16,1,3,2,8,6,14
+warner,2023,7363,10/4/2023,WU,Warner,0,0,2,1,7,2,2,7,20
+warner,2023,7363,10/4/2023,KU,Keiser,6,4,16,0,0,1,3,5,11
+warner,2023,7364,10/7/2023,SCAD SAV,SCAD Savannah,3,4,12,0,3,2,6,7,14
+warner,2023,7364,10/7/2023,WARNER (,Warner (FL),2,4,13,2,4,2,4,6,10
+warner,2023,7505,10/9/2023,FLORIDA,Florida Memorial (FL),3,10,20,0,1,5,9,6,17
+warner,2023,7505,10/9/2023,WARNER (,Warner (FL),1,1,3,4,7,2,2,7,13
+warner,2023,7365,10/11/2023,WARNER (,Warner (FL),2,4,11,1,4,1,8,4,15
+warner,2023,7365,10/11/2023,WEBBER I,Webber International (FL),3,6,15,2,4,5,10,4,13
+warner,2023,7366,10/14/2023,SOUTHEAS,Southeastern,4,10,24,0,2,4,8,8,15
+warner,2023,7366,10/14/2023,WARNER,Warner (FL),1,4,7,3,3,3,4,2,12
+warner,2023,7367,10/18/2023,WU,Warner (FL),0,1,2,2,6,2,4,5,9
+warner,2023,7367,10/18/2023,AVE,Ave Maria (FL),3,7,13,0,0,4,7,4,10
+warner,2023,7368,10/21/2023,ST. THOM,St. Thomas,1,5,12,1,5,3,5,5,11
+warner,2023,7368,10/21/2023,WARNER (,Warner (FL),0,2,6,5,7,0,0,3,8
+warner,2023,7369,10/25/2023,KEISER,Keiser,3,10,26,2,5,4,9,3,8
+warner,2023,7369,10/25/2023,WARNER,Warner (FL),0,3,8,5,9,0,2,4,11
+warner,2023,7370,10/28/2023,Warner,Warner (FL),0,2,7,3,5,0,2,0,2
+warner,2023,7370,10/28/2023,FMU,Florida Memorial (FL,6,8,16,2,4,6,9,3,9

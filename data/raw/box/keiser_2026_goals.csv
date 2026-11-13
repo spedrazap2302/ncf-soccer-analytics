@@ -1,0 +1,68 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+keiser,2026,15125,8/22/2026,17:33,KU,Xabi Souto,"Keanu Does , Timo Boomkens",False,False
+keiser,2026,15125,8/22/2026,50:56,KU,Nicolaj Kamarin,Timo Boomkens,False,False
+keiser,2026,15125,8/22/2026,58:10,KU,Nicolaj Kamarin,Mohammed Mouzoune,False,False
+keiser,2026,15125,8/22/2026,83:13,KU,Victor Mairet,Alejandro Molina-Casas,False,False
+keiser,2026,15139,9/4/2026,65:06,LIFE,Thomas Rodella,,False,False
+keiser,2026,15139,9/4/2026,86:19,LIFE,Enrico Burigotto,Vicente Cuquerella,False,False
+keiser,2026,15145,9/6/2026,12:41,KEISER,Ian Garnero,"Keanu Does , Santiago Duque",False,False
+keiser,2026,15145,9/6/2026,23:00,KEISER,Ian Garnero,"Gabi Villafane , Francis Bolland",False,False
+keiser,2026,15152,9/16/2026,8:00,KU,Raul Cedillo,"Keanu Does , Ian Garnero",False,False
+keiser,2026,15152,9/16/2026,53:20,KU,Mikael Baisotti,Mohammed Mouzoune,False,False
+keiser,2026,15152,9/16/2026,55:56,KU,Mikael Baisotti,Ian Garnero,False,False
+keiser,2026,15152,9/16/2026,57:23,FMU,Rafael Coronado,Frank Sanchez,False,False
+keiser,2026,15152,9/16/2026,79:24,KU,Raul Cedillo,Mohammed Mouzoune,False,False
+keiser,2026,15157,9/19/2026,2:12,KU,Santiago Duque,Alejandro Molina-Casas,False,False
+keiser,2026,15157,9/19/2026,7:24,KU,Mikael Baisotti,Mohammed Mouzoune,False,False
+keiser,2026,15157,9/19/2026,39:04,KU,Nicolaj Kamarin,Xabi Souto,False,False
+keiser,2026,15157,9/19/2026,53:29,KU,Ted Gibbs,,False,False
+keiser,2026,15157,9/19/2026,71:50,KU,Joao Teixeira,Nicolaj Kamarin,False,False
+keiser,2026,15157,9/19/2026,82:31,KU,Eden Barlow,Victor Mairet,False,False
+keiser,2026,15157,9/19/2026,87:43,KU,Eden Barlow,Harley Dawson,False,False
+keiser,2026,15430,9/23/2026,70:28,KU,Mohammed Mouzoune,,False,False
+keiser,2026,15430,9/23/2026,84:17,KU,Sergio Padín-Rey,,False,False
+keiser,2026,15158,9/26/2026,38:30,STU,Oscar Le guillou,Albert Feixas,False,False
+keiser,2026,15158,9/26/2026,55:08,STU,Oscar Le guillou,"Yule Amini , Julien Laborde",False,False
+keiser,2026,15158,9/26/2026,72:35,STU,Angelo Bernardes,,False,False
+keiser,2026,15158,9/26/2026,85:27,STU,Lucas Caferra,Luca Heusser,False,False
+keiser,2026,15164,9/30/2026,2:00,KU,Mohammed Mouzoune,Juan Terrasa,False,False
+keiser,2026,15164,9/30/2026,26:50,NCF,Cameron Johnson,,True,False
+keiser,2026,15164,9/30/2026,37:54,NCF,Juan Gomez-Cuetara,,False,False
+keiser,2026,15164,9/30/2026,39:07,KU,Xabi Souto,Keanu Does,False,False
+keiser,2026,15164,9/30/2026,65:10,KU,Xabi Souto,,False,False
+keiser,2026,15164,9/30/2026,75:02,NCF,Cameron Johnson,Juan Gomez-Cuetara,False,False
+keiser,2026,15196,10/3/2026,4:48,KU,Xabi Souto,"Mikael Baisotti , Mohammed Mouzoune",False,False
+keiser,2026,15196,10/3/2026,9:01,FNU,Team,,False,False
+keiser,2026,15196,10/3/2026,10:07,KU,Gabi Villafane,"Keanu Does , Mohammed Mouzoune",False,False
+keiser,2026,15196,10/3/2026,22:26,FNU,Dylan Gibbs,Michael Olszewski,False,False
+keiser,2026,15196,10/3/2026,49:28,FNU,Dylan Gibbs,Michael Olszewski,False,False
+keiser,2026,15196,10/3/2026,53:30,KU,Nicolaj Kamarin,"Mohammed Mouzoune , Fami Konate",False,False
+keiser,2026,15159,10/7/2026,39:26,KU,Joao Loureiro,Mikael Baisotti,False,False
+keiser,2026,15159,10/7/2026,40:39,KU,Gabi Villafane,,True,False
+keiser,2026,15159,10/7/2026,68:33,KU,Francis Bolland,Raul Cedillo,False,False
+keiser,2026,15159,10/7/2026,70:50,KU,Raul Cedillo,Alejandro Molina-Casas,False,False
+keiser,2026,15159,10/7/2026,74:33,KU,Alejandro Molina-Casas,"Sergio Padin-Rey , Victor Mairet",False,False
+keiser,2026,15159,10/7/2026,81:22,AVE,Mateo Rolon,,False,False
+keiser,2026,15160,10/14/2026,76:34,KU,Raul Cedillo,"Mikael Baisotti , Santiago Duque",False,False
+keiser,2026,15161,10/17/2026,16:58,KU,Timo Boomkens,,False,False
+keiser,2026,15161,10/17/2026,38:15,SCAD,Mika Friz,Marko Pranjic,False,False
+keiser,2026,15161,10/17/2026,41:04,KU,Timo Boomkens,Mohammed Mouzoune,False,False
+keiser,2026,15161,10/17/2026,51:43,KU,Xabi Souto,Timo Boomkens,False,False
+keiser,2026,15162,10/21/2026,32:23,KU,Xabi Souto,Mikael Baisotti,False,False
+keiser,2026,15162,10/21/2026,35:28,KU,Mikael Baisotti,,False,False
+keiser,2026,15162,10/21/2026,85:08,KU,Sergio Padin-Rey,Raul Cedillo,False,False
+keiser,2026,15165,10/24/2026,10:39,KEISER,Xabi Souto,"Eden Barlow , Santiago Duque",False,False
+keiser,2026,15165,10/24/2026,26:59,KEISER,Ian Garnero,,False,False
+keiser,2026,15165,10/24/2026,52:50,KEISER,Enzo Bousin,"Mohammed Mouzoune , Sergio Padin-Rey",False,False
+keiser,2026,15165,10/24/2026,53:45,WIU,Rodnny Gonzalez,,False,False
+keiser,2026,15165,10/24/2026,84:44,KEISER,Mikael Baisotti,Raul Cedillo,False,False
+keiser,2026,15163,10/28/2026,11:58,KU,Xabi Souto,"Mikael Baisotti , Timo Boomkens",False,False
+keiser,2026,15163,10/28/2026,23:01,KU,Francis Bolland,Joao Loureiro,False,False
+keiser,2026,15163,10/28/2026,36:24,KU,Joao Loureiro,"Santiago Duque , Xabi Souto",False,False
+keiser,2026,15163,10/28/2026,65:19,KU,Team,,False,False
+keiser,2026,15163,10/28/2026,67:34,KU,Raul Cedillo,"Mohammed Mouzoune , Fami Konate",False,False
+keiser,2026,15163,10/28/2026,69:14,KU,Mohammed Mouzoune,Raul Cedillo,False,False
+keiser,2026,15163,10/28/2026,74:33,KU,Nicolaj Kamarin,"Mohammed Mouzoune , Sergio Padin-Rey",False,False
+keiser,2026,15163,10/28/2026,85:51,KU,Mohammed Mouzoune,,False,False
+keiser,2026,15562,11/11/2026,60:39,KU,Raul Cedillo,Mikael Baisotti,False,False
+keiser,2026,15562,11/11/2026,73:23,KU,Raul Cedillo,Timo Boomkens,False,False

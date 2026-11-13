@@ -1,0 +1,39 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+fmu,2023,2573,8/20/2023,FNU,Florida National (FL),2,3,8,0,2,3,3,5,12
+fmu,2023,2573,8/20/2023,FMU,Florida Memorial (FL),1,2,4,0,4,2,3,12,23
+fmu,2023,2575,9/1/2023,MBU,Missouri Baptist,1,5,8,4,7,2,4,6,9
+fmu,2023,2575,9/1/2023,FMU,Florida Memorial (FL,1,6,9,0,0,5,10,8,15
+fmu,2023,2576,9/4/2023,PBA,Palm Beach Atlantic,2,4,5,1,3,1,5,8,12
+fmu,2023,2576,9/4/2023,FMU,Florida Memorial (FL,4,2,9,2,2,1,3,7,14
+fmu,2023,2577,9/13/2023,KU,Keiser,2,4,8,5,7,1,1,6,7
+fmu,2023,2577,9/13/2023,FMU,Florida Memorial (FL,2,9,18,2,3,1,1,7,13
+fmu,2023,2578,9/16/2023,FMU,Florida Memorial (FL),3,14,31,1,1,5,11,8,15
+fmu,2023,2578,9/16/2023,AVE,Ave Maria (FL),0,3,7,4,7,2,3,5,13
+fmu,2023,2580,9/23/2023,STU,St. Thomas,1,4,13,1,2,1,2,6,7
+fmu,2023,2580,9/23/2023,FMU,Florida Memorial (FL,0,6,8,1,3,1,3,6,11
+fmu,2023,2581,9/27/2023,SEU,Southeastern,1,9,16,1,7,2,3,4,13
+fmu,2023,2581,9/27/2023,FMU,Florida Memorial (FL,2,9,18,2,3,3,4,12,24
+fmu,2023,2582,10/1/2023,FLORIDA,Florida Memorial (FL,0,7,13,2,4,5,5,6,15
+fmu,2023,2582,10/1/2023,SCAD SAV,SCAD Savannah,1,3,12,4,8,0,1,7,13
+fmu,2023,2583,10/4/2023,FLORIDA,Florida Memorial (FL),0,10,17,1,2,2,2,9,14
+fmu,2023,2583,10/4/2023,WEBBER I,Webber International (FL),4,7,11,2,5,0,0,5,15
+fmu,2023,2584,10/7/2023,FLORIDA,Florida Memorial (FL,1,9,19,2,5,2,5,9,19
+fmu,2023,2584,10/7/2023,STU,St. Thomas,3,6,16,4,8,1,3,6,15
+fmu,2023,2680,10/9/2023,FLORIDA,Florida Memorial (FL),3,10,20,0,1,5,9,6,17
+fmu,2023,2680,10/9/2023,WARNER (,Warner (FL),1,1,3,4,7,2,2,7,13
+fmu,2023,2585,10/11/2023,AveMaria,Ave Maria (FL),0,3,6,1,1,3,3,4,8
+fmu,2023,2585,10/11/2023,FLORIDA,Florida Memorial (FL),4,6,22,1,2,0,5,9,16
+fmu,2023,2586,10/14/2023,FMU,Fla. Memorial,0,8,14,0,1,3,4,16,28
+fmu,2023,2586,10/14/2023,KU,Keiser,4,3,8,2,4,4,6,3,12
+fmu,2023,2587,10/18/2023,WEBBER,Webber International (FL),2,2,3,1,3,0,0,8,15
+fmu,2023,2587,10/18/2023,FMU,Florida Memorial (FL),5,8,17,1,1,5,9,10,19
+fmu,2023,2588,10/22/2023,SCAD SAV,SCAD Savannah,1,3,9,4,4,0,1,5,9
+fmu,2023,2588,10/22/2023,FMU,Florida Memorial (FL),2,13,21,1,2,5,10,10,15
+fmu,2023,2589,10/25/2023,FMU,Florida Memorial (FL),2,10,15,2,3,5,7,8,15
+fmu,2023,2589,10/25/2023,SEU,Southeastern,3,4,11,3,6,1,1,9,13
+fmu,2023,2590,10/28/2023,Warner,Warner (FL),0,2,7,3,5,0,2,0,2
+fmu,2023,2590,10/28/2023,FMU,Florida Memorial (FL,6,8,16,2,4,6,9,3,9
+fmu,2023,2736,11/4/2023,SCAD SAV,SCAD Savannah,0,4,9,0,1,2,3,4,7
+fmu,2023,2736,11/4/2023,FMU,Florida Memorial (FL),4,3,11,1,3,4,7,10,26
+fmu,2023,2737,11/7/2023,FMU,Florida Memorial (FL),1,5,11,1,4,0,1,8,11
+fmu,2023,2737,11/7/2023,STU,St. Thomas,2,6,18,2,2,4,5,12,22

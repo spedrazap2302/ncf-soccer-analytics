@@ -1,0 +1,60 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+scad,2025,8052,8/22/2025,74:22,LINDSEY,Dominic Ayella,,False,False
+scad,2025,8052,8/22/2025,88:03,LINDSEY,Elvis Eddy Mwanje,,False,False
+scad,2025,8053,8/24/2025,88:29,UNION CO,Ron-Jay Watson,Oriol Gasquez Perez,False,False
+scad,2025,8054,8/27/2025,86:00,MILLIGAN,Kerim Akpinar,,False,False
+scad,2025,8056,9/6/2025,41:23,SCADSAV,Sebastian Gomez,Mario Goic,False,False
+scad,2025,8056,9/6/2025,44:38,SCADSAV,Mario Goic,,True,False
+scad,2025,8056,9/6/2025,61:47,SCADSAV,Mario Goic,Kimi Husler,False,False
+scad,2025,8057,9/9/2025,20:02,SCAD SAV,Leon Grube,,False,False
+scad,2025,8057,9/9/2025,30:45,SCAD SAV,Kimi Husler,,False,False
+scad,2025,8057,9/9/2025,43:07,LIFE,Finn Seijsener,,False,False
+scad,2025,8057,9/9/2025,46:55,LIFE,Finn Seijsener,,False,False
+scad,2025,8057,9/9/2025,58:11,LIFE,Finn Seijsener,Vicente Cuquerella,False,False
+scad,2025,8057,9/9/2025,83:22,SCAD SAV,Sebastian Gomez,Mario Goic,False,False
+scad,2025,8058,9/13/2025,31:35,FAULKNER,Pepé Riofrio,,False,False
+scad,2025,8058,9/13/2025,37:08,FAULKNER,Asaph Silveira,Julio Cesar,False,False
+scad,2025,8058,9/13/2025,44:51,SCAD SAV,Mario Goic,,True,False
+scad,2025,8058,9/13/2025,57:35,FAULKNER,Julio Cesar,,False,False
+scad,2025,8058,9/13/2025,76:58,SCAD SAV,Nils Vallotto,Mario Goic,False,False
+scad,2025,8058,9/13/2025,79:07,SCAD SAV,Nils Vallotto,"German Moreno , Leon Grube",False,False
+scad,2025,8058,9/13/2025,82:44,SCAD SAV,Mario Goic,,False,False
+scad,2025,8058,9/13/2025,89:27,FAULKNER,Konsti Witte,Pedro Trinidade,False,False
+scad,2025,8059,9/17/2025,15:51,GGC,Ousmane Fall,,False,False
+scad,2025,8059,9/17/2025,26:23,SCAD SAV,Kimi Husler,,False,False
+scad,2025,8059,9/17/2025,37:30,GGC,Alejandro Contrera,,False,False
+scad,2025,8059,9/17/2025,68:24,SCAD SAV,Mario Goic,"Nils Vallotto , Kimi Husler",False,False
+scad,2025,8060,9/24/2025,38:49,CUMBERLA,Miquel Gelabert,,False,False
+scad,2025,8060,9/24/2025,53:09,CUMBERLA,Miquel Gelabert,Team,False,False
+scad,2025,8060,9/24/2025,82:23,SCADSAV,Moritz Prattes,Tim Rothe,False,False
+scad,2025,8061,9/27/2025,10:56,SCADSAV,Mario Goic,,False,False
+scad,2025,8061,9/27/2025,24:03,SCADSAV,Mario Goic,Michael O'Brien,False,False
+scad,2025,8061,9/27/2025,46:10,SCADSAV,Sebastian Gomez,,False,False
+scad,2025,8062,10/4/2025,0:53,SCAD SAV,Tim Rothe,Team,False,False
+scad,2025,8062,10/4/2025,88:21,SCAD SAV,Sebastian Gomez,Kimi Husler,False,False
+scad,2025,8063,10/9/2025,24:57,SCAD,Leon Grube,German Moreno,False,False
+scad,2025,8063,10/9/2025,30:36,SCAD,Mario Goic,Leon Grube,False,False
+scad,2025,8063,10/9/2025,76:03,SCAD,Team,,False,False
+scad,2025,8064,10/11/2025,64:39,SCAD SAV,Mario Goic,,False,False
+scad,2025,8065,10/15/2025,19:00,AVE MARI,Nikolas Briceno,"Team , Sava Cadjenovic",False,False
+scad,2025,8065,10/15/2025,24:22,SCAD SAV,Tim Rothe,,False,False
+scad,2025,8065,10/15/2025,40:34,AVE MARI,Sava Cadjenovic,,False,False
+scad,2025,8065,10/15/2025,60:44,SCAD SAV,Mario Goic,,True,False
+scad,2025,8065,10/15/2025,76:36,SCAD SAV,Mario Goic,,True,False
+scad,2025,8065,10/15/2025,89:51,SCAD SAV,Sebastian Gomez,,False,False
+scad,2025,8066,10/18/2025,20:08,KEISER,Manu Cordeviola,Eric Bancel,False,False
+scad,2025,8066,10/18/2025,76:49,SCADSAV,Kimi Husler,Sebastian Gomez,False,False
+scad,2025,8067,10/23/2025,1:49,SCAD SAV,Mario Goic,Kimi Husler,False,False
+scad,2025,8067,10/23/2025,7:22,ST. THOM,Tim Kreuzpeintner,Luca Heusser,False,False
+scad,2025,8067,10/23/2025,9:17,SCAD SAV,Mario Goic,,False,False
+scad,2025,8067,10/23/2025,24:48,ST. THOM,Luca Heusser,Thiago Patto,False,False
+scad,2025,8067,10/23/2025,47:11,ST. THOM,Bouget Bouzis,Angelo Bernardes,False,False
+scad,2025,8068,10/25/2025,47:48,SCAD,Kimi Husler,Mario Goic,False,False
+scad,2025,8068,10/25/2025,50:22,FMU,Rafael Coronado,,False,False
+scad,2025,8068,10/25/2025,74:59,FMU,Rafael Coronado,Nasreddine Benbella,False,False
+scad,2025,8273,11/5/2025,34:35,SCAD SAV,Sebastian Gomez,,False,False
+scad,2025,8273,11/5/2025,37:56,SCAD SAV,Sebastian Gomez,Kimi Husler,False,False
+scad,2025,8273,11/5/2025,65:31,SOUTHEAS,Fabio De Paula,Tapiwa Kufakurowa,False,False
+scad,2025,8277,11/8/2025,12:41,STU,Thiago Patto,Bouget Bouzis,False,False
+scad,2025,8277,11/8/2025,17:53,STU,Bouget Bouzis,Tim Kreuzpeintner,False,False
+scad,2025,8277,11/8/2025,48:16,STU,Bouget Bouzis,Thiago Patto,False,False

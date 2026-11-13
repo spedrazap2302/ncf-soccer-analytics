@@ -1,0 +1,37 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+warner,2026,8954,8/22/2026,BREWTON,Brewton-Parker (GA),1,6,15,2,6,4,7,2,5
+warner,2026,8954,8/22/2026,WARNER,Warner (FL),3,4,14,5,11,1,3,9,13
+warner,2026,8955,8/27/2026,THOMAS,Thomas,3,5,16,1,6,5,8,6,10
+warner,2026,8955,8/27/2026,WARNER (,Warner (FL),2,9,16,3,6,1,4,3,16
+warner,2026,8956,8/29/2026,PCC,Pensacola Christian,3,6,16,4,7,1,1,6,10
+warner,2026,8956,8/29/2026,WARNER,Warner (FL),3,9,20,1,3,3,9,3,13
+warner,2026,8957,9/3/2026,WU,Warner (FL),1,4,7,3,7,1,3,9,17
+warner,2026,8957,9/3/2026,WIU,Webber International (FL),1,13,21,2,3,5,5,4,12
+warner,2026,8959,9/9/2026,WU,Warner (FL),1,3,9,2,3,1,5,6,22
+warner,2026,8959,9/9/2026,FLPOLY,Florida Polytechnic University,3,4,16,1,3,3,6,7,18
+warner,2026,8960,9/12/2026,CAROLINA,Carolina (N.C.),4,4,8,1,2,1,2,7,13
+warner,2026,8960,9/12/2026,WARNER,Warner (FL),1,7,18,0,1,3,7,7,10
+warner,2026,8961,9/17/2026,WU,Warner(FL),1,6,8,0,5,4,4,5,10
+warner,2026,8961,9/17/2026,POINT,Point,1,4,13,2,3,0,1,3,4
+warner,2026,8962,9/19/2026,WARNER,Warner University,0,6,10,0,2,0,1,5,11
+warner,2026,8962,9/19/2026,HUNTING,Huntingdon,0,2,5,3,4,0,1,11,19
+warner,2026,9067,9/23/2026,WARNER (,Warner (FL),3,2,7,0,1,0,0,5,8
+warner,2026,9067,9/23/2026,FLORIDA,Florida College (FL),2,3,4,0,2,3,3,2,7
+warner,2026,9040,9/26/2026,WU,Warner (FL),1,4,9,3,5,1,5,6,12
+warner,2026,9040,9/26/2026,NCF,New College of Florida,1,9,13,0,2,2,3,10,18
+warner,2026,8965,10/3/2026,SCAD,SCAD Savannah,4,7,15,0,1,0,0,5,12
+warner,2026,8965,10/3/2026,WU,Warner (FL),2,8,11,2,4,5,9,3,4
+warner,2026,8966,10/7/2026,FLORIDA,Florida Memorial (FL),3,4,16,4,7,0,2,9,13
+warner,2026,8966,10/7/2026,WARNER (,Warner (FL),1,5,11,1,9,0,1,4,12
+warner,2026,8967,10/10/2026,WU,Warner (FL),1,6,12,4,9,3,6,5,9
+warner,2026,8967,10/10/2026,AVE,Ave Maria (FL),1,7,14,3,5,2,4,2,4
+warner,2026,9138,10/13/2026,WARNER U,Warner University,2,15,20,0,2,2,3,4,7
+warner,2026,9138,10/13/2026,TRINITY,Trinity College of Jacksonville,1,3,9,7,8,0,5,2,6
+warner,2026,8968,10/17/2026,WU,Warner (FL),1,3,5,5,13,1,2,2,6
+warner,2026,8968,10/17/2026,STU,St. Thomas,2,18,48,0,0,1,10,2,5
+warner,2026,8969,10/21/2026,KU,Keiser,3,12,28,1,2,3,4,2,7
+warner,2026,8969,10/21/2026,WU,Warner (FL),0,2,3,3,11,0,1,5,10
+warner,2026,8970,10/24/2026,WU,Warner (Fla.),2,1,3,6,6,0,2,8,16
+warner,2026,8970,10/24/2026,SEU,Southeastern,2,11,20,0,0,7,8,4,8
+warner,2026,8971,10/28/2026,WEBBER I,Webber International (FL),4,8,10,2,3,0,1,9,13
+warner,2026,8971,10/28/2026,WARNER (,Warner (FL),3,5,14,1,2,1,2,7,14

@@ -1,0 +1,69 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+webber,2026,11096,8/20/2026,14:53,WIU,Rodnny Gonzalez,,True,False
+webber,2026,11096,8/20/2026,68:59,WIU,Brandon Apon,Felipe Villa Rosa,False,False
+webber,2026,11096,8/20/2026,74:15,WIU,Justin Ruiz,Dylan Salomon,False,False
+webber,2026,11096,8/20/2026,77:11,WIU,Rodnny Gonzalez,Jack Chalmers,False,False
+webber,2026,11096,8/20/2026,89:37,WIU,Team,,False,False
+webber,2026,11098,8/29/2026,54:30,WIU,Jack Chalmers,Rick Mael Petit Frere,False,False
+webber,2026,11099,8/31/2026,3:20,THOMAS,Will Nye,Edward Sack,False,False
+webber,2026,11099,8/31/2026,35:17,THOMAS,Jose Bonilla Ortiz,Edward Sack,False,False
+webber,2026,11099,8/31/2026,65:16,THOMAS,Isaac Jordan,Elia Casali,False,False
+webber,2026,11099,8/31/2026,69:24,THOMAS,Ethan Moore,Charlie Foss,False,False
+webber,2026,11099,8/31/2026,75:31,THOMAS,Ethan Moore,,True,False
+webber,2026,11099,8/31/2026,86:02,THOMAS,Ethan Moore,Charlie Foss,False,False
+webber,2026,11100,9/3/2026,10:53,WU,Jackson Davenport,,True,False
+webber,2026,11100,9/3/2026,67:14,WIU,Rodnny Gonzalez,,False,False
+webber,2026,11101,9/10/2026,3:16,CU,Kyryl Dmytryk,,False,False
+webber,2026,11101,9/10/2026,5:36,CU,Sonny West,Will McCamley,False,False
+webber,2026,11101,9/10/2026,49:10,CU,Will McCamley,,True,False
+webber,2026,11101,9/10/2026,70:34,WIU,Seth James-Feder,,False,False
+webber,2026,11101,9/10/2026,74:49,CU,Carlos Ramirez,,False,False
+webber,2026,11102,9/15/2026,16:19,FLORIDA,John Solis,,True,False
+webber,2026,11163,9/19/2026,10:29,SEU,Thomas Andrade Hardouin,,False,False
+webber,2026,11163,9/19/2026,26:33,SEU,Filipe Santana,"Thomas Andrade Hardouin , Bruno Almeida",False,False
+webber,2026,11163,9/19/2026,71:07,SEU,Pablo Lobon,"Tomas Gomes , Koren Klein",False,False
+webber,2026,11103,9/26/2026,13:22,WEBBER I,Jose D'Lima,Dylan Salomon,False,False
+webber,2026,11103,9/26/2026,21:57,SCAD SAV,Sebastian Gomez,,True,False
+webber,2026,11103,9/26/2026,30:28,SCAD SAV,Sebastian Gomez,Tim Rothe,False,False
+webber,2026,11103,9/26/2026,79:20,SCAD SAV,Sebastian Gomez,Tim Rothe,False,False
+webber,2026,11103,9/26/2026,81:32,SCAD SAV,Nicolas Lozano,,False,False
+webber,2026,11103,9/26/2026,83:30,SCAD SAV,Lucas Braganca,,False,False
+webber,2026,11104,09/30/2026,31:23,ECKERD,Tristan Bassette,Lucas Quinones,False,False
+webber,2026,11104,09/30/2026,35:09,WEBBER,Rodnny Gonzalez,Morgan Bridge,False,False
+webber,2026,11104,09/30/2026,47:31,ECKERD,Marcio Costa,Aaron Ristorcelli,False,False
+webber,2026,11104,09/30/2026,72:20,ECKERD,Jace Henriques,Pharrell Williams,False,False
+webber,2026,11104,09/30/2026,80:11,WEBBER,Rodnny Gonzalez,Morgan Bridge,False,False
+webber,2026,11104,09/30/2026,82:03,ECKERD,Tristan Bassette,Aaron Ristorcelli,False,False
+webber,2026,11105,10/3/2026,19:24,NCF,Jaden Williams,Cameron Johnson,False,False
+webber,2026,11105,10/3/2026,22:22,WIU,Rodnny Gonzalez,,False,False
+webber,2026,11105,10/3/2026,32:31,NCF,Ducamel Jeannestin,Lawrence Walsh,False,False
+webber,2026,11105,10/3/2026,47:39,NCF,Peter Simmons,Jaden Williams,False,False
+webber,2026,11105,10/3/2026,74:03,WIU,Vitalis Takawira Jr,Norbey Rincon Miranda,False,False
+webber,2026,11106,10/7/2026,19:05,WIU,Rodnny Gonzalez,Vitalis Takawira Jr,False,False
+webber,2026,11106,10/7/2026,29:10,STU,Lucas Caferra,Thiago Patto,False,False
+webber,2026,11106,10/7/2026,51:34,STU,Oscar Le guillou,Thiago Patto,False,False
+webber,2026,11106,10/7/2026,54:50,WIU,Mateo Lozada,Rodnny Gonzalez,False,False
+webber,2026,11106,10/7/2026,85:55,STU,Luca Heusser,Thiago Patto,False,False
+webber,2026,11107,10/10/2026,16:18,SEU,Thomas Hardouin,"Adam Cooil , Filipe Santana",False,False
+webber,2026,11107,10/10/2026,26:04,WIU,Dylan Salomon,,True,False
+webber,2026,11108,10/14/2026,72:41,FMU,Rafael Coronado,Juan Curtidor,False,False
+webber,2026,11109,10/17/2026,35:43,WEBBER I,Vitalis Takawira Jr,,False,False
+webber,2026,11109,10/17/2026,41:12,WEBBER I,Vitalis Takawira Jr,Jack Chalmers,False,False
+webber,2026,11109,10/17/2026,54:50,FLORIDA,David Luque,,True,False
+webber,2026,11110,10/21/2026,1:09,AVE,Mateo Rolon,,False,False
+webber,2026,11110,10/21/2026,11:04,WIU,Jose D'Lima,Vitalis Takawira Jr,False,False
+webber,2026,11110,10/21/2026,21:02,WIU,Jose D'Lima,,False,False
+webber,2026,11110,10/21/2026,50:50,AVE,Sava Cadjenovic,Mateo Rolon,False,False
+webber,2026,11110,10/21/2026,81:40,AVE,Nicholas Chowtee,Luis Mendoza,False,False
+webber,2026,11111,10/24/2026,10:39,KEISER,Xabi Souto,"Eden Barlow , Santiago Duque",False,False
+webber,2026,11111,10/24/2026,26:59,KEISER,Ian Garnero,,False,False
+webber,2026,11111,10/24/2026,52:50,KEISER,Enzo Bousin,"Mohammed Mouzoune , Sergio Padin-Rey",False,False
+webber,2026,11111,10/24/2026,53:45,WIU,Rodnny Gonzalez,,False,False
+webber,2026,11111,10/24/2026,84:44,KEISER,Mikael Baisotti,Raul Cedillo,False,False
+webber,2026,11112,10/28/2026,3:55,WEBBER I,Dylan Salomon,Hector Vazquez,False,False
+webber,2026,11112,10/28/2026,8:43,WARNER (,Jason Flaming,Mario Martinez,False,False
+webber,2026,11112,10/28/2026,17:49,WEBBER I,Rodnny Gonzalez,Dylan Salomon,False,False
+webber,2026,11112,10/28/2026,24:07,WEBBER I,Rodnny Gonzalez,Jack Chalmers,False,False
+webber,2026,11112,10/28/2026,59:17,WEBBER I,Sebastian Florian,Mateo Lozada,False,False
+webber,2026,11112,10/28/2026,67:59,WARNER (,Jackson Davenport,Greg Jackson II,False,False
+webber,2026,11112,10/28/2026,78:09,WARNER (,Xavier Lozada,,False,False

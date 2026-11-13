@@ -1,0 +1,70 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+keiser,2025,14390,9/4/2025,28:16,KU,Manu Cordeviola,Keanu Does,False,False
+keiser,2025,14390,9/4/2025,46:51,KU,Mikael Baisotti,Keanu Does,False,False
+keiser,2025,14390,9/4/2025,55:53,KU,Keanu Does,,False,False
+keiser,2025,14390,9/4/2025,75:13,KU,Mohammed Mouzoune,"Leon Sy Birgersson , Ethan Barimo",False,False
+keiser,2025,14390,9/4/2025,79:25,KU,Leon Sy Birgersson,"Eric Bancel , Tristan Silva",False,False
+keiser,2025,14390,9/4/2025,80:25,KU,Sergio Padin,Tristan Silva,False,False
+keiser,2025,14391,9/6/2025,5:10,MACU,Hayden Hoxie,Carlos Lobo,False,False
+keiser,2025,14391,9/6/2025,31:50,MACU,Ryan Jeanfreau,"Necsar Rojas , Federico Palacios",False,False
+keiser,2025,14391,9/6/2025,46:34,KU,Raul Cedillo,Mohammed Mouzoune,False,False
+keiser,2025,14391,9/6/2025,58:07,KU,Sergio Padin,Keanu Does,False,False
+keiser,2025,14391,9/6/2025,59:18,KU,Raul Cedillo,Mohammed Mouzoune,False,False
+keiser,2025,14392,9/11/2025,6:26,TU,Ethan Moore,,True,False
+keiser,2025,14392,9/11/2025,75:07,KU,Francis Bolland,Leon Sy Birgersson,False,False
+keiser,2025,14393,9/13/2025,17:01,KU,Mikael Baisotti,,False,False
+keiser,2025,14393,9/13/2025,21:26,KU,Keanu Does,"Eric Bancel , Santiago Duque",False,False
+keiser,2025,14393,9/13/2025,37:05,KU,Manex Landa,,False,False
+keiser,2025,14393,9/13/2025,58:52,KU,Eden Barlow,"Santiago Duque , Khadmiel Anderson",False,False
+keiser,2025,14393,9/13/2025,70:00,KU,Eric Bancel,,False,False
+keiser,2025,14393,9/13/2025,89:28,KU,Eric Bancel,Sergio Padin,False,False
+keiser,2025,14394,9/19/2025,1:18,KU,Eric Bancel,Mikael Baisotti,False,False
+keiser,2025,14394,9/19/2025,16:26,KU,Santiago Duque,Mikael Baisotti,False,True
+keiser,2025,14394,9/19/2025,27:41,KU,Eric Bancel,"Keanu Does , Manex Landa",False,False
+keiser,2025,14394,9/19/2025,32:35,KU,Mikael Baisotti,Manex Landa,False,False
+keiser,2025,14394,9/19/2025,66:25,KU,Eden Barlow,,False,False
+keiser,2025,14394,9/19/2025,69:31,KU,Raul Cedillo,Eden Barlow,False,False
+keiser,2025,14396,9/24/2025,11:08,KU,Mikael Baisotti,,True,False
+keiser,2025,14396,9/24/2025,30:32,KU,Mikael Baisotti,,True,False
+keiser,2025,14396,9/24/2025,65:23,KU,Manu Cordeviola,Mikael Baisotti,False,True
+keiser,2025,14396,9/24/2025,78:13,KU,Manu Cordeviola,Mohammed Mouzoune,False,True
+keiser,2025,14397,9/27/2025,87:40,KU,Xabi Soute,,False,False
+keiser,2025,14398,10/1/2025,68:32,KU,Mohammed Mouzoune,,False,False
+keiser,2025,14398,10/1/2025,78:41,KU,Sergio Padin,Keanu Does,False,False
+keiser,2025,14398,10/1/2025,85:10,KU,Eric Bancel,Raul Cedillo,False,False
+keiser,2025,14399,10/6/2025,25:28,KU,Mikael Baisotti,,False,False
+keiser,2025,14399,10/6/2025,27:25,FNU,Filipe Ribeiro,"Alejandro Castillo , Juan Pugin",False,False
+keiser,2025,14399,10/6/2025,36:44,KU,Mikael Baisotti,,True,False
+keiser,2025,14400,10/8/2025,3:19,KU,Justin Bangura,Santiago Duque,False,False
+keiser,2025,14400,10/8/2025,15:03,KU,Raul Cedillo,Mohammed Mouzoune,False,False
+keiser,2025,14400,10/8/2025,74:12,KU,Eden Barlow,Santiago Duque,False,False
+keiser,2025,14400,10/8/2025,77:17,KU,Eden Barlow,Manu Cordeviola,False,False
+keiser,2025,14400,10/8/2025,89:18,KU,Leon Sy Birgersson,Bailey Newton,False,False
+keiser,2025,14413,10/11/2025,29:03,KU,Manu Cordeviola,Timo Boomkens,False,False
+keiser,2025,14401,10/15/2025,41:40,KU,Francis Bolland,Mohammed Mouzoune,False,True
+keiser,2025,14401,10/15/2025,63:50,KU,Santiago Duque,,False,False
+keiser,2025,14402,10/18/2025,20:08,KU,Manu Cordeviola,Eric Bancel,False,False
+keiser,2025,14402,10/18/2025,76:49,SCAD,Kimi Husler,Sebastian Gomez,False,False
+keiser,2025,14403,10/22/2025,24:40,KU,Mohammed Mouzoune,"Fami Konate , Mikael Baisotti",False,False
+keiser,2025,14403,10/22/2025,48:28,KU,Alejandro Molina,"Mohammed Mouzoune , Fami Konate",False,False
+keiser,2025,14403,10/22/2025,52:54,KU,Santiago Duque,Fami Konate,False,False
+keiser,2025,14403,10/22/2025,59:37,KU,Eden Barlow,Xabi Soute,False,True
+keiser,2025,14404,10/25/2025,16:48,KU,Alejandro Molina,Mikael Baisotti,False,False
+keiser,2025,14404,10/25/2025,29:33,KU,Alejandro Molina,Keanu Does,False,False
+keiser,2025,14404,10/25/2025,36:31,KU,Sergio Padin,Manu Cordeviola,False,False
+keiser,2025,14404,10/25/2025,57:33,KU,Eden Barlow,Xabi Soute,False,True
+keiser,2025,14404,10/25/2025,67:05,KU,Keanu Does,Fabian Pisec,False,False
+keiser,2025,14405,10/29/2025,18:15,FMU,Diego Olguin,Nasreddine Benbella,False,True
+keiser,2025,14405,10/29/2025,30:43,KU,Mikael Baisotti,Manu Cordeviola,False,False
+keiser,2025,14405,10/29/2025,76:49,KU,Santiago Duque,Sergio Padin,False,False
+keiser,2025,14406,11/8/2025,3:22,KU,Justin Bangura,"Eric Bancel , Mikael Baisotti",False,False
+keiser,2025,14406,11/8/2025,12:37,KU,Eric Bancel,Justin Bangura,False,False
+keiser,2025,14406,11/8/2025,44:03,KU,Mohammed Mouzoune,"Manex Landa , Fami Konate",False,False
+keiser,2025,14406,11/8/2025,52:17,NCF,Fabien Donal,,False,False
+keiser,2025,14406,11/8/2025,55:30,NCF,Hannes Ulbrich,,False,True
+keiser,2025,14408,11/12/2025,70:50,KU,Mikael Baisotti,"Eric Bancel , Mohammed Mouzoune",False,False
+keiser,2025,14408,11/12/2025,84:47,STU,Tim Kreuzpeinter,Bouget Bouzis,False,False
+keiser,2025,14408,11/12/2025,95:51,KU,Raul Cedillo,Mikael Baisotti,False,False
+keiser,2025,14409,11/22/2025,51:30,WPU,Bryan Carmona,,False,False
+keiser,2025,14409,11/22/2025,61:59,KU,Sergio Padin,,False,False
+keiser,2025,14409,11/22/2025,75:36,WPU,Bodo Calderon,,True,False

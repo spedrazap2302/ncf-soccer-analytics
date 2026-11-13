@@ -1,0 +1,73 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+warner,2024,7801,8/22/2024,5:26,BREWTON-,Derventz Altidor,Matteo Girard-Chiarmonti,False,False
+warner,2024,7801,8/22/2024,78:11,WARNER (,Filip Mo,,False,False
+warner,2024,7802,8/24/2024,17:28,THOMAS,Will Nye,Stanley Hooker,False,False
+warner,2024,7802,8/24/2024,27:25,THOMAS,Camilo Penafiel,Connor Parry,False,False
+warner,2024,7802,8/24/2024,30:28,THOMAS,Will Nye,Stanley Hooker,False,False
+warner,2024,7802,8/24/2024,57:18,THOMAS,Santiago Viel,,False,False
+warner,2024,7802,8/24/2024,67:11,THOMAS,Findlay Cook,Edward Sack,False,False
+warner,2024,7803,8/27/2024,47:32,FLORIDA,John Solis,,False,False
+warner,2024,7803,8/27/2024,55:34,WARNER (,Joseph Street,Chad McAuliff,False,False
+warner,2024,7804,8/31/2024,28:22,WARNER (,Vlad Andersen,,False,False
+warner,2024,7804,8/31/2024,61:31,WARNER (,Georg Manolov,,False,False
+warner,2024,7804,8/31/2024,74:23,MONTREAT,Zeljko Stanojevic,,False,False
+warner,2024,7804,8/31/2024,83:30,WARNER (,Chad McAuliff,,False,False
+warner,2024,7807,9/18/2024,23:58,WU,Joseph Street,,False,False
+warner,2024,7807,9/18/2024,38:08,AVE,Mateo Rolon,,False,False
+warner,2024,7807,9/18/2024,41:42,WU,Bryce Himes,Chad McAuliff,False,False
+warner,2024,7807,9/18/2024,82:08,WU,Vlad Andersen,,False,False
+warner,2024,7807,9/18/2024,82:49,AVE,Mateo Rolon,,False,False
+warner,2024,7807,9/18/2024,85:54,AVE,Sava Cadjenovic,,False,False
+warner,2024,7808,9/21/2024,39:56,WEBBER I,Sho Furukawa,Thiago Silva,False,False
+warner,2024,7808,9/21/2024,49:39,WEBBER I,Jesus Solarbe,,False,False
+warner,2024,7808,9/21/2024,86:20,WARNER (,Filip Mo,,False,False
+warner,2024,7809,9/25/2024,11:13,WU,Vlad Andersen,Carson Hoben,False,False
+warner,2024,7809,9/25/2024,17:17,SEU,Jman Dieng,Nico Munari,False,False
+warner,2024,7809,9/25/2024,19:59,SEU,Jman Dieng,Elia Michelotti,False,False
+warner,2024,7809,9/25/2024,24:57,SEU,Kory Nekoloff,,False,False
+warner,2024,7809,9/25/2024,50:35,SEU,Fabio De Paula,Pietro Bronzin,False,False
+warner,2024,7810,9/28/2024,2:05,SCAD SAV,Mario Goic,,False,False
+warner,2024,7810,9/28/2024,7:29,SCAD SAV,Mario Goic,Caio Lara,False,False
+warner,2024,7810,9/28/2024,23:58,WARNER (,Vlad Andersen,Joseph Street,False,False
+warner,2024,7810,9/28/2024,84:32,SCAD SAV,Raffael Mohr,,False,False
+warner,2024,7811,10/2/2024,81:37,FNU,Ricardo Delwing,Christian Omar Hernandez,False,False
+warner,2024,7812,10/5/2024,17:06,WARNER (,Filip Mo,Vlad Andersen,False,False
+warner,2024,7814,10/16/2024,3:09,STU,Angelo Bernandes,Team,False,False
+warner,2024,7814,10/16/2024,7:49,STU,Hernando Suarez,Francisco Tolaba,False,False
+warner,2024,7814,10/16/2024,14:59,STU,Guido Cacciabue,,False,False
+warner,2024,7814,10/16/2024,15:54,STU,Angelo Bernandes,Francisco Tolaba,False,False
+warner,2024,7814,10/16/2024,26:52,STU,Hernando Suarez,Angelo Bernandes,False,False
+warner,2024,7814,10/16/2024,34:58,STU,Francisco Tolaba,,False,False
+warner,2024,7814,10/16/2024,36:20,STU,Lorenzo DiMercurio,,False,False
+warner,2024,7814,10/16/2024,42:02,STU,Hugo Rego,,True,False
+warner,2024,7814,10/16/2024,50:35,STU,Tim Kreuzpeinter,,False,False
+warner,2024,7814,10/16/2024,61:31,STU,Tim Kreuzpeinter,Lorenzo DiMercurio,False,False
+warner,2024,7815,10/19/2024,0:43,SCADSAV,Mario Goic,,True,False
+warner,2024,7815,10/19/2024,3:19,WU,Filip Mo,Joseph Street,False,False
+warner,2024,7815,10/19/2024,10:27,SCADSAV,Moritz Prattes,"Tim Rothe , Raffael Mohr",False,False
+warner,2024,7815,10/19/2024,57:58,WU,Filip Mo,,True,False
+warner,2024,7815,10/19/2024,66:24,SCADSAV,Mario Goic,Raffael Mohr,False,False
+warner,2024,7815,10/19/2024,68:39,SCADSAV,Tim Rothe,Raffael Mohr,False,False
+warner,2024,7815,10/19/2024,80:07,SCADSAV,Mario Goic,,False,False
+warner,2024,7815,10/19/2024,86:44,SCADSAV,Caio Lara,,False,False
+warner,2024,7816,10/23/2024,5:55,FLORIDA,Frank Sanchez,Rafael Coronado,False,False
+warner,2024,7816,10/23/2024,54:58,WARNER (,Chad McAuliff,Vlad Andersen,False,False
+warner,2024,7816,10/23/2024,89:51,WARNER (,Filip Mo,Vlad Andersen,False,False
+warner,2024,7817,10/26/2024,1:08,SOUTHEAS,Kory Nekoloff,Victor Cavalcante,False,False
+warner,2024,7817,10/26/2024,76:35,SOUTHEAS,Enrico Lazzari,,False,False
+warner,2024,7818,10/30/2024,11:38,K,Gabi Villafane,,False,False
+warner,2024,7818,10/30/2024,67:49,K,Mikael Baisotti,Gabi Villafane,False,False
+warner,2024,7818,10/30/2024,72:35,K,Manu Cordeviola,Timo Boomkens,False,False
+warner,2024,7819,11/2/2024,54:16,NEW COLL,Robbie Lloyd Jones,Alexander Greaves,False,False
+warner,2024,7819,11/2/2024,84:51,WARNER (,Pablo Sanches,Filip Mo,False,False
+warner,2024,8007,11/4/2024,26:17,WIU,Jonathan Mindegaard,KJ Mann,False,False
+warner,2024,8007,11/4/2024,68:31,WU,Vlad Andersen,,False,False
+warner,2024,8037,11/18/2024,12:07,CIU (SC),Paul Schutte,,False,False
+warner,2024,8037,11/18/2024,63:26,WU,Christoffer Bredesen,Filip Mo,False,False
+warner,2024,8037,11/18/2024,70:34,WU,Noah Farrington,Chad McAuliff,False,False
+warner,2024,8037,11/18/2024,86:00,WU,Vlad Andersen,Carson Hoben,False,False
+warner,2024,8038,11/23/2024,11:45,CAROLINA,Owen Vaughan,,True,False
+warner,2024,8038,11/23/2024,21:33,WARNER (,Filip Mo,,True,False
+warner,2024,8038,11/23/2024,38:08,CAROLINA,Owen Vaughan,,True,False
+warner,2024,8038,11/23/2024,69:37,WARNER (,Filip Mo,,False,False
+warner,2024,8038,11/23/2024,73:06,CAROLINA,Zaid Santo,Nathan Rue,False,False

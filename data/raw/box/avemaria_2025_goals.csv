@@ -1,0 +1,82 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+avemaria,2025,6484,8/21/2025,9:19,AVE,Jael Parraga,,False,False
+avemaria,2025,6484,8/21/2025,77:48,SSU,Marco Riva,,False,False
+avemaria,2025,6485,8/26/2025,24:01,FC,Yorgen Torres,,False,False
+avemaria,2025,6485,8/26/2025,28:43,FC,Jokubas Samsonas,,True,False
+avemaria,2025,6485,8/26/2025,57:18,FC,Damauri Greer,,False,False
+avemaria,2025,6620,9/1/2025,28:06,FNU,David Luque,Juan Pugin,False,False
+avemaria,2025,6620,9/1/2025,44:38,AVE,Brandon Gomez,,False,False
+avemaria,2025,6620,9/1/2025,51:50,FNU,David Luque,,False,False
+avemaria,2025,6620,9/1/2025,53:09,FNU,Thomas Meredith,Juan Pugin,False,False
+avemaria,2025,6620,9/1/2025,77:01,FNU,David Luque,,False,False
+avemaria,2025,6488,9/6/2025,20:31,AVE,Mateo Rolon,,False,False
+avemaria,2025,6488,9/6/2025,22:34,AVE,Mateo Rolon,,False,False
+avemaria,2025,6488,9/6/2025,48:34,AVE,Mateo Rolon,,False,False
+avemaria,2025,6488,9/6/2025,66:44,WU,Euan Bunn,,False,False
+avemaria,2025,6488,9/6/2025,70:09,AVE,Jael Parraga,Sava Cadjenovic,False,False
+avemaria,2025,6488,9/6/2025,79:41,AVE,Sava Cadjenovic,Jael Parraga,False,False
+avemaria,2025,6489,9/11/2025,2:04,TEXAS CO,Omar El Amrani,Nizar mandali,False,False
+avemaria,2025,6489,9/11/2025,5:16,AVE MARI,Mateo Rolon,Jael Parraga,False,False
+avemaria,2025,6489,9/11/2025,7:23,AVE MARI,Sava Cadjenovic,Mateo Rolon,False,False
+avemaria,2025,6489,9/11/2025,14:23,AVE MARI,Sava Cadjenovic,Mateo Rolon,False,False
+avemaria,2025,6489,9/11/2025,39:36,AVE MARI,Levi Orlando,Andre Betioli,False,False
+avemaria,2025,6489,9/11/2025,50:45,AVE MARI,Levi Orlando,Daniel Bourgeois,False,False
+avemaria,2025,6489,9/11/2025,73:09,AVE MARI,Sava Cadjenovic,,True,False
+avemaria,2025,6489,9/11/2025,83:42,AVE MARI,Mateo Rolon,Sava Cadjenovic,False,False
+avemaria,2025,6489,9/11/2025,84:12,AVE MARI,Mateo Rolon,Hayden Wysocki,False,False
+avemaria,2025,6490,9/13/2025,42:49,AVE MARI,Mateo Rolon,,False,False
+avemaria,2025,6490,9/13/2025,51:00,PAUL QUI,Tahrick Smith,,False,False
+avemaria,2025,6490,9/13/2025,63:00,PAUL QUI,Amado Garcia,Charlie Fisher,False,False
+avemaria,2025,6490,9/13/2025,69:00,AVE MARI,Sava Cadjenovic,,False,False
+avemaria,2025,6491,2025-09-14,33:00,AMU,Sava Cadjenovic,"Rolon,Mateo ,",False,False
+avemaria,2025,6491,2025-09-14,27:00,DCC,Luis Delgado,"Ceniceros,David ,",False,False
+avemaria,2025,6491,2025-09-14,24:00,AMU,Luis Mendoza,"Rolon,Mateo ,",False,False
+avemaria,2025,6491,2025-09-14,10:00,AMU,Jael Parraga,"Cadjenovic,Sava ,",False,False
+avemaria,2025,6491,2025-09-14,00:00,AMU,Thomas Hoeing,",",False,False
+avemaria,2025,6492,9/20/2025,10:51,PCC,Odanci Ndayisaba,,False,False
+avemaria,2025,6492,9/20/2025,19:25,AMU,Mateo Rolon,Jael Parraga,False,False
+avemaria,2025,6492,9/20/2025,64:05,AMU,Sava Cadjenovic,Riley Green,False,False
+avemaria,2025,6492,9/20/2025,67:51,AMU,Sava Cadjenovic,"Jael Parraga , Mateo Rolon",False,False
+avemaria,2025,6492,9/20/2025,76:47,AMU,Jael Parraga,,False,False
+avemaria,2025,6492,9/20/2025,86:39,PCC,Angel Pietri-Garcia,Odanci Ndayisaba,False,False
+avemaria,2025,6493,9/23/2025,23:05,FNU,Filipe Ribeiro,Juan Pugin,False,False
+avemaria,2025,6493,9/23/2025,88:07,FNU,Augusto Pugin,"Ricardo Delwing , Vincent Rouzier",False,False
+avemaria,2025,6677,9/28/2025,10:00,AVE,Sava Cadjenovic,Hayden Wysocki,False,False
+avemaria,2025,6677,9/28/2025,15:00,ALBIZU,Sebastian Olave,,False,False
+avemaria,2025,6677,9/28/2025,20:00,AVE,Riley Green,Mateo Rolon,False,False
+avemaria,2025,6677,9/28/2025,25:00,ALBIZU,Joshua Olave,,False,False
+avemaria,2025,6677,9/28/2025,30:00,AVE,Karl Sri,Brandon Gomez,False,False
+avemaria,2025,6677,9/28/2025,40:00,AVE,Mateo Rolon,Andre Betioli,False,False
+avemaria,2025,6677,9/28/2025,50:00,AVE,Jael Parraga,Daniel Bourgeois,False,False
+avemaria,2025,6677,9/28/2025,60:00,AVE,Mateo Rolon,Jael Parraga,False,False
+avemaria,2025,6677,9/28/2025,70:00,AVE,Brandon Gomez,Hayden Wysocki,False,False
+avemaria,2025,6677,9/28/2025,80:00,AVE,Sava Cadjenovic,,False,False
+avemaria,2025,6495,10/1/2025,9:52,SEU,Guilherme Viserta,,False,False
+avemaria,2025,6495,10/1/2025,10:53,AVE,Sava Cadjenovic,,False,False
+avemaria,2025,6495,10/1/2025,44:15,SEU,Adam Cooil,,False,False
+avemaria,2025,6496,10/4/2025,9:54,STU,Bouget Bouzis,Angelo Bernardes,False,False
+avemaria,2025,6496,10/4/2025,62:08,STU,Bouget Bouzis,Felipe Garcia,False,False
+avemaria,2025,6496,10/4/2025,64:58,STU,Yule Amini,,False,False
+avemaria,2025,6497,10/8/2025,3:19,KU,Justin Bangura,Santiago Duque,False,False
+avemaria,2025,6497,10/8/2025,15:03,KU,Raul Cedillo,Mohammed Mouzoune,False,False
+avemaria,2025,6497,10/8/2025,74:12,KU,Eden Barlow,Santiago Duque,False,False
+avemaria,2025,6497,10/8/2025,77:17,KU,Eden Barlow,Manu Cordeviola,False,False
+avemaria,2025,6497,10/8/2025,89:18,KU,Leon Sy Birgersson,Bailey Newton,False,False
+avemaria,2025,6498,10/11/2025,46:48,AVE MARI,Mateo Mencos,,False,False
+avemaria,2025,6498,10/11/2025,82:53,AVE MARI,Sava Cadjenovic,,False,False
+avemaria,2025,6498,10/11/2025,83:16,AVE MARI,Jael Parraga,,False,False
+avemaria,2025,6499,10/15/2025,19:00,AVE MARI,Nikolas Briceno,"Team , Sava Cadjenovic",False,False
+avemaria,2025,6499,10/15/2025,24:22,SCAD SAV,Tim Rothe,,False,False
+avemaria,2025,6499,10/15/2025,40:34,AVE MARI,Sava Cadjenovic,,False,False
+avemaria,2025,6499,10/15/2025,60:44,SCAD SAV,Mario Goic,,True,False
+avemaria,2025,6499,10/15/2025,76:36,SCAD SAV,Mario Goic,,True,False
+avemaria,2025,6499,10/15/2025,89:51,SCAD SAV,Sebastian Gomez,,False,False
+avemaria,2025,6500,10/18/2025,10:01,FMU,Nasreddine Benbella,,False,False
+avemaria,2025,6500,10/18/2025,88:09,FMU,Vicente Silva,Nasreddine Benbella,False,False
+avemaria,2025,6501,10/22/2025,55:15,WIU,Jesus Perez,,False,False
+avemaria,2025,6501,10/22/2025,77:20,AVE,Sava Cadjenovic,,True,False
+avemaria,2025,6501,10/22/2025,89:23,WIU,Jose Dlima,Davide Poledda,False,False
+avemaria,2025,6502,10/29/2025,8:17,NCF,Pablo Herrera,Sebastian Pedraza,False,False
+avemaria,2025,6502,10/29/2025,9:50,AVE,Levi Orlando,Hayden Wysocki,False,False
+avemaria,2025,6502,10/29/2025,59:23,NCF,Cameron Johnson,,False,False
+avemaria,2025,6502,10/29/2025,69:54,NCF,Fabien Donal,Ducamel Jeannestin,False,False

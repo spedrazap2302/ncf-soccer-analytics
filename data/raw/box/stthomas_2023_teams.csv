@@ -1,0 +1,45 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+stthomas,2023,9828,8/26/2023,FNU,Florida National (FL,2,2,13,0,1,0,3,11,23
+stthomas,2023,9828,8/26/2023,STU,St. Thomas,3,7,14,0,5,2,7,7,19
+stthomas,2023,9829,9/1/2023,LWC,Lindsey Wilson,1,4,8,1,6,0,0,2,14
+stthomas,2023,9829,9/1/2023,STU,St. Thomas,3,8,15,0,3,0,0,11,15
+stthomas,2023,9830,9/4/2023,MBU,Missouri Baptist,2,2,3,2,2,3,5,4,7
+stthomas,2023,9830,9/4/2023,STU,St. Thomas,2,8,16,0,0,2,5,3,6
+stthomas,2023,9831,9/13/2023,ST. THOM,St. Thomas,2,9,17,0,4,0,2,7,20
+stthomas,2023,9831,9/13/2023,WEBBER I,Webber International,0,1,7,0,3,1,5,8,15
+stthomas,2023,9832,9/16/2023,WARNER (,Warner (FL),0,0,0,4,7,0,0,6,8
+stthomas,2023,9832,9/16/2023,STU,St. Thomas,5,13,21,0,0,2,5,4,9
+stthomas,2023,9833,9/20/2023,SEU,Southeastern,0,8,10,2,7,0,1,5,18
+stthomas,2023,9833,9/20/2023,STU,St. Thomas,2,5,17,1,2,3,6,10,18
+stthomas,2023,9834,9/23/2023,STU,St. Thomas,1,4,13,1,2,1,2,6,7
+stthomas,2023,9834,9/23/2023,FMU,Florida Memorial (FL,0,6,8,1,3,1,3,6,11
+stthomas,2023,9835,9/27/2023,STU,St. Thomas,6,11,20,3,9,5,7,4,9
+stthomas,2023,9835,9/27/2023,SCAD SAV,SCAD Savannah,3,4,15,6,7,2,4,2,6
+stthomas,2023,9836,9/30/2023,KEISER,Keiser,0,4,11,2,4,1,4,7,14
+stthomas,2023,9836,9/30/2023,STU,St. Thomas,2,5,12,2,5,0,0,7,22
+stthomas,2023,9837,10/4/2023,STU,St. Thomas,2,16,27,2,2,4,7,6,12
+stthomas,2023,9837,10/4/2023,AVE,Ave Maria (FL),0,4,8,5,9,0,3,8,11
+stthomas,2023,9838,10/7/2023,FLORIDA,Florida Memorial (FL),1,9,19,2,5,2,5,9,19
+stthomas,2023,9838,10/7/2023,STU,St. Thomas,3,6,16,4,8,1,3,6,15
+stthomas,2023,9839,10/11/2023,STU,St. Thomas,4,7,15,2,3,1,4,6,16
+stthomas,2023,9839,10/11/2023,SEU,Southeastern,1,6,10,2,4,1,1,6,22
+stthomas,2023,9840,10/14/2023,WEBBER I,Webber International (FL),0,1,1,0,3,1,1,5,11
+stthomas,2023,9840,10/14/2023,STU,St. Thomas,1,8,17,1,1,3,7,5,10
+stthomas,2023,9841,10/19/2023,SCAD SAV,SCAD Savannah,1,4,7,3,6,0,3,2,5
+stthomas,2023,9841,10/19/2023,STU,St. Thomas,4,10,22,0,2,4,8,6,12
+stthomas,2023,9842,10/21/2023,ST. THOM,St. Thomas,1,5,12,1,5,3,5,5,11
+stthomas,2023,9842,10/21/2023,WARNER (,Warner (FL),0,2,6,5,7,0,0,3,8
+stthomas,2023,9843,10/25/2023,AVE MARI,Ave Maria (FL),0,3,3,2,5,0,0,3,3
+stthomas,2023,9843,10/25/2023,STU,St. Thomas,3,10,17,2,2,3,5,6,11
+stthomas,2023,9844,10/28/2023,STU,St. Thomas,0,3,12,0,3,2,4,5,12
+stthomas,2023,9844,10/28/2023,KU,Keiser,1,6,15,0,4,1,3,7,18
+stthomas,2023,9845,11/7/2023,FMU,Florida Memorial (FL),1,5,11,1,4,0,1,8,11
+stthomas,2023,9845,11/7/2023,STU,St. Thomas,2,6,18,2,2,4,5,12,22
+stthomas,2023,10042,11/10/2023,KEISER,Keiser,1,2,2,0,3,1,3,8,19
+stthomas,2023,10042,11/10/2023,STU,St. Thomas,1,12,25,1,1,3,13,9,21
+stthomas,2023,10044,11/18/2023,MENLO,Menlo,0,2,4,3,7,0,0,5,11
+stthomas,2023,10044,11/18/2023,STU,St. Thomas,1,11,21,1,2,4,7,6,14
+stthomas,2023,10055,11/27/2023,ST. THOM,St. Thomas,4,8,15,3,4,1,2,8,16
+stthomas,2023,10055,11/27/2023,MISSOURI,Missouri Valley,1,6,18,1,2,4,6,8,12
+stthomas,2023,10058,11/30/2023,ST. THOM,St. Thomas,1,4,11,2,3,0,1,8,24
+stthomas,2023,10058,11/30/2023,DALTON S,Dalton State (GA),1,8,13,0,3,4,4,7,20

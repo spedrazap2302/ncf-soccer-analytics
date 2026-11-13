@@ -1,0 +1,70 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+webber,2023,9597,8/26/2023,41:00,WEBBER I,Eduardo Rivera,Samer Jawhari,False,False
+webber,2023,9597,8/26/2023,44:01,FORT LAU,Nicolas Massa,,False,False
+webber,2023,9597,8/26/2023,75:22,WEBBER I,Gabe Shelton,Nik Resnik,False,False
+webber,2023,9563,8/31/2023,31:50,FNU,Leonardo Osorio,"Francisco Crimi , Tomas Barrancos",False,False
+webber,2023,9563,8/31/2023,37:07,FNU,Nicolas Martinez,"Luis Martinez , Vinicius Mallmann",False,False
+webber,2023,9563,8/31/2023,67:29,FNU,Luis Martinez,"Henrique Jordao , Nicolas Martinez",False,False
+webber,2023,9563,8/31/2023,86:20,FNU,Manuel Rodriguez,Marcos Bakale,False,False
+webber,2023,9564,9/3/2023,24:16,WIU,Ruben Marquez,,True,False
+webber,2023,9564,9/3/2023,42:54,RMS,Angel Mange,,False,False
+webber,2023,9564,9/3/2023,66:22,RMS,Igor Soares,,False,False
+webber,2023,9564,9/3/2023,69:38,WIU,Gudmundur Boasson,,False,False
+webber,2023,9564,9/3/2023,82:32,WIU,Sebastian Lago,,True,False
+webber,2023,9564,9/3/2023,87:20,RMS,Igor Soares,,True,False
+webber,2023,9565,9/9/2023,28:48,GGC,Nadav Weizmann,,False,False
+webber,2023,9565,9/9/2023,28:48,GGC,Diego Milessi,,False,False
+webber,2023,9566,9/13/2023,18:57,STU,Guido Cacciabue,Tomas Persico,False,False
+webber,2023,9566,9/13/2023,22:06,STU,Osaghae Oghogho,Niklas Hoener,False,False
+webber,2023,9567,9/16/2023,4:59,SCAD SAV,Lewis Gamble,Ryan Holmes,False,False
+webber,2023,9567,9/16/2023,67:55,SCAD SAV,Ryan Holmes,Daire Russell,False,False
+webber,2023,9568,9/20/2023,57:42,WEBBER I,Ruben Marquez,,False,False
+webber,2023,9569,9/23/2023,13:07,WEBBER I,Ruben Marquez,Marco De Rosa,False,False
+webber,2023,9569,9/23/2023,20:59,KEISER,Jakob Schnitzler,,False,False
+webber,2023,9569,9/23/2023,55:33,KEISER,Timo Boomkens,Gabi Villafane,False,False
+webber,2023,9569,9/23/2023,73:45,KEISER,Gabi Villafane,,False,False
+webber,2023,9571,9/30/2023,23:55,SEU,Roque Viegas Jr.,Marko Pengili,False,False
+webber,2023,9571,9/30/2023,31:47,SEU,Gianluca Contegno,Chris Thorpe,False,False
+webber,2023,9571,9/30/2023,34:32,SEU,Victor Cavalcante,,False,False
+webber,2023,9571,9/30/2023,44:04,WIU,Arnor Magnusson,,False,False
+webber,2023,9572,10/4/2023,19:47,WEBBER I,Ruben Marquez,,False,False
+webber,2023,9572,10/4/2023,49:45,WEBBER I,Mathew Loo,,False,False
+webber,2023,9572,10/4/2023,52:55,WEBBER I,Ruben Marquez,,False,False
+webber,2023,9572,10/4/2023,63:14,WEBBER I,Noah Setterberg,,False,False
+webber,2023,9573,10/7/2023,2:04,KU,Aldair Chavez,Timo Boomkens,False,False
+webber,2023,9573,10/7/2023,31:42,KU,Mikael Baisotti,"Aldair Chavez , Gabi Villafane",False,False
+webber,2023,9573,10/7/2023,38:16,WIU,Noah Setterberg,Jesus Sanchez,False,True
+webber,2023,9573,10/7/2023,48:53,WIU,Mathew Loo,,False,False
+webber,2023,9573,10/7/2023,51:46,KU,Fami Konate,Gabi Villafane,False,False
+webber,2023,9573,10/7/2023,87:19,KU,Aldair Chavez,,False,False
+webber,2023,9574,10/11/2023,8:30,WEBBER I,Jesus Sanchez,Noah Setterberg,False,False
+webber,2023,9574,10/11/2023,40:49,WARNER (,Bryce Himes,,False,False
+webber,2023,9574,10/11/2023,60:37,WEBBER I,Ruben Marquez,,False,False
+webber,2023,9574,10/11/2023,63:38,WEBBER I,Gabe Shelton,Marco De Rosa,False,False
+webber,2023,9574,10/11/2023,70:57,WARNER (,Hector Revelo,,False,False
+webber,2023,9575,10/14/2023,76:17,STU,Noah Tolcachier,Guido Cacciabue,False,False
+webber,2023,9576,10/18/2023,5:24,FMU,Geovannie Lake,Sam Richards,False,False
+webber,2023,9576,10/18/2023,13:17,FMU,Burak Cuban,Brad Malik Tulley,False,False
+webber,2023,9576,10/18/2023,29:59,WEBBER,Gabe Shelton,Mathew Loo,False,False
+webber,2023,9576,10/18/2023,33:56,FMU,Thomas Cole,,False,False
+webber,2023,9576,10/18/2023,50:21,FMU,Geovannie Lake,Zach Stokes,False,False
+webber,2023,9576,10/18/2023,78:12,FMU,Noah Link,Andres Rojas Garbanzo,False,False
+webber,2023,9576,10/18/2023,79:32,WEBBER,Ruben Marquez,,False,False
+webber,2023,9577,10/21/2023,3:48,SOUTHEAS,Gianluca Contegno,Edoardo Venutolo,False,False
+webber,2023,9577,10/21/2023,8:28,WEBBER I,Ruben Marquez,,False,False
+webber,2023,9577,10/21/2023,43:41,SOUTHEAS,Chris Thorpe,,False,False
+webber,2023,9577,10/21/2023,45:56,SOUTHEAS,Victor Cavalcante,,False,False
+webber,2023,9577,10/21/2023,54:01,SOUTHEAS,Edoardo Venutolo,Gianluca Contegno,False,False
+webber,2023,9578,10/25/2023,32:09,WEBBER I,David Gomez,Alex Tarway,False,False
+webber,2023,9578,10/25/2023,54:00,WEBBER I,Ruben Marquez,Sebastian Lago,False,False
+webber,2023,9578,10/25/2023,72:26,WEBBER I,Nik Resnik,,False,False
+webber,2023,9579,10/28/2023,21:00,WIU,Gabe Shelton,"Emanuel Barajas , Ekil Prackel",False,False
+webber,2023,9579,10/28/2023,50:14,WIU,Samer Jawhari,"Sebastian Lago , Gabe Shelton",False,False
+webber,2023,9579,10/28/2023,51:58,WIU,Ruben Marquez,,False,False
+webber,2023,9579,10/28/2023,58:30,WIU,Ekil Prackel,Samer Jawhari,False,False
+webber,2023,9579,10/28/2023,67:43,AVE,Jerron Dopwell,,False,False
+webber,2023,9579,10/28/2023,83:20,WIU,Marco De Rosa,Nik Resnik,False,False
+webber,2023,9579,10/28/2023,84:48,AVE,Jerron Dopwell,,False,False
+webber,2023,9580,11/4/2023,6:09,SEU,Gianluca Contegno,Roque Viegas Jr.,False,False
+webber,2023,9580,11/4/2023,28:03,SEU,Gianluca Contegno,,False,False
+webber,2023,9580,11/4/2023,50:36,SEU,Gianluca Contegno,Edoardo Venutolo,False,False

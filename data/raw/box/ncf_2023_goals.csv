@@ -1,0 +1,36 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+ncf,2023,1,9/2/2023,2:34,NEW COLL,Kais Sabic,Jaheim Dewar,False,False
+ncf,2023,1,9/2/2023,16:40,NEW COLL,Shamour Mclean,,False,False
+ncf,2023,1,9/2/2023,18:12,FLORIDA,Leo Hackett,,False,False
+ncf,2023,1,9/2/2023,23:09,NEW COLL,Kais Sabic,Jaheim Dewar,False,False
+ncf,2023,1,9/2/2023,31:08,FLORIDA,Brendan Brown,Rodrigo Nascimento,False,False
+ncf,2023,2,9/9/2023,21:00,TRINITY,Leonardo Rodrigues,,False,False
+ncf,2023,2,9/9/2023,30:32,NEW COLL,Kais Sabic,Jaheim Dewar,False,False
+ncf,2023,2,9/9/2023,52:39,NEW COLL,Shamour Mclean,Valerio Tatafiore,False,False
+ncf,2023,2,9/9/2023,55:50,NEW COLL,Gian-Carlo Kama,Randy Otoo,False,False
+ncf,2023,2,9/9/2023,57:51,NEW COLL,Roy Quest,Randy Otoo,False,False
+ncf,2023,2,9/9/2023,63:00,NEW COLL,Gian-Carlo Kama,Nahuel Garcia,False,False
+ncf,2023,2,9/9/2023,67:00,NEW COLL,Gian-Carlo Kama,,False,False
+ncf,2023,2,9/9/2023,80:47,NEW COLL,Gian-Carlo Kama,,False,False
+ncf,2023,3,9/16/2023,13:00,NEW COLL,Gian-Carlo Kama,Valerio Tatafiore,False,False
+ncf,2023,3,9/16/2023,33:00,MILLENNI,Jose David Cobaleda,,False,False
+ncf,2023,3,9/16/2023,68:00,NEW COLL,Gian-Carlo Kama,Valerio Tatafiore,False,False
+ncf,2023,6,10/3/2023,11:24,TRINITY,Ashton Karney,,False,False
+ncf,2023,6,10/3/2023,36:00,NEW COLL,Kais Sabic,,False,False
+ncf,2023,6,10/3/2023,46:34,TRINITY,Jesus Cruz,,False,False
+ncf,2023,6,10/3/2023,47:52,TRINITY,Jesus Cruz,,False,False
+ncf,2023,6,10/3/2023,50:02,NEW COLL,Gian-Carlo Kama,,False,False
+ncf,2023,6,10/3/2023,50:24,NEW COLL,Shamour Mclean,,False,False
+ncf,2023,6,10/3/2023,76:44,NEW COLL,Gian-Carlo Kama,Shamour Mclean,False,False
+ncf,2023,11,10/17/2023,1:22,NEW COLL,Peter Simmons,Kais Sabic,False,False
+ncf,2023,11,10/17/2023,1:22,NEW COLL,Peter Simmons,Gian-Carlo Kama,False,False
+ncf,2023,11,10/17/2023,25:55,NEW COLL,Gian-Carlo Kama,,False,False
+ncf,2023,11,10/17/2023,25:55,ATLANTIS,Tobias Alvez,,False,False
+ncf,2023,11,10/17/2023,54:29,NEW COLL,Valerio Tatafiore,Jaheim Dewar,False,False
+ncf,2023,15,11/3/2023,3:05,NEW COLL,Gian-Carlo Kama,Valerio Tatafiore,False,False
+ncf,2023,15,11/3/2023,11:32,NEW COLL,Manuel Rodriguez,,False,False
+ncf,2023,15,11/3/2023,19:05,NEW COLL,Gian-Carlo Kama,,False,False
+ncf,2023,15,11/3/2023,40:23,NEW COLL,Kais Sabic,Emmanuel Cuica,False,False
+ncf,2023,15,11/3/2023,64:52,NEW COLL,Shamour\tMclean,,False,False
+ncf,2023,15,11/3/2023,64:52,NEW COLL,Gian-Carlo Kama,Randy Otoo,False,False
+ncf,2023,15,11/3/2023,89:59,NEW COLL,Randy Otoo,Matthew Wilcox,False,False

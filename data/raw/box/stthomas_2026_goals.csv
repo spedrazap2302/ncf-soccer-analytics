@@ -1,0 +1,61 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+stthomas,2026,11750,8/20/2026,20:43,ST. THOM,Julien Laborde,,True,False
+stthomas,2026,11750,8/20/2026,79:26,ST. THOM,Luca Heusser,Juan Braz,False,False
+stthomas,2026,11782,08/31/2026,34:59,FIU,Ezequiel Gonzalez,Mateo Stickler,False,False
+stthomas,2026,11782,08/31/2026,53:53,FIU,Jad Benjelloun,Pasquale Capriati,False,False
+stthomas,2026,11751,9/4/2026,2:36,FAULKNER,Juan Gomez,Leo de Souza,False,False
+stthomas,2026,11751,9/4/2026,7:26,FAULKNER,Angel Ugwumba,,False,False
+stthomas,2026,11751,9/4/2026,7:30,ST. THOM,Oscar Le guillou,Julien Laborde,False,False
+stthomas,2026,11751,9/4/2026,24:02,FAULKNER,Konsti Witte,,False,False
+stthomas,2026,11751,9/4/2026,33:11,FAULKNER,Bernardo Juca,,False,False
+stthomas,2026,11751,9/4/2026,44:10,ST. THOM,Oscar Le guillou,Okan Erkocu,False,False
+stthomas,2026,11752,9/6/2026,42:33,LIFE,Enrico Burigotto,Takahiro Suzuki,False,False
+stthomas,2026,11753,9/10/2026,4:15,STU,Lucas Caferra,Juan Braz,False,False
+stthomas,2026,11753,9/10/2026,23:08,STU,Juan Braz,Julien Laborde,False,False
+stthomas,2026,11753,9/10/2026,40:21,STU,Julian Ramirez,Thiago Patto,False,False
+stthomas,2026,11753,9/10/2026,45:55,STU,Julien Laborde,,False,False
+stthomas,2026,11753,9/10/2026,86:29,FNU,David Luque,Dylan Gibbs,False,False
+stthomas,2026,11754,9/16/2026,22:50,FLPOLY,Tarquin Adams,,True,False
+stthomas,2026,11754,9/16/2026,24:15,STU,Luca Heusser,Julien Laborde,False,False
+stthomas,2026,11754,9/16/2026,47:30,STU,Thiago Patto,,True,False
+stthomas,2026,11754,9/16/2026,48:41,STU,Julien Laborde,Thiago Patto,False,False
+stthomas,2026,11754,9/16/2026,54:31,STU,Thiago Patto,Team,False,False
+stthomas,2026,11754,9/16/2026,64:03,STU,Manuel Dominguez,Okan Erkocu,False,False
+stthomas,2026,11754,9/16/2026,65:31,STU,Bautista Suarez Basalo,"Team , Maksym Osadchyi",False,False
+stthomas,2026,11755,9/26/2026,38:30,STU,Oscar Le guillou,Albert Feixas,False,False
+stthomas,2026,11755,9/26/2026,55:08,STU,Oscar Le guillou,"Yule Amini , Julien Laborde",False,False
+stthomas,2026,11755,9/26/2026,72:35,STU,Angelo Bernardes,,False,False
+stthomas,2026,11755,9/26/2026,85:27,STU,Lucas Caferra,Luca Heusser,False,False
+stthomas,2026,11756,9/30/2026,70:00,FMU,Frank Sanchez,,False,False
+stthomas,2026,11756,9/30/2026,73:38,FMU,Sergio Alvarez,,False,False
+stthomas,2026,11756,9/30/2026,78:23,STU,Albert Feixas,Okan Erkocu,False,False
+stthomas,2026,11756,9/30/2026,86:43,STU,Julien Laborde,Juan Braz,False,False
+stthomas,2026,11757,10/3/2026,5:43,STU,Luca Heusser,Julien Laborde,False,False
+stthomas,2026,11757,10/3/2026,19:25,STU,Thiago Patto,Julien Laborde,False,False
+stthomas,2026,11757,10/3/2026,36:55,STU,Kerim Akpinar,Ellef Herstad,False,False
+stthomas,2026,11757,10/3/2026,41:32,STU,Kerim Akpinar,Yule Amini,False,False
+stthomas,2026,11757,10/3/2026,49:16,STU,Bautista Suarez Basalo,Julien Laborde,False,False
+stthomas,2026,11758,10/7/2026,19:05,WIU,Rodnny Gonzalez,Vitalis Takawira Jr,False,False
+stthomas,2026,11758,10/7/2026,29:10,STU,Lucas Caferra,Thiago Patto,False,False
+stthomas,2026,11758,10/7/2026,51:34,STU,Oscar Le guillou,Thiago Patto,False,False
+stthomas,2026,11758,10/7/2026,54:50,WIU,Mateo Lozada,Rodnny Gonzalez,False,False
+stthomas,2026,11758,10/7/2026,85:55,STU,Luca Heusser,Thiago Patto,False,False
+stthomas,2026,11759,10/10/2026,7:00,ST. THOM,Angelo Bernardes,,False,False
+stthomas,2026,11759,10/10/2026,17:43,ST. THOM,Julien Laborde,Lucas Caferra,False,False
+stthomas,2026,11759,10/10/2026,70:39,ST. THOM,Thiago Patto,,False,False
+stthomas,2026,11759,10/10/2026,78:28,ST. THOM,Kerim Akpinar,,True,False
+stthomas,2026,11759,10/10/2026,84:58,ST. THOM,Bautista Suarez Basalo,Luis Mejia,False,False
+stthomas,2026,11760,10/14/2026,59:01,STU,Angelo Bernardes,Thiago Patto,False,False
+stthomas,2026,11760,10/14/2026,67:24,NCF,Cuba Soerensen,,False,False
+stthomas,2026,11761,10/17/2026,43:43,WU,Luis Seminario,Georg Manolov,False,False
+stthomas,2026,11761,10/17/2026,62:07,STU,Oscar Le guillou,Thiago Patto,False,False
+stthomas,2026,11761,10/17/2026,89:52,STU,Oscar Le guillou,Julien Laborde,False,False
+stthomas,2026,11763,10/28/2026,52:25,STU,Julien Laborde,Manuel Dominguez,False,False
+stthomas,2026,11763,10/28/2026,68:36,SEU,Adam Cooil,Miguel Londono,False,False
+stthomas,2026,11763,10/28/2026,76:34,STU,Ellef Herstad,Okan Erkocu,False,False
+stthomas,2026,12038,11/7/2026,12:58,STU,Angelo Bernardes,Julien Laborde,False,False
+stthomas,2026,12038,11/7/2026,70:33,STU,Julian Ramirez,,False,False
+stthomas,2026,12038,11/7/2026,87:37,STU,Angelo Bernardes,Julien Laborde,False,False
+stthomas,2026,12038,11/7/2026,88:10,STU,Julien Laborde,Maksym Osadchyi,False,False
+stthomas,2026,12071,11/11/2026,60:39,KU,Raul Cedillo,,False,False
+stthomas,2026,12071,11/11/2026,73:23,KU,Raul Cedillo,,False,False

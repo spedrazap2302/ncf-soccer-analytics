@@ -1,0 +1,110 @@
+ncf 2023: 0 box scores
+  saved 0 goals, 0 games
+ncf 2024: 0 box scores
+  saved 0 goals, 0 games
+ncf 2025: already done, skipping
+ncf 2026: 16 box scores
+  saved 78 goals, 16 games
+keiser 2023: 22 box scores
+  saved 74 goals, 22 games
+keiser 2024: 16 box scores
+  saved 59 goals, 16 games
+keiser 2025: 19 box scores
+  saved 69 goals, 19 games
+keiser 2026: 17 box scores
+  saved 67 goals, 17 games
+stthomas 2023: 22 box scores
+  saved 69 goals, 22 games
+stthomas 2024: 17 box scores
+  saved 51 goals, 17 games
+stthomas 2025: 18 box scores
+  saved 68 goals, 18 games
+stthomas 2026: 17 box scores
+  saved 60 goals, 17 games
+scad 2023: 18 box scores
+  problem with https://savannah.scadathletics.com/sports/mens-soccer/stats/2023/webber-international-university/boxscore/7267 -> HTTPSConnectionPool(host='savannah.scadathletics.com', port=443): Max retries exceeded with url: /sports/mens-soccer/stats/2023/webber-international-university/boxscore/7267 (Caused by NameResolutionError("HTTPSConnection(host='savannah.scadathletics.com', port=443): Failed to resolve 'savannah.scadathletics.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  problem with https://savannah.scadathletics.com/sports/mens-soccer/stats/2023/southeastern-university/boxscore/7268 -> HTTPSConnectionPool(host='savannah.scadathletics.com', port=443): Max retries exceeded with url: /sports/mens-soccer/stats/2023/southeastern-university/boxscore/7268 (Caused by NameResolutionError("HTTPSConnection(host='savannah.scadathletics.com', port=443): Failed to resolve 'savannah.scadathletics.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  problem with https://savannah.scadathletics.com/sports/mens-soccer/stats/2023/florida-memorial-university-quarterfinal-/boxscore/7464 -> HTTPSConnectionPool(host='savannah.scadathletics.com', port=443): Max retries exceeded with url: /sports/mens-soccer/stats/2023/florida-memorial-university-quarterfinal-/boxscore/7464 (Caused by NameResolutionError("HTTPSConnection(host='savannah.scadathletics.com', port=443): Failed to resolve 'savannah.scadathletics.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  saved 60 goals, 15 games
+Traceback (most recent call last):
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 987, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='savannah.scadathletics.com', port=443): Failed to resolve 'savannah.scadathletics.com' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='savannah.scadathletics.com', port=443): Max retries exceeded with url: /sports/mens-soccer/schedule/2024 (Caused by NameResolutionError("HTTPSConnection(host='savannah.scadathletics.com', port=443): Failed to resolve 'savannah.scadathletics.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sebas/Desktop/Classes/NCF/Grad/Programming for Data Science/Final Project/boxscores.py", line 153, in <module>
+    seasons = [int(sys.argv[2])] if len(sys.argv) > 2 else SEASONS
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sebas/Desktop/Classes/NCF/Grad/Programming for Data Science/Final Project/boxscores.py", line 124, in scrape_season
+    if os.path.exists(goals_file) and os.path.exists(teams_file):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sebas/Desktop/Classes/NCF/Grad/Programming for Data Science/Final Project/boxscores.py", line 29, in boxscore_links
+    page = get_page(f"{base_url}/sports/mens-soccer/schedule/{season}")
+  File "/Users/sebas/Desktop/Classes/NCF/Grad/Programming for Data Science/Final Project/boxscores.py", line 20, in get_page
+    response = requests.get(url, headers=HEADERS, timeout=20)
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sebas/venvs/ncf-soccer/lib/python3.14/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='savannah.scadathletics.com', port=443): Max retries exceeded with url: /sports/mens-soccer/schedule/2024 (Caused by NameResolutionError("HTTPSConnection(host='savannah.scadathletics.com', port=443): Failed to resolve 'savannah.scadathletics.com' ([Errno 8] nodename nor servname provided, or not known)"))

@@ -1,0 +1,53 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+southeastern,2025,9432,8/23/2025,19:54,SEU,Miguel Londono,,False,False
+southeastern,2025,9432,8/23/2025,33:22,SEU,Carson Cajuste,Guilherme Viserta,False,False
+southeastern,2025,9432,8/23/2025,39:09,SEU,Jman Dieng,,False,False
+southeastern,2025,9432,8/23/2025,49:27,SEU,Fabio De Paula,Guilherme Viserta,False,False
+southeastern,2025,9432,8/23/2025,57:12,SEU,Adam Cooil,Guilherme Viserta,False,False
+southeastern,2025,9431,8/25/2025,8:16,SEU,Jman Dieng,Fabio De Paula,False,False
+southeastern,2025,9431,8/25/2025,27:12,SEU,Fabio De Paula,"Jman Dieng , Guilherme Viserta",False,False
+southeastern,2025,9431,8/25/2025,67:46,SEU,Ethan Otto,Arthur Bello,False,False
+southeastern,2025,9431,8/25/2025,78:37,SEU,Arthur Bello,,True,False
+southeastern,2025,9433,8/30/2025,32:14,SEU,Jman Dieng,Guilherme Viserta,False,False
+southeastern,2025,9433,8/30/2025,80:21,LIFE,Andrei Apostu,Enrico Lazzari,False,False
+southeastern,2025,9433,8/30/2025,86:35,SEU,Tapiwa Kufakurowa,Jman Dieng,False,False
+southeastern,2025,9433,8/30/2025,88:45,LIFE,Tommaso Silanos,Augusto Del Rio,False,False
+southeastern,2025,9434,9/1/2025,3:38,TU,Edward Sack,Diego Saenz,False,False
+southeastern,2025,9434,9/1/2025,36:01,SEU,Carson Cajuste,Guilherme Viserta,False,False
+southeastern,2025,9434,9/1/2025,41:58,TU,Edward Sack,,False,False
+southeastern,2025,9434,9/1/2025,78:33,TU,Camilo Penafiel,Will Nye,False,False
+southeastern,2025,9435,9/6/2025,6:16,FNU,Diego Lozano,"Fabio Zandona , Juan Pugin",False,False
+southeastern,2025,9435,9/6/2025,37:52,SEU,Fabio De Paula,"Pietro Bronzin , Sebastian Riebartsch",False,False
+southeastern,2025,9435,9/6/2025,51:47,FNU,David Luque,,False,False
+southeastern,2025,9436,9/11/2025,14:27,SEU,Jman Dieng,,False,False
+southeastern,2025,9436,9/11/2025,33:46,FC,Yorgen Torres,,False,False
+southeastern,2025,9436,9/11/2025,77:24,FC,Damauri Greer,,False,False
+southeastern,2025,9439,10/1/2025,9:52,SEU,Guilherme Viserta,,False,False
+southeastern,2025,9439,10/1/2025,10:53,AVE,Sava Cadjenovic,,False,False
+southeastern,2025,9439,10/1/2025,44:15,SEU,Adam Cooil,,False,False
+southeastern,2025,9440,10/4/2025,3:29,SEU,Jman Dieng,Sebastian Riebartsch,False,False
+southeastern,2025,9440,10/4/2025,6:14,SEU,Miguel Londono,Andrea Terracciano,False,False
+southeastern,2025,9440,10/4/2025,42:28,SEU,Carson Cajuste,Sebastian Riebartsch,False,False
+southeastern,2025,9440,10/4/2025,49:31,FMU,Mohamed Sadiki,,False,False
+southeastern,2025,9440,10/4/2025,62:31,FMU,Frank Sanchez,,False,False
+southeastern,2025,9440,10/4/2025,65:30,FMU,Rafael Coronado,,False,False
+southeastern,2025,9441,10/9/2025,24:57,SCAD,Leon Grube,German Moreno,False,False
+southeastern,2025,9441,10/9/2025,30:36,SCAD,Mario Goic,Leon Grube,False,False
+southeastern,2025,9441,10/9/2025,76:03,SCAD,Team,,False,False
+southeastern,2025,9442,10/11/2025,13:42,SEU,Elia Michelotti,Sebastian Riebartsch,False,False
+southeastern,2025,9442,10/11/2025,25:31,SEU,Carson Cajuste,Miguel Londono,False,False
+southeastern,2025,9442,10/11/2025,64:50,SEU,Jman Dieng,,True,False
+southeastern,2025,9443,10/15/2025,41:40,KU,Francis Bolland,Mohammed Mouzoune,False,False
+southeastern,2025,9443,10/15/2025,63:50,KU,Santiago Duque,,False,False
+southeastern,2025,9444,10/18/2025,22:42,NCF,Cameron Johnson,"Martin Pascual , Team",False,False
+southeastern,2025,9444,10/18/2025,64:10,NCF,Ducamel Jeannestin,,False,False
+southeastern,2025,9444,10/18/2025,65:22,SEU,Adam Cooil,,False,False
+southeastern,2025,9445,10/25/2025,15:30,SEU,Jacob Dennis,Jman Dieng,False,False
+southeastern,2025,9445,10/25/2025,41:43,WU,Filip Mo,,False,False
+southeastern,2025,9445,10/25/2025,49:39,WU,Michael Mote,,False,False
+southeastern,2025,9445,10/25/2025,62:49,SEU,Adam Cooil,Fabio De Paula,False,False
+southeastern,2025,9445,10/25/2025,81:01,SEU,Jman Dieng,Francesco Calicchio,False,False
+southeastern,2025,9446,10/29/2025,72:27,SEU,Miguel Londono,,False,False
+southeastern,2025,9447,11/5/2025,34:35,SCAD,Sebastian Gomez,,False,False
+southeastern,2025,9447,11/5/2025,37:56,SCAD,Sebastian Gomez,Kimi Husler,False,False
+southeastern,2025,9447,11/5/2025,65:31,SEU,Fabio De Paula,Tapiwa Kufakurowa,False,False

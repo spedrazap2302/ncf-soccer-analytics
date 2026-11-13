@@ -1,0 +1,89 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+ncf,2025,611,8/16/2025,8:35,NEW COLL,Sebastian Pedraza,,False,False
+ncf,2025,611,8/16/2025,68:06,MILLENIA,Team,,False,False
+ncf,2025,611,8/16/2025,71:28,NEW COLL,Juan Palomino,,False,False
+ncf,2025,612,8/21/2025,33:06,NEW COLL,Ducamel Jeannestin,,False,False
+ncf,2025,612,8/21/2025,47:29,NEW COLL,Cameron Johnson,,False,False
+ncf,2025,612,8/21/2025,86:01,NEW COLL,Andrew Scott,,False,False
+ncf,2025,615,9/6/2025,26:00,NCF,Ducamel Jeannestin,,False,False
+ncf,2025,615,9/6/2025,61:31,NCF,Martin Pascual,,False,False
+ncf,2025,615,9/6/2025,67:12,NCF,Ducamel Jeannestin,Team,False,False
+ncf,2025,615,9/6/2025,83:33,NCF,Fabien Donal,,False,False
+ncf,2025,616,09/09/2025,12:11,NEW,Ducamel Jeannestin,Cameron Johnson,False,False
+ncf,2025,616,09/09/2025,42:24,ECKERD,Marcio Costa,,True,False
+ncf,2025,616,09/09/2025,47:15,ECKERD,Daniel Freire,Aaron Ristorcelli,False,False
+ncf,2025,616,09/09/2025,59:47,NEW,Ducamel Jeannestin,"Cameron Johnson , Mathis Levique",False,False
+ncf,2025,687,9/11/2025,25:11,NEW COLL,Pablo Herrera,Joao Duarte,False,False
+ncf,2025,687,9/11/2025,34:40,FLORIDA,Diego Zogbi,"Fabio Zandona , David Luque",False,False
+ncf,2025,687,9/11/2025,53:11,FLORIDA,Jace Spence,"David Luque , Juan Pugin",False,False
+ncf,2025,687,9/11/2025,59:09,NEW COLL,Ducamel Jeannestin,Sebastian Pedraza,False,False
+ncf,2025,687,9/11/2025,81:20,NEW COLL,Cameron Johnson,,True,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Diego Fernandez,Fabien Donal,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Cameron Johnson,Matthew Dynarski,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Fabien Donal,,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Juan Leguizamon,Matthew Dynarski,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Juan Gomez-Cuetara,Oliver Wuest,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Oliver Wuest,Juan Gomez-Cuetara,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Andre Cabral,Juan Leguizamon,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Andre Cabral,Juan Gomez-Cuetara,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Fabien Donal,Matthew Dynarski,False,False
+ncf,2025,694,9/15/2025,0:00,NEW COLL,Mathis Leveque,,False,False
+ncf,2025,618,9/20/2025,51:10,NCF,Cameron Johnson,,False,False
+ncf,2025,618,9/20/2025,89:21,NCF,Andres Garcia,,False,False
+ncf,2025,691,9/24/2025,5:51,NEW COLL,Ducamel Jeannestin,Sebastian Pedraza,False,False
+ncf,2025,691,9/24/2025,13:06,NEW COLL,Ducamel Jeannestin,,False,False
+ncf,2025,691,9/24/2025,24:06,SOUTH FL,14,,False,False
+ncf,2025,691,9/24/2025,29:54,NEW COLL,Martin Pascual,,False,False
+ncf,2025,691,9/24/2025,34:22,NEW COLL,Cameron Johnson,,False,False
+ncf,2025,691,9/24/2025,42:38,NEW COLL,Fabien Donal,,False,False
+ncf,2025,691,9/24/2025,43:51,NEW COLL,Fabien Donal,Matthew Dynarski,False,False
+ncf,2025,691,9/24/2025,55:27,NEW COLL,Team,,False,False
+ncf,2025,691,9/24/2025,60:46,NEW COLL,Matthew Dynarski,,False,False
+ncf,2025,691,9/24/2025,64:44,NEW COLL,Diego Fernandez,David Hospedales,False,False
+ncf,2025,691,9/24/2025,69:07,SOUTH FL,Team,,False,False
+ncf,2025,691,9/24/2025,82:49,NEW COLL,Peter Simmons,,False,False
+ncf,2025,691,9/24/2025,85:55,NEW COLL,Joao Duarte,Matthew Dynarski,False,False
+ncf,2025,620,9/27/2025,13:13,NEW COLL,Cameron Johnson,Fabien Donal,False,False
+ncf,2025,620,9/27/2025,45:33,NEW COLL,Cameron Johnson,Martin Pascual,False,False
+ncf,2025,620,9/27/2025,75:39,NEW COLL,Matthew Dynarski,,False,False
+ncf,2025,621,10/1/2025,68:32,KU,Mohammed Mouzoune,,False,False
+ncf,2025,621,10/1/2025,78:41,KU,Sergio Padin,,False,False
+ncf,2025,621,10/1/2025,85:10,KU,Eric Bancel,Raul Cedillo,False,False
+ncf,2025,622,10/4/2025,6:20,NEW COLL,Ducamel Jeannestin,,False,False
+ncf,2025,622,10/4/2025,33:06,NEW COLL,Cameron Johnson,Fabien Donal,False,False
+ncf,2025,622,10/4/2025,50:41,NEW COLL,Cameron Johnson,Ducamel Jeannestin,False,False
+ncf,2025,622,10/4/2025,55:06,WEBBER I,Jesus Perez,,True,False
+ncf,2025,622,10/4/2025,78:11,NEW COLL,Fabien Donal,Cameron Johnson,False,False
+ncf,2025,622,10/4/2025,78:25,NEW COLL,Cameron Johnson,,False,False
+ncf,2025,623,10/7/2025,69:08,NEW COLL,Cameron Johnson,,True,False
+ncf,2025,623,10/7/2025,80:29,NEW COLL,Juan Gomez-Cuetara,Peter Simmons,False,False
+ncf,2025,623,10/7/2025,82:03,NEW COLL,Team,,False,False
+ncf,2025,623,10/7/2025,82:42,FLORIDA,Jhon Solis,Leo Hackett,False,False
+ncf,2025,624,10/11/2025,64:39,SCAD SAV,Mario Goic,,False,False
+ncf,2025,625,10/15/2025,3:16,STU,Hugo Rego,Thiago Patto,False,False
+ncf,2025,625,10/15/2025,5:23,STU,Bouget Bouzis,Thiago Patto,False,False
+ncf,2025,625,10/15/2025,20:07,NCF,Andrew Scott,Cameron Johnson,False,False
+ncf,2025,625,10/15/2025,30:26,NCF,Ducamel Jeannestin,,False,False
+ncf,2025,625,10/15/2025,78:34,STU,Hugo Rego,Thiago Patto,False,False
+ncf,2025,625,10/15/2025,80:10,STU,Thiago Patto,,False,False
+ncf,2025,625,10/15/2025,84:42,STU,Tim Kreuzpeintner,,False,False
+ncf,2025,626,10/18/2025,22:42,NEW COLL,Cameron Johnson,"Team , Martin Pascual",False,False
+ncf,2025,626,10/18/2025,64:10,NEW COLL,Ducamel Jeannestin,,False,False
+ncf,2025,626,10/18/2025,65:22,SOUTHEAS,Adam Cooil,,False,False
+ncf,2025,627,10/22/2025,6:29,NEW COLL,Fabien Donal,Sebastian Pedraza,False,False
+ncf,2025,627,10/22/2025,7:02,NEW COLL,Ducamel Jeannestin,Cameron Johnson,False,False
+ncf,2025,627,10/22/2025,50:59,NEW COLL,Cameron Johnson,Sebastian Pedraza,False,False
+ncf,2025,627,10/22/2025,69:35,NEW COLL,Ducamel Jeannestin,,False,False
+ncf,2025,627,10/22/2025,79:52,NEW COLL,Matthew Dynarski,Juan Maya,False,False
+ncf,2025,627,10/22/2025,89:54,NEW COLL,Tomas Gonzalez,Juan Palomino,False,False
+ncf,2025,628,10/29/2025,8:17,NCF,Pablo Herrera,Sebastian Pedraza,False,False
+ncf,2025,628,10/29/2025,9:50,AVE,Levi Orlando,Hayden Wysocki,False,False
+ncf,2025,628,10/29/2025,59:23,NCF,Cameron Johnson,,False,False
+ncf,2025,628,10/29/2025,69:54,NCF,Fabien Donal,Ducamel Jeannestin,False,False
+ncf,2025,769,11/5/2025,27:56,NEW COLL,Fabien Donal,Ducamel Jeannestin,False,False
+ncf,2025,769,11/5/2025,64:31,NEW COLL,Hannes Ulbrich,,True,False
+ncf,2025,770,11/8/2025,3:22,KU,Justin Bangura,"Eric Bancel , Mikael Baisotti",False,False
+ncf,2025,770,11/8/2025,12:37,KU,Eric Bancel,Justin Bangura,False,False
+ncf,2025,770,11/8/2025,44:03,KU,Mohammed Mouzoune,"Manex Landa , Fami Konate",False,False
+ncf,2025,770,11/8/2025,52:17,NCF,Fabien Donal,,False,False
+ncf,2025,770,11/8/2025,55:30,NCF,Hannes Ulbrich,,False,True

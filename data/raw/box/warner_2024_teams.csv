@@ -1,0 +1,39 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+warner,2024,7801,8/22/2024,WARNER (,Warner (FL),1,7,14,2,9,2,4,10,19
+warner,2024,7801,8/22/2024,BREWTON-,Brewton-Parker (GA),1,8,16,3,5,1,5,6,9
+warner,2024,7802,8/24/2024,WARNER (,Warner (FL),0,0,1,3,6,0,1,5,8
+warner,2024,7802,8/24/2024,THOMAS,Thomas,5,10,22,0,1,3,4,2,9
+warner,2024,7803,8/27/2024,WARNER (,Warner (FL),1,5,16,1,1,1,3,6,22
+warner,2024,7803,8/27/2024,FLORIDA,Florida College (FL),1,4,6,2,7,5,5,7,13
+warner,2024,7804,8/31/2024,MONTREAT,Montreat (NC),1,4,13,1,1,3,5,0,0
+warner,2024,7804,8/31/2024,WARNER (,Warner (FL),3,4,8,1,4,0,1,0,0
+warner,2024,7807,9/18/2024,WU,Warner (FL),3,9,14,3,5,1,3,7,10
+warner,2024,7807,9/18/2024,AVE,Ave Maria (FL),3,7,22,3,5,2,9,5,10
+warner,2024,7808,9/21/2024,WEBBER I,Webber International,2,9,18,2,7,0,2,0,0
+warner,2024,7808,9/21/2024,WARNER (,Warner (FL),1,5,14,3,4,2,4,0,0
+warner,2024,7809,9/25/2024,WU,Warner (FL),1,5,7,0,6,1,2,8,15
+warner,2024,7809,9/25/2024,SEU,Southeastern,4,6,21,2,3,1,6,6,9
+warner,2024,7810,9/28/2024,SCAD SAV,SCAD Savannah,3,9,16,3,6,3,7,3,6
+warner,2024,7810,9/28/2024,WARNER (,Warner (FL),1,4,7,4,8,2,4,4,10
+warner,2024,7811,10/2/2024,WU,Warner (FL),0,3,5,6,11,0,2,5,8
+warner,2024,7811,10/2/2024,FNU,Florida National (FL),1,23,51,2,3,7,14,8,12
+warner,2024,7812,10/5/2024,AVE MARI,Ave Maria (FL),0,12,25,9,13,1,8,2,4
+warner,2024,7812,10/5/2024,WARNER (,Warner (FL),1,10,17,9,16,4,5,3,8
+warner,2024,7814,10/16/2024,WU,Warner (FL),0,1,1,4,10,2,2,2,6
+warner,2024,7814,10/16/2024,STU,St. Thomas,10,20,34,1,1,2,6,1,4
+warner,2024,7815,10/19/2024,WU,Warner (FL),2,2,7,5,10,1,2,9,9
+warner,2024,7815,10/19/2024,SCADSAV,SCAD Savannah,6,13,31,0,2,3,11,2,9
+warner,2024,7816,10/23/2024,FLORIDA,Florida Memorial (FL),1,5,15,2,2,3,10,5,9
+warner,2024,7816,10/23/2024,WARNER (,Warner (FL),2,3,6,1,8,3,5,2,2
+warner,2024,7817,10/26/2024,SOUTHEAS,Southeastern,2,9,18,4,7,3,5,4,5
+warner,2024,7817,10/26/2024,WARNER (,Warner (FL),0,7,11,4,9,2,4,3,4
+warner,2024,7818,10/30/2024,K,Keiser,3,11,20,1,2,6,10,0,0
+warner,2024,7818,10/30/2024,WARNER,Warner (FL),0,1,3,2,7,0,1,3,3
+warner,2024,7819,11/2/2024,WARNER (,Warner (FL),1,5,10,1,3,4,6,2,8
+warner,2024,7819,11/2/2024,NEW COLL,New College of Florida,1,4,16,2,5,1,5,5,9
+warner,2024,8007,11/4/2024,WU,Warner (FL),1,13,19,2,5,3,9,5,13
+warner,2024,8007,11/4/2024,WIU,Webber International,1,8,18,4,7,2,5,5,12
+warner,2024,8037,11/18/2024,CIU (SC),CIU (SC),1,8,22,0,0,4,7,5,10
+warner,2024,8037,11/18/2024,WU,Warner (FL),3,2,6,4,14,3,5,9,12
+warner,2024,8038,11/23/2024,CAROLINA,Carolina University,3,13,22,1,7,0,6,9,14
+warner,2024,8038,11/23/2024,WARNER (,Warner (FL),2,3,11,6,10,2,3,3,9

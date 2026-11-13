@@ -1,0 +1,64 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+avemaria,2026,7043,8/20/2026,56:11,AVE MARI,Brandon Gomez,"Fabio Marotti , Mateo Mencos",False,False
+avemaria,2026,7044,8/22/2026,31:59,CAROLINA,Djordy Lefevere,Phil Ketzscher,False,False
+avemaria,2026,7045,8/25/2026,5:57,AVE MARI,Sava Cadjenovic,Hayden Wysocki,False,False
+avemaria,2026,7045,8/25/2026,39:53,FLORIDA,Santiago Balza,,False,False
+avemaria,2026,7045,8/25/2026,74:16,AVE MARI,Fabio Marotti,Sava Cadjenovic,False,False
+avemaria,2026,7046,8/27/2026,66:12,AVE,Fabio Marotti,"Jose Jacquet , Andre Betioli",False,False
+avemaria,2026,7046,8/27/2026,74:20,AVE,Mateo Rolon,,False,False
+avemaria,2026,7047,9/1/2026,18:33,AVE,Mateo Rolon,,True,False
+avemaria,2026,7047,9/1/2026,24:32,AVE,Nikolas Briceno,,False,False
+avemaria,2026,7047,9/1/2026,53:05,AVE,Karl Sri,Mateo Rolon,False,False
+avemaria,2026,7047,9/1/2026,69:43,AVE,Caleb Jones,Chet Krushefski,False,False
+avemaria,2026,7047,9/1/2026,73:13,AVE,Sava Cadjenovic,,False,False
+avemaria,2026,7048,9/5/2026,22:16,AVE MARI,Karl Sri,Sava Cadjenovic,False,False
+avemaria,2026,7048,9/5/2026,41:00,AVE MARI,Mateo Rolon,,False,False
+avemaria,2026,7049,9/7/2026,0:11,AVE MARI,Daniel Bourgeois,"Sava Cadjenovic , Mateo Rolon",False,False
+avemaria,2026,7049,9/7/2026,11:08,TU,Ethan Moore,Franco Ghizzo,False,False
+avemaria,2026,7049,9/7/2026,37:58,TU,Andrew Lopez,Fabio Medici,False,False
+avemaria,2026,7049,9/7/2026,47:00,AVE MARI,Fabio Marotti,Landon Gomez,False,False
+avemaria,2026,7049,9/7/2026,56:16,TU,Team,,False,False
+avemaria,2026,7049,9/7/2026,78:42,TU,Jake Wright,Edward Sack,False,False
+avemaria,2026,7050,9/12/2026,34:47,AVE,Sava Cadjenovic,,False,False
+avemaria,2026,7050,9/12/2026,64:25,AVE,Mateo Rolon,,True,False
+avemaria,2026,7051,09/19/2026,41:07,ECKERD,Monty Clark,,False,False
+avemaria,2026,7051,09/19/2026,76:27,ECKERD,Gavin Spuler,,False,False
+avemaria,2026,7051,09/19/2026,81:54,ECKERD,Tristan Bassette,,False,False
+avemaria,2026,7051,09/19/2026,83:06,ECKERD,Marcio Costa,Connor Mackay,False,False
+avemaria,2026,7052,9/25/2026,40:22,FNU,Dylan Gibbs,"David Luque , Augusto Pugin",False,False
+avemaria,2026,7052,9/25/2026,51:06,AMU,Chet Krushefski,Timothy Brannock,False,False
+avemaria,2026,7052,9/25/2026,62:55,FNU,Juan Pugin,,False,False
+avemaria,2026,7053,9/30/2026,14:30,SEU,Thomas Hardouin,"Filipe Santana , Pablo Lobon",False,False
+avemaria,2026,7053,9/30/2026,27:37,SEU,Koren Klein,,False,False
+avemaria,2026,7053,9/30/2026,29:07,SEU,Koren Klein,Noah Murray-Hawkins,False,False
+avemaria,2026,7053,9/30/2026,48:29,SEU,Fabio De Paula,Adam Cooil,False,False
+avemaria,2026,7053,9/30/2026,59:12,SEU,Fabian Perez,,False,False
+avemaria,2026,7053,9/30/2026,76:47,SEU,Lennard Schneider,Ethan Otto,False,False
+avemaria,2026,7054,10/3/2026,5:43,STU,Luca Heusser,,False,False
+avemaria,2026,7054,10/3/2026,19:25,STU,Thiago Patto,Julien Laborde,False,False
+avemaria,2026,7054,10/3/2026,36:55,STU,Kerim Akpinar,Ellef Herstad,False,False
+avemaria,2026,7054,10/3/2026,41:32,STU,Kerim Akpinar,,False,False
+avemaria,2026,7054,10/3/2026,49:16,STU,Bautista Suarez Basalo,Julien Laborde,False,False
+avemaria,2026,7055,10/7/2026,39:26,KU,Joao Loureiro,Mikael Baisotti,False,False
+avemaria,2026,7055,10/7/2026,40:39,KU,Gabi Villafane,,True,False
+avemaria,2026,7055,10/7/2026,68:33,KU,Francis Bolland,Raul Cedillo,False,False
+avemaria,2026,7055,10/7/2026,70:50,KU,Raul Cedillo,Alejandro Molina-Casas,False,False
+avemaria,2026,7055,10/7/2026,74:33,KU,Alejandro Molina-Casas,"Sergio Padin-Rey , Victor Mairet",False,False
+avemaria,2026,7055,10/7/2026,81:22,AVE,Mateo Rolon,,False,False
+avemaria,2026,7056,10/10/2026,11:28,AVE,Sava Cadjenovic,Andre Betioli,False,False
+avemaria,2026,7056,10/10/2026,84:40,WU,Jackson Davenport,Xavier Lozada,False,False
+avemaria,2026,7057,10/15/2026,28:18,AVE,Sava Cadjenovic,Nikolas Briceno,False,False
+avemaria,2026,7057,10/15/2026,33:55,SCAD,Tim Rothe,,True,False
+avemaria,2026,7057,10/15/2026,35:21,AVE,Brandon Gomez,,False,False
+avemaria,2026,7057,10/15/2026,53:45,SCAD,Tim Rothe,,True,False
+avemaria,2026,7057,10/15/2026,73:28,SCAD,Lucas Braganca,"Lejs Plicanic , Moritz Prattes",False,False
+avemaria,2026,7058,10/17/2026,21:27,FMU,Sergio Alvarez,,False,False
+avemaria,2026,7058,10/17/2026,29:53,AMU,Sava Cadjenovic,,False,False
+avemaria,2026,7058,10/17/2026,69:28,FMU,Julio Lopez,Vicente Silva,False,False
+avemaria,2026,7059,10/21/2026,1:09,AVE,Mateo Rolon,,False,False
+avemaria,2026,7059,10/21/2026,11:04,WIU,Jose D'Lima,Vitalis Takawira Jr,False,False
+avemaria,2026,7059,10/21/2026,21:02,WIU,Jose D'Lima,,False,False
+avemaria,2026,7059,10/21/2026,50:50,AVE,Sava Cadjenovic,Mateo Rolon,False,False
+avemaria,2026,7059,10/21/2026,81:40,AVE,Nicholas Chowtee,Luis Mendoza,False,False
+avemaria,2026,7060,10/28/2026,61:18,NCF,Ducamel Jeannestin,,True,False
+avemaria,2026,7060,10/28/2026,79:49,AVE,Team,,False,False

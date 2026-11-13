@@ -24,6 +24,26 @@ def load_games(path="data/clean/games.csv"):
     return games
 
 
+def load_goals(path="data/clean/goals.csv"):
+    goals = pd.read_csv(path, parse_dates=["date"])
+    goals["team_name"] = goals["team"].map(TEAM_NAMES)
+    return goals
+
+
+def weather_table(games):
+    # does the heat change anything? group games by the day's high temperature
+    g = games[games["temp_max_f"].notna() & games["home_away"].isin(["home", "away"])].copy()
+    g["heat"] = pd.cut(g["temp_max_f"], [0, 80, 85, 90, 120],
+                       labels=["Under 80°F", "80-85°F", "85-90°F", "90°F+"])
+    g["total_goals"] = g["goals_for"] + g["goals_against"]
+    table = g.groupby("heat", observed=True).agg(
+        games=("result", "size"),
+        goals_per_game=("total_goals", "mean"),
+        shots_per_game=("shots_for", "mean"),
+    ).round(2)
+    return table.reset_index()
+
+
 def load_players(path="data/clean/players.csv"):
     players = pd.read_csv(path)
     players["team_name"] = players["team"].map(TEAM_NAMES)

@@ -1,0 +1,72 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+scad,2023,7165,8/17/2023,31:09,SCAD SAV,James Holmes,,False,False
+scad,2023,7165,8/17/2023,53:40,FAULKNER,Caio Pereira,,False,False
+scad,2023,7166,8/26/2023,32:21,SCAD SAV,Ryan Holmes,Tim Rothe,False,False
+scad,2023,7166,8/26/2023,40:47,SCAD SAV,Ryan Holmes,Tim Rothe,False,False
+scad,2023,7167,9/7/2023,40:55,THOMAS,Diego Azar,Connor Parry,False,False
+scad,2023,7167,9/7/2023,58:18,SCAD SAV,Fabian Ekblom,Tim Rothe,False,False
+scad,2023,7167,9/7/2023,66:49,THOMAS,Aaron Sindhar,James Hall,False,False
+scad,2023,7167,9/7/2023,80:09,SCAD SAV,Caio Lara,,False,False
+scad,2023,7167,9/7/2023,84:25,THOMAS,Diego Azar,Findlay Cook,False,False
+scad,2023,7255,9/13/2023,49:06,SCAD SAV,Ryan Holmes,,False,False
+scad,2023,7255,9/13/2023,89:27,WARNER (,Bryce Himes,,False,False
+scad,2023,7256,9/16/2023,4:59,SCAD SAV,Lewis Gamble,Ryan Holmes,False,False
+scad,2023,7256,9/16/2023,67:55,SCAD SAV,Ryan Holmes,Daire Russell,False,False
+scad,2023,7257,9/21/2023,26:33,KU,Timo Boomkens,Jack Casey,False,True
+scad,2023,7257,9/21/2023,43:51,KU,Gabi Villafane,,False,False
+scad,2023,7257,9/21/2023,58:09,KU,Alexander Steen,"Jack Casey , Gabi Villafane",False,False
+scad,2023,7257,9/21/2023,71:21,KU,Mikael Baisotti,"Belmin Ramdedovic , Chilli Casaubon",False,False
+scad,2023,7258,9/23/2023,54:51,SCAD,Ryan Holmes,Tim Rothe,False,False
+scad,2023,7258,9/23/2023,64:49,AVE,Levi Orlando,,False,False
+scad,2023,7258,9/23/2023,70:54,SCAD,Giovanny Lares,Lewis Gamble,False,False
+scad,2023,7259,9/27/2023,6:58,ST. THOM,Angelo Bernandes,Charles Bwanika,False,False
+scad,2023,7259,9/27/2023,35:52,ST. THOM,Noah Tolcachier,Guido Cacciabue,False,False
+scad,2023,7259,9/27/2023,57:06,ST. THOM,Angelo Bernandes,,False,False
+scad,2023,7259,9/27/2023,59:03,SCAD SAV,Ryan Holmes,Daire Russell,False,False
+scad,2023,7259,9/27/2023,69:13,ST. THOM,Hernando Suarez,,False,False
+scad,2023,7259,9/27/2023,72:41,ST. THOM,Angelo Bernandes,,False,False
+scad,2023,7259,9/27/2023,74:28,ST. THOM,Tomas Persico,Evan Bjerke,False,False
+scad,2023,7259,9/27/2023,82:34,SCAD SAV,Giovanny Lares,,False,False
+scad,2023,7259,9/27/2023,86:24,SCAD SAV,Daire Russell,,False,False
+scad,2023,7260,10/1/2023,72:20,SCAD SAV,Caio Lara,Tim Rothe,False,False
+scad,2023,7261,10/5/2023,36:14,SEU,Kory Nekoloff,,False,False
+scad,2023,7261,10/5/2023,56:51,SCAD,Kimi Husler,Lewis Gamble,False,False
+scad,2023,7261,10/5/2023,64:32,SEU,Edoardo Venutolo,Marko Pengili,False,False
+scad,2023,7261,10/5/2023,71:54,SEU,Kory Nekoloff,,False,False
+scad,2023,7261,10/5/2023,83:31,SEU,Victor Cavalcante,,False,False
+scad,2023,7262,10/7/2023,9:02,SCAD SAV,Phillip Holtgen,,False,False
+scad,2023,7262,10/7/2023,49:30,SCAD SAV,Ryan Holmes,Phillip Holtgen,False,False
+scad,2023,7262,10/7/2023,51:43,SCAD SAV,Giovanny Lares,Ryan Holmes,False,False
+scad,2023,7262,10/7/2023,64:28,WARNER (,Pablo Sanchez,Antonio Giovanni,False,False
+scad,2023,7262,10/7/2023,76:20,WARNER (,Leyton Shaw,,False,False
+scad,2023,7263,10/11/2023,2:08,SCAD SAV,Ryan Holmes,Lewis Gamble,False,False
+scad,2023,7263,10/11/2023,17:53,SCAD SAV,Ryan Holmes,Phillip Holtgen,False,False
+scad,2023,7263,10/11/2023,53:28,KEISER,Mikael Baisotti,,False,False
+scad,2023,7263,10/11/2023,81:55,KEISER,Aldair Chavez,Timo Boomkens,False,False
+scad,2023,7264,10/14/2023,7:56,SCAD SAV,Phillip Holtgen,Ryan Holmes,False,False
+scad,2023,7264,10/14/2023,21:59,SCAD SAV,Phillip Holtgen,"Caio Lara , Giovanny Lares",False,False
+scad,2023,7264,10/14/2023,34:13,SCAD SAV,Fabian Ekblom,Tim Rothe,False,False
+scad,2023,7264,10/14/2023,49:18,SCAD SAV,Giovanny Lares,Ryan Holmes,False,False
+scad,2023,7264,10/14/2023,62:34,SCAD SAV,Ryan Holmes,Jake Murphy,False,False
+scad,2023,7264,10/14/2023,65:06,SCAD SAV,Phillip Holtgen,,False,False
+scad,2023,7264,10/14/2023,70:21,AVE MARI,Padraic Pierson,Cade Williams,False,False
+scad,2023,7264,10/14/2023,86:47,SCAD SAV,Ryan Holmes,Fabian Ekblom,False,False
+scad,2023,7265,10/19/2023,30:35,STU,Guido Cacciabue,Nick In’t Zand,False,False
+scad,2023,7265,10/19/2023,40:54,SCAD SAV,Ryan Holmes,Phillip Holtgen,False,False
+scad,2023,7265,10/19/2023,47:55,STU,Guido Cacciabue,"Team , Lucas Caferra",False,False
+scad,2023,7265,10/19/2023,50:38,STU,Angelo Bernandes,Lucas Caferra,False,False
+scad,2023,7265,10/19/2023,80:28,STU,Angelo Bernandes,Niklas Hoener,False,False
+scad,2023,7266,10/22/2023,8:14,FMU,Brad Malik Tulley,Tramaine Lawson,False,False
+scad,2023,7266,10/22/2023,66:22,SCAD SAV,Ryan Holmes,,False,False
+scad,2023,7266,10/22/2023,80:58,FMU,Burak Cuban,Brad Malik Tulley,False,False
+scad,2023,7267,10/25/2023,32:09,WEBBER I,David Gomez,Alex Tarway,False,False
+scad,2023,7267,10/25/2023,54:00,WEBBER I,Ruben Marquez,Sebastian Lago,False,False
+scad,2023,7267,10/25/2023,72:26,WEBBER I,Nik Resnik,,False,False
+scad,2023,7268,10/28/2023,19:34,SCAD SAV,Ryan Holmes,Lewis Gamble,False,False
+scad,2023,7268,10/28/2023,45:00,SCAD SAV,Ryan Holmes,Lewis Gamble,False,False
+scad,2023,7268,10/28/2023,75:50,SOUTHEAS,Edoardo Venutolo,,False,False
+scad,2023,7268,10/28/2023,80:19,SOUTHEAS,Gianluca Contegno,Sebastian Rosica,False,False
+scad,2023,7464,11/4/2023,5:40,FMU,Brad Malik Tulley,Tramaine Lawson,False,False
+scad,2023,7464,11/4/2023,6:29,FMU,Brad Malik Tulley,Jahiem Rose,False,False
+scad,2023,7464,11/4/2023,67:44,FMU,Tyrieke Spaulding,,False,False
+scad,2023,7464,11/4/2023,81:08,FMU,Noah Link,Jahiem Rose,False,False

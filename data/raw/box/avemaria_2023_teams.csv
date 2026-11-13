@@ -1,0 +1,37 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+avemaria,2023,5249,8/25/2023,AVE MARI,Ave Maria (FL),2,5,12,1,1,1,3,3,6
+avemaria,2023,5249,8/25/2023,PROVIDEN,Providence (Mont.),4,9,13,1,3,2,4,3,6
+avemaria,2023,5250,8/27/2023,AVE,Ave Maria (FL),0,0,7,4,7,0,2,6,16
+avemaria,2023,5250,8/27/2023,ROCKY,Rocky Mountain,3,14,26,0,2,6,9,1,5
+avemaria,2023,5251,9/2/2023,AMU,Ave Maria (FL),2,3,7,4,5,3,7,10,20
+avemaria,2023,5251,9/2/2023,FNU,Florida National (FL,4,14,24,1,3,2,6,6,12
+avemaria,2023,5531,9/9/2023,JOHNSON,Johnson (Fla.),1,6,11,4,5,0,2,12,19
+avemaria,2023,5531,9/9/2023,AVE,Ave Maria (FL),1,10,14,2,5,0,2,7,14
+avemaria,2023,5322,9/13/2023,AMU,Ave Maria (FL),0,3,4,6,9,3,3,3,13
+avemaria,2023,5322,9/13/2023,SEU,Southeastern,3,20,28,0,0,3,4,8,16
+avemaria,2023,5323,9/16/2023,FMU,Florida Memorial (FL),3,14,31,1,1,5,11,8,15
+avemaria,2023,5323,9/16/2023,AVE,Ave Maria (FL),0,3,7,4,7,2,3,5,13
+avemaria,2023,5324,9/20/2023,AVE MARI,Ave Maria (FL),0,9,10,2,2,1,2,5,13
+avemaria,2023,5324,9/20/2023,WEBBER I,Webber International,1,12,14,1,1,3,6,4,10
+avemaria,2023,5325,9/23/2023,SCAD,SCAD Savannah,2,5,12,4,6,3,4,9,17
+avemaria,2023,5325,9/23/2023,AVE,Ave Maria (FL),1,7,10,2,5,1,2,5,11
+avemaria,2023,5326,9/27/2023,AMU,Ave Maria,0,0,4,2,5,1,3,5,13
+avemaria,2023,5326,9/27/2023,KU,Keiser,5,11,27,0,1,8,13,11,20
+avemaria,2023,5327,9/30/2023,AVE MARI,Ave Maria (FL),3,5,11,1,4,2,4,8,14
+avemaria,2023,5327,9/30/2023,WARNER (,Warner (FL),1,4,16,1,3,2,8,6,14
+avemaria,2023,5328,10/4/2023,STU,St. Thomas,2,16,27,2,2,4,7,6,12
+avemaria,2023,5328,10/4/2023,AVE,Ave Maria (FL),0,4,8,5,9,0,3,8,11
+avemaria,2023,5329,10/7/2023,SEU,Southeastern,8,9,22,0,2,2,4,11,12
+avemaria,2023,5329,10/7/2023,AVE,Ave Maria (FL),0,2,6,5,9,2,4,4,9
+avemaria,2023,5330,10/11/2023,AveMaria,Ave Maria (FL),0,3,6,1,1,3,3,4,8
+avemaria,2023,5330,10/11/2023,FLORIDA,Florida Memorial (FL),4,6,22,1,2,0,5,9,16
+avemaria,2023,5331,10/14/2023,AVE MARI,Ave Maria (FL),1,3,6,2,7,1,3,1,2
+avemaria,2023,5331,10/14/2023,SCAD SAV,SCAD Savannah,7,12,32,0,1,2,4,3,10
+avemaria,2023,5332,10/18/2023,WU,Warner (FL),0,1,2,2,6,2,4,5,9
+avemaria,2023,5332,10/18/2023,AVE,Ave Maria (FL),3,7,13,0,0,4,7,4,10
+avemaria,2023,5333,10/21/2023,KU,Keiser,1,7,9,1,2,5,8,5,12
+avemaria,2023,5333,10/21/2023,AVE,Ave Maria (FL),0,1,3,3,3,0,0,4,13
+avemaria,2023,5334,10/25/2023,AVE MARI,Ave Maria (FL),0,3,3,2,5,0,0,3,3
+avemaria,2023,5334,10/25/2023,STU,St. Thomas,3,10,17,2,2,3,5,6,11
+avemaria,2023,5335,10/28/2023,WIU,Webber International (FL),5,9,19,2,5,3,4,8,17
+avemaria,2023,5335,10/28/2023,AVE,Ave Maria (FL),2,7,15,3,6,4,8,6,9

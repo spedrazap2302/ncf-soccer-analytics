@@ -1,0 +1,77 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+scad,2026,11322,8/21/2026,8:48,GGC,Ousmane Fall,Pedro Alejandro,False,False
+scad,2026,11322,8/21/2026,11:07,GGC,Pedro Nunes,Djordje Djurasinovic,False,False
+scad,2026,11322,8/21/2026,18:03,SCAD,Kimi Husler,,False,False
+scad,2026,11322,8/21/2026,21:29,GGC,Ousmane Fall,,False,False
+scad,2026,11322,8/21/2026,26:15,GGC,Ousmane Fall,Luka Colic,False,False
+scad,2026,11322,8/21/2026,89:45,GGC,Pedro Nunes,,False,False
+scad,2026,11323,8/24/2026,12:27,LIFE,Vicente Cuquerella,,False,False
+scad,2026,11323,8/24/2026,25:20,SCAD,Lejs Plicanic,Lucas Braganca,False,False
+scad,2026,11323,8/24/2026,63:19,LIFE,Enrico Burigotto,Andrei Apostu,False,False
+scad,2026,11323,8/24/2026,66:03,LIFE,William Galli,,False,False
+scad,2026,11323,8/24/2026,68:04,LIFE,Andrei Apostu,Leonardo DiPaola,False,False
+scad,2026,11323,8/24/2026,74:29,LIFE,Enrico Burigotto,"Alejandro Contrera , Thomas Rodella",False,False
+scad,2026,11323,8/24/2026,88:30,LIFE,Thomas Rodella,,False,False
+scad,2026,11324,8/27/2026,19:53,FAULKNER,Juan Rojas,Julio Cesar,False,False
+scad,2026,11324,8/27/2026,53:35,FAULKNER,Leo Freire,"Asaph Silveira , Konsti Witte",False,False
+scad,2026,11324,8/27/2026,54:09,SCAD,Sebastian Gomez,Tim Rothe,False,False
+scad,2026,11324,8/27/2026,62:09,SCAD,Kimi Husler,Moritz Zettl,False,False
+scad,2026,11324,8/27/2026,67:17,FAULKNER,Bernardo Juca,Asaph Silveira,False,False
+scad,2026,11325,8/29/2026,17:29,MOBILE,Eugenio Cazares,Jireh Oyebamiji,False,False
+scad,2026,11325,8/29/2026,83:50,MOBILE,Noah Miller,,False,False
+scad,2026,11325,8/29/2026,85:33,MOBILE,Tiziano Klamler,Marcello Tacca,False,False
+scad,2026,11326,9/5/2026,26:18,UNION CO,Akim Soulemana,Patrick Taylor,False,False
+scad,2026,11326,9/5/2026,34:22,UNION CO,Carlos Honrubia,Jordan Blake,False,False
+scad,2026,11326,9/5/2026,47:52,SCAD SAV,Moritz Prattes,,False,False
+scad,2026,11327,9/7/2026,18:43,CUMBERLA,Leandro Nico Romero Protto,Conor McVeigh,False,False
+scad,2026,11327,9/7/2026,48:19,CUMBERLA,Leandro Nico Romero Protto,Dunsting Cohen Jr.,False,False
+scad,2026,11327,9/7/2026,69:41,CUMBERLA,Dunsting Cohen Jr.,Vitor Mendonca,False,False
+scad,2026,11327,9/7/2026,80:41,CUMBERLA,Eduardo Pedroza,Gabriel Canineu,False,False
+scad,2026,11328,09/15/2026,73:05,ERAU,Jhamaleek Porter,,True,False
+scad,2026,11329,9/20/2026,34:41,SCAD,Nicolas Lozano,,False,False
+scad,2026,11329,9/20/2026,35:40,CU,Callum Geoghegan,Wesley Mendoza,False,False
+scad,2026,11329,9/20/2026,47:16,CU,Juan Juarez,Rodrigo Lasso,False,False
+scad,2026,11329,9/20/2026,56:25,CU,David Barbakadze,Rodrigo Lasso,False,False
+scad,2026,11329,9/20/2026,73:56,CU,Kacper Wolicki,Rex Pearce,False,False
+scad,2026,11330,9/26/2026,13:22,WEBBER I,Jose D'Lima,Dylan Salomon,False,False
+scad,2026,11330,9/26/2026,21:57,SCAD SAV,Sebastian Gomez,,True,False
+scad,2026,11330,9/26/2026,30:28,SCAD SAV,Sebastian Gomez,Tim Rothe,False,False
+scad,2026,11330,9/26/2026,79:20,SCAD SAV,Sebastian Gomez,Tim Rothe,False,False
+scad,2026,11330,9/26/2026,81:32,SCAD SAV,Nicolas Lozano,,False,False
+scad,2026,11330,9/26/2026,83:30,SCAD SAV,Lucas Braganca,,False,False
+scad,2026,11331,10/3/2026,2:27,SCAD,Sebastian Gomez,"Moritz Zettl , Tim Rothe",False,False
+scad,2026,11331,10/3/2026,11:31,SCAD,Sebastian Gomez,"Moritz Zettl , Tim Rothe",False,False
+scad,2026,11331,10/3/2026,19:51,WU,Mauricio Delgado,Xavier Lozada,False,False
+scad,2026,11331,10/3/2026,32:45,WU,Xavier Lozada,,False,False
+scad,2026,11331,10/3/2026,43:52,SCAD,Team,,False,False
+scad,2026,11331,10/3/2026,82:55,SCAD,Daire Russell,Tim Rothe,False,False
+scad,2026,11333,10/9/2026,9:58,NCF,Jaden Williams,,False,False
+scad,2026,11333,10/9/2026,35:06,NCF,Ducamel Jeannestin,Andres Garcia,False,False
+scad,2026,11333,10/9/2026,71:50,SCAD,Wenzel Lindmoser,Moritz Prattes,False,False
+scad,2026,11333,10/9/2026,79:12,SCAD,Moritz Prattes,,False,False
+scad,2026,11334,10/15/2026,28:18,AVE,Sava Cadjenovic,Nikolas Briceno,False,False
+scad,2026,11334,10/15/2026,33:55,SCAD,Tim Rothe,,True,False
+scad,2026,11334,10/15/2026,35:21,AVE,Brandon Gomez,,False,False
+scad,2026,11334,10/15/2026,53:45,SCAD,Tim Rothe,,True,False
+scad,2026,11334,10/15/2026,73:28,SCAD,Lucas Braganca,"Lejs Plicanic , Moritz Prattes",False,False
+scad,2026,11335,10/17/2026,16:58,KU,Timo Boomkens,,False,False
+scad,2026,11335,10/17/2026,38:15,SCAD,Mika Friz,Marko Pranjic,False,False
+scad,2026,11335,10/17/2026,41:04,KU,Timo Boomkens,Mohammed Mouzoune,False,False
+scad,2026,11335,10/17/2026,51:43,KU,Xabi Souto,Timo Boomkens,False,False
+scad,2026,11337,10/24/2026,20:27,SCAD,Moritz Zettl,,False,False
+scad,2026,11337,10/24/2026,24:59,SCAD,Mika Friz,"Moritz Zettl , Marko Pranjic",False,False
+scad,2026,11337,10/24/2026,34:03,SCAD,Wenzel Lindmoser,,False,False
+scad,2026,11337,10/24/2026,45:39,FMU,Rafael Coronado,Brayan Rodriguez,False,False
+scad,2026,11337,10/24/2026,58:33,SCAD,Moritz Zettl,,False,False
+scad,2026,11337,10/24/2026,88:39,FMU,Santiago Medina,,False,False
+scad,2026,11332,10/31/2026,63:22,SEU,Tomas Gomes,Pablo Lobon,False,False
+scad,2026,11332,10/31/2026,75:33,SCAD,Moritz Prattes,,False,False
+scad,2026,11587,11/4/2026,17:30,SCAD,Lejs Plicanic,Marko Pranjic,False,False
+scad,2026,11587,11/4/2026,34:30,SCAD,Wenzel Lindmoser,Marko Pranjic,False,False
+scad,2026,11587,11/4/2026,40:41,SCAD,Simeon Dishman,Nicolas Lozano,False,False
+scad,2026,11587,11/4/2026,59:44,FMU,Gabriel Zapata,Rafael Coronado,False,False
+scad,2026,11587,11/4/2026,89:45,FMU,Frank Sanchez,Sebastian Arape,False,False
+scad,2026,11590,11/7/2026,12:58,STU,Angelo Bernardes,Julien Laborde,False,False
+scad,2026,11590,11/7/2026,70:33,STU,Julian Ramirez,,False,False
+scad,2026,11590,11/7/2026,87:37,STU,Angelo Bernardes,Julien Laborde,False,False
+scad,2026,11590,11/7/2026,88:10,STU,Julien Laborde,Maksym Osadchyi,False,False

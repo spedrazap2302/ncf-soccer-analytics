@@ -1,0 +1,78 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+fmu,2024,2968,8/21/2024,1:39,XULA,Leonardo Menzen,,False,False
+fmu,2024,2968,8/21/2024,6:49,XULA,Gustavo Oliveira,,False,False
+fmu,2024,2968,8/21/2024,29:26,XULA,Nasser Benbella,Julio Gruba,False,False
+fmu,2024,2968,8/21/2024,40:34,XULA,Nasser Benbella,Julio Gruba,False,False
+fmu,2024,2968,8/21/2024,41:35,XULA,Thomas Walker,Emilio Peguero,False,False
+fmu,2024,2968,8/21/2024,60:59,XULA,Nasser Benbella,Gustavo Oliveira,False,False
+fmu,2024,3027,9/4/2024,16:16,FMU,Johan Arevalo,Carlos Montenegro,False,False
+fmu,2024,3027,9/4/2024,29:36,FNU,Nicolas Martinez,Ricardo Delwing,False,False
+fmu,2024,3027,9/4/2024,33:40,FMU,Johan Arevalo,,False,False
+fmu,2024,3027,9/4/2024,41:22,FNU,Juan Pugin,,False,False
+fmu,2024,3027,9/4/2024,79:07,FMU,Thomas Bailey,Johan Arevalo,False,False
+fmu,2024,2970,9/14/2024,25:00,FMU,Frank Sanchez,Johan Arevalo,False,False
+fmu,2024,2970,9/14/2024,64:29,WIU,Jonathan Mindegaard,,False,False
+fmu,2024,2970,9/14/2024,65:18,WIU,Jesus Solarbe,,False,False
+fmu,2024,2970,9/14/2024,77:03,WIU,Lucianno Vera,"Jesus Solarbe , Nelu Calcai",False,False
+fmu,2024,3026,9/18/2024,23:03,FMU,Michel Klein,Team,False,False
+fmu,2024,3026,9/18/2024,29:15,FMU,Johan Arevalo,,False,False
+fmu,2024,2971,9/21/2024,63:56,STU,Nick In't Zand,,False,False
+fmu,2024,2973,9/25/2024,11:07,KEISER,Manex Landa,Manu Cordeviola,False,False
+fmu,2024,2973,9/25/2024,47:51,KEISER,Mikael Baisotti,Ian Garnero,False,False
+fmu,2024,2973,9/25/2024,58:37,KEISER,Mikael Baisotti,Santiago Nebot,False,False
+fmu,2024,2973,9/25/2024,68:41,KEISER,Gabi Villafane,Fami Konate,False,False
+fmu,2024,2973,9/25/2024,70:05,KEISER,Francis Bolland,"Timo Boomkens , Mikael Baisotti",False,False
+fmu,2024,2973,9/25/2024,73:17,KEISER,Santiago Duque,,False,False
+fmu,2024,2973,9/25/2024,84:50,KEISER,Gabi Villafane,,False,False
+fmu,2024,2973,9/25/2024,88:52,KEISER,Chili Casaubon,Fami Konate,False,False
+fmu,2024,2972,10/1/2024,15:08,FMU,Rafael Coronado,Frank Sanchez,False,False
+fmu,2024,2972,10/1/2024,26:06,FMU,Rafael Coronado,Luis Gutierrez,False,False
+fmu,2024,2972,10/1/2024,55:54,FMU,Adam Gonzalez,,False,False
+fmu,2024,2972,10/1/2024,62:17,FMU,Johan Arevalo,Adam Gonzalez,False,False
+fmu,2024,2972,10/1/2024,68:42,FMU,Johan Arevalo,,False,False
+fmu,2024,2972,10/1/2024,82:35,FMU,Carlos Montenegro,Frank Sanchez,False,False
+fmu,2024,2977,10/16/2024,27:45,FMU,Rafael Coronado,Cesar Herrero,False,False
+fmu,2024,2977,10/16/2024,65:02,FMU,Burak Cuban,Carlo Lopez,False,False
+fmu,2024,2977,10/16/2024,73:29,FMU,Adam Gonzalez,Burak Cuban,False,False
+fmu,2024,2977,10/16/2024,87:25,AveMaria,Mateo Rolon,,False,False
+fmu,2024,2978,10/19/2024,14:05,FNU,Marcos Bakale,"Henrique Jordao , Jose Luis Hurtado",False,False
+fmu,2024,2978,10/19/2024,68:10,FMU,Cesar Herrero,"Diego Olguín , Carlos Montenegro",False,False
+fmu,2024,2975,10/21/2024,7:44,FMU,Carlos Montenegro,,False,False
+fmu,2024,2975,10/21/2024,12:42,Webber,Lucianno Vera,,True,False
+fmu,2024,2975,10/21/2024,26:12,FMU,Adam Gonzalez,Juan Rizo,False,False
+fmu,2024,2975,10/21/2024,41:10,Webber,Marco De Rosa,,True,False
+fmu,2024,2975,10/21/2024,62:50,FMU,Carlo Lopez,Frank Sanchez,False,False
+fmu,2024,2975,10/21/2024,70:43,FMU,Frank Sanchez,,False,False
+fmu,2024,2975,10/21/2024,75:55,Webber,David Gomez,,False,False
+fmu,2024,2979,10/23/2024,5:55,FLORIDA,Frank Sanchez,Rafael Coronado,False,False
+fmu,2024,2979,10/23/2024,54:58,WARNER (,Chad McAuliff,Vlad Andersen,False,False
+fmu,2024,2979,10/23/2024,89:51,WARNER (,Filip Mo,Vlad Andersen,False,False
+fmu,2024,2980,10/26/2024,19:35,NCF,Fabian Donal,Robbie Lloyd Jones,False,False
+fmu,2024,2980,10/26/2024,39:19,FMU,Johan Arevalo,Rafael Coronado,False,False
+fmu,2024,2980,10/26/2024,45:39,FMU,Johan Arevalo,Adam Gonzalez,False,False
+fmu,2024,2980,10/26/2024,68:27,NCF,Andrew Scott,Jose Gutierrez,False,False
+fmu,2024,2980,10/26/2024,81:00,FMU,Rafael Coronado,Johan Arevalo,False,False
+fmu,2024,2980,10/26/2024,89:45,FMU,Rafael Coronado,Johan Arevalo,False,False
+fmu,2024,2976,10/28/2024,10:48,FMU,Diego Olguín,,False,False
+fmu,2024,2976,10/28/2024,16:17,FMU,Rafael Coronado,Johan Arevalo,False,False
+fmu,2024,2976,10/28/2024,29:25,FMU,Johan Arevalo,,False,False
+fmu,2024,2976,10/28/2024,36:55,Keiser,Alessio Silva,Timo Boomkens,False,False
+fmu,2024,2976,10/28/2024,56:16,Keiser,Gabi Villafane,Justin Bangura,False,False
+fmu,2024,2976,10/28/2024,78:24,Keiser,Santiago Duque,,False,False
+fmu,2024,2981,10/30/2024,19:25,FMU,Team,,False,False
+fmu,2024,2981,10/30/2024,57:05,SEU,Enrico Lazzari,Jman Dieng,False,False
+fmu,2024,2981,10/30/2024,72:16,SEU,William Durrance,Nico Munari,False,False
+fmu,2024,2982,11/2/2024,4:40,FMU,Johan Arevalo,Frank Sanchez,False,False
+fmu,2024,2982,11/2/2024,28:07,FMU,Adam Gonzalez,,False,False
+fmu,2024,2982,11/2/2024,31:48,SCADSAV,Mario Goic,,True,False
+fmu,2024,2982,11/2/2024,63:34,FMU,Juan Rizo,,False,False
+fmu,2024,2982,11/2/2024,71:28,FMU,Adam Gonzalez,,False,False
+fmu,2024,2982,11/2/2024,81:43,SCADSAV,Raffael Mohr,Leon Grube,False,False
+fmu,2024,2982,11/2/2024,84:14,SCADSAV,Mario Goic,,True,False
+fmu,2024,2982,11/2/2024,84:48,FMU,Carlos Montenegro,,False,False
+fmu,2024,3093,11/7/2024,25:47,FLORIDA,Rafael Coronado,Johan Arevalo,False,False
+fmu,2024,3093,11/7/2024,39:59,STU,Guido Cacciabue,Team,False,False
+fmu,2024,3093,11/7/2024,58:27,STU,Francisco Tolaba,,False,False
+fmu,2024,3093,11/7/2024,68:54,STU,Angelo Bernandes,,False,False
+fmu,2024,3093,11/7/2024,72:59,STU,Angelo Bernandes,Team,False,False
+fmu,2024,3093,11/7/2024,75:04,STU,Nicolas Lund,,False,False

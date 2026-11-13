@@ -1,0 +1,70 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+stthomas,2023,9828,8/26/2023,5:29,STU,Tomas Persico,,False,False
+stthomas,2023,9828,8/26/2023,24:10,STU,Guido Cacciabue,,False,False
+stthomas,2023,9828,8/26/2023,68:33,FNU,Bautista Dominguez,,False,False
+stthomas,2023,9828,8/26/2023,69:46,STU,Osaghae Oghogho,Angelo Bernandes,False,False
+stthomas,2023,9828,8/26/2023,82:45,FNU,Blas Barrancos,"Manuel Rodriguez , Santiago Leaniz",False,False
+stthomas,2023,9829,9/1/2023,13:50,STU,Osaghae Oghogho,"Goncalo Reis , Guido Cacciabue",False,False
+stthomas,2023,9829,9/1/2023,42:38,LWC,Sadam Masereka,,True,False
+stthomas,2023,9829,9/1/2023,45:37,STU,Guido Cacciabue,,False,False
+stthomas,2023,9829,9/1/2023,87:06,STU,Nicolas Lund,"Charles Bwanika , Team",False,False
+stthomas,2023,9830,9/4/2023,34:08,MBU,Sergej Misic,"Jack Ridley , Marko Dordevic",False,False
+stthomas,2023,9830,9/4/2023,85:35,STU,Tomas Persico,,False,False
+stthomas,2023,9830,9/4/2023,87:13,MBU,Jack Griffiths,,False,False
+stthomas,2023,9830,9/4/2023,89:44,STU,Lucas Caferra,Niklas Hoener,False,False
+stthomas,2023,9831,9/13/2023,18:57,ST. THOM,Guido Cacciabue,Tomas Persico,False,False
+stthomas,2023,9831,9/13/2023,22:06,ST. THOM,Osaghae Oghogho,Niklas Hoener,False,False
+stthomas,2023,9832,9/16/2023,2:25,STU,Osaghae Oghogho,Angelo Bernandes,False,False
+stthomas,2023,9832,9/16/2023,6:47,STU,Osaghae Oghogho,"Team , Pascal Agostini",False,False
+stthomas,2023,9832,9/16/2023,37:49,STU,Benjamin Stein,,False,False
+stthomas,2023,9832,9/16/2023,54:18,STU,Federico Testoni,Evan Bjerke,False,False
+stthomas,2023,9832,9/16/2023,89:32,STU,Alvaro Bode,,False,False
+stthomas,2023,9833,9/20/2023,68:04,STU,Joaquin Domber,,False,False
+stthomas,2023,9833,9/20/2023,90:00,STU,Benjamin Stein,Hernando Suarez,False,False
+stthomas,2023,9834,9/23/2023,57:30,STU,Guido Cacciabue,,False,False
+stthomas,2023,9835,9/27/2023,6:58,STU,Angelo Bernandes,Charles Bwanika,False,False
+stthomas,2023,9835,9/27/2023,35:52,STU,Noah Tolcachier,Guido Cacciabue,False,False
+stthomas,2023,9835,9/27/2023,57:06,STU,Angelo Bernandes,,False,False
+stthomas,2023,9835,9/27/2023,59:03,SCAD SAV,Ryan Holmes,Daire Russell,False,False
+stthomas,2023,9835,9/27/2023,69:13,STU,Hernando Suarez,,False,False
+stthomas,2023,9835,9/27/2023,72:41,STU,Angelo Bernandes,,False,False
+stthomas,2023,9835,9/27/2023,74:28,STU,Tomas Persico,Evan Bjerke,False,False
+stthomas,2023,9835,9/27/2023,82:34,SCAD SAV,Giovanny Lares,,False,False
+stthomas,2023,9835,9/27/2023,86:24,SCAD SAV,Daire Russell,,False,False
+stthomas,2023,9836,9/30/2023,27:30,STU,Tomas Persico,"Osaghae Oghogho , Team",False,False
+stthomas,2023,9836,9/30/2023,68:43,STU,Tomas Persico,Angelo Bernandes,False,False
+stthomas,2023,9837,10/4/2023,43:48,STU,Federico Testoni,Nicolas Lund,False,False
+stthomas,2023,9837,10/4/2023,61:47,STU,Nicolas Lund,Federico Testoni,False,False
+stthomas,2023,9838,10/7/2023,5:15,STU,Nick In’t Zand,,False,False
+stthomas,2023,9838,10/7/2023,69:32,STU,Tomas Persico,Pascal Agostini,False,False
+stthomas,2023,9838,10/7/2023,78:40,FLORIDA,Brad Malik Tulley,Jeremiah Johnson,False,False
+stthomas,2023,9838,10/7/2023,81:03,STU,Guido Cacciabue,,False,False
+stthomas,2023,9839,10/11/2023,23:22,STU,Team,,False,False
+stthomas,2023,9839,10/11/2023,36:23,STU,Benjamin Stein,Nicolas Lund,False,False
+stthomas,2023,9839,10/11/2023,51:41,SEU,Chris Thorpe,,False,False
+stthomas,2023,9839,10/11/2023,54:38,STU,Guido Cacciabue,,False,False
+stthomas,2023,9839,10/11/2023,68:12,STU,Tomas Persico,Guido Cacciabue,False,False
+stthomas,2023,9840,10/14/2023,76:17,STU,Noah Tolcachier,Guido Cacciabue,False,False
+stthomas,2023,9841,10/19/2023,30:35,STU,Guido Cacciabue,Nick In’t Zand,False,False
+stthomas,2023,9841,10/19/2023,40:54,SCAD SAV,Ryan Holmes,Phillip Holtgen,False,False
+stthomas,2023,9841,10/19/2023,47:55,STU,Guido Cacciabue,"Team , Lucas Caferra",False,False
+stthomas,2023,9841,10/19/2023,50:38,STU,Angelo Bernandes,Lucas Caferra,False,False
+stthomas,2023,9841,10/19/2023,80:28,STU,Angelo Bernandes,Niklas Hoener,False,False
+stthomas,2023,9842,10/21/2023,48:48,ST. THOM,Teo Rondon,Niklas Hoener,False,False
+stthomas,2023,9843,10/25/2023,27:40,STU,Federico Testoni,Osaghae Oghogho,False,False
+stthomas,2023,9843,10/25/2023,63:41,STU,Joaquin Domber,Beknur Nurlanbek,False,False
+stthomas,2023,9843,10/25/2023,80:04,STU,Guido Cacciabue,Team,False,False
+stthomas,2023,9844,10/28/2023,59:50,KU,Chilli Casaubon,"Jakob Schnitzler , Santiago Nebot",False,False
+stthomas,2023,9845,11/7/2023,9:24,FMU,Burak Cuban,Thomas Cole,False,False
+stthomas,2023,9845,11/7/2023,9:36,STU,Angelo Bernandes,Tomas Persico,False,False
+stthomas,2023,9845,11/7/2023,49:58,STU,Guido Cacciabue,,False,False
+stthomas,2023,10042,11/10/2023,10:29,STU,Tomas Persico,Hernando Suarez,False,False
+stthomas,2023,10042,11/10/2023,14:38,KEISER,Mikael Baisotti,Jack Casey,False,False
+stthomas,2023,10044,11/18/2023,43:24,STU,Guido Cacciabue,Evan Bjerke,False,False
+stthomas,2023,10055,11/27/2023,21:41,ST. THOM,Guido Cacciabue,,False,False
+stthomas,2023,10055,11/27/2023,55:21,ST. THOM,Guido Cacciabue,Joaquin Domber,False,False
+stthomas,2023,10055,11/27/2023,77:46,ST. THOM,Alvaro Bode,Guido Cacciabue,False,False
+stthomas,2023,10055,11/27/2023,78:22,ST. THOM,Osaghae Oghogho,Joaquin Domber,False,False
+stthomas,2023,10055,11/27/2023,82:19,MISSOURI,Sam Green,,False,False
+stthomas,2023,10058,11/30/2023,7:50,DALTON S,Guilherme Franca,Jack Stainrod,False,False
+stthomas,2023,10058,11/30/2023,43:18,ST. THOM,Team,,False,False

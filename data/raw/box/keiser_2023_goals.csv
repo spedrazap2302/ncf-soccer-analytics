@@ -1,0 +1,75 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+keiser,2023,12718,8/24/2023,51:47,KU,Alessio Silva,Jack Casey,False,False
+keiser,2023,12718,8/24/2023,72:28,KU,Jakob Schnitzler,Alessio Silva,False,True
+keiser,2023,12720,8/26/2023,27:43,LIFE,Lars Van Der Steen,,True,False
+keiser,2023,12722,9/1/2023,12:54,RMS,Maddox Gallia,Tor Swann,False,False
+keiser,2023,12722,9/1/2023,52:34,RMS,Igor Soares,,True,False
+keiser,2023,12722,9/1/2023,75:10,KU,Mikael Baisotti,,True,False
+keiser,2023,12722,9/1/2023,81:39,KU,Mikael Baisotti,,True,False
+keiser,2023,12723,9/3/2023,13:28,LWC,Michael Acquah,Felix Poschmann,False,True
+keiser,2023,12723,9/3/2023,62:50,LWC,Sadam Masereka,,True,False
+keiser,2023,12723,9/3/2023,68:02,LWC,Sebastian Tregarthen,"Sadam Masereka , Jean-Wikes Dutreuil",False,False
+keiser,2023,12723,9/3/2023,81:04,KU,Team,,False,False
+keiser,2023,12725,9/13/2023,3:43,FMU,Kervens Josheph,Bryce Dickerson,False,False
+keiser,2023,12725,9/13/2023,49:27,KU,Alessio Silva,Malte Schmale,False,True
+keiser,2023,12725,9/13/2023,52:40,KU,Elias Jassim,Malte Schmale,False,False
+keiser,2023,12725,9/13/2023,83:46,FMU,Noah Link,Tramaine Lawson,False,False
+keiser,2023,12727,9/21/2023,26:33,KU,Timo Boomkens,Jack Casey,False,True
+keiser,2023,12727,9/21/2023,43:51,KU,Gabi Villafane,,False,False
+keiser,2023,12727,9/21/2023,58:09,KU,Alexander Steen,"Jack Casey , Gabi Villafane",False,False
+keiser,2023,12727,9/21/2023,71:21,KU,Mikael Baisotti,"Belmin Ramdedovic , Chilli Casaubon",False,False
+keiser,2023,12728,9/23/2023,13:07,WIU,Ruben Marquez,Marco De Rosa,False,False
+keiser,2023,12728,9/23/2023,20:59,KU,Jakob Schnitzler,,True,False
+keiser,2023,12728,9/23/2023,55:33,KU,Timo Boomkens,Gabi Villafane,False,True
+keiser,2023,12728,9/23/2023,73:45,KU,Gabi Villafane,,True,False
+keiser,2023,12726,9/16/2023,71:38,KU,Mikael Baisotti,Tristan Silva,False,False
+keiser,2023,12726,9/16/2023,73:13,SEU,Roque Viegas Jr.,,False,False
+keiser,2023,12730,9/27/2023,52:25,KU,Tristan Silva,Aldair Chavez,False,True
+keiser,2023,12730,9/27/2023,62:07,KU,Malte Schmale,Jack Casey,False,False
+keiser,2023,12730,9/27/2023,70:36,KU,Aldair Chavez,"Emanuel Teixeira , Jack Casey",False,True
+keiser,2023,12730,9/27/2023,81:53,KU,Aldair Chavez,Noah Southwell,False,False
+keiser,2023,12730,9/27/2023,84:58,KU,Fami Konate,,False,False
+keiser,2023,12731,9/30/2023,27:30,STU,Tomas Persico,"Osaghae Oghogho , Team",False,True
+keiser,2023,12731,9/30/2023,68:43,STU,Tomas Persico,Angelo Bernandes,False,False
+keiser,2023,12733,10/4/2023,28:02,KU,Mikael Baisotti,,True,False
+keiser,2023,12733,10/4/2023,31:11,KU,Finn Syson,Mikael Baisotti,False,False
+keiser,2023,12733,10/4/2023,48:34,KU,Mikael Baisotti,"Aldair Chavez , Jakob Schnitzler",False,False
+keiser,2023,12733,10/4/2023,49:49,KU,Aldair Chavez,Mikael Baisotti,False,False
+keiser,2023,12733,10/4/2023,57:32,KU,Aldair Chavez,,False,False
+keiser,2023,12733,10/4/2023,78:56,KU,Aldair Chavez,Belmin Ramdedovic,False,False
+keiser,2023,12735,10/7/2023,2:04,KU,Aldair Chavez,Timo Boomkens,False,False
+keiser,2023,12735,10/7/2023,31:42,KU,Mikael Baisotti,"Aldair Chavez , Gabi Villafane",False,False
+keiser,2023,12735,10/7/2023,38:16,WIU,Noah Setterberg,Jesus Sanchez,False,True
+keiser,2023,12735,10/7/2023,48:53,WIU,Mathew Loo,,False,False
+keiser,2023,12735,10/7/2023,51:46,KU,Fami Konate,Gabi Villafane,False,False
+keiser,2023,12735,10/7/2023,87:19,KU,Aldair Chavez,,False,False
+keiser,2023,12736,10/11/2023,2:08,SCAD,Ryan Holmes,Lewis Gamble,False,False
+keiser,2023,12736,10/11/2023,17:53,SCAD,Ryan Holmes,Phillip Holtgen,False,False
+keiser,2023,12736,10/11/2023,53:28,KU,Mikael Baisotti,,True,False
+keiser,2023,12736,10/11/2023,81:55,KU,Aldair Chavez,Timo Boomkens,False,False
+keiser,2023,12737,10/14/2023,36:58,KU,Team,,False,False
+keiser,2023,12737,10/14/2023,40:50,KU,Aldair Chavez,Jakob Schnitzler,False,False
+keiser,2023,12737,10/14/2023,68:49,KU,Finn Syson,"Alessio Silva , Jack Casey",False,False
+keiser,2023,12737,10/14/2023,80:17,KU,Jack Casey,,False,False
+keiser,2023,12738,10/18/2023,59:44,KU,Finn Syson,Aldair Chavez,False,False
+keiser,2023,12738,10/18/2023,63:32,SEU,Victor Cavalcante,,True,False
+keiser,2023,12738,10/18/2023,73:11,KU,Mikael Baisotti,Jack Casey,False,False
+keiser,2023,12739,10/21/2023,28:53,KU,Mikael Baisotti,Gabi Villafane,False,False
+keiser,2023,12740,10/25/2023,65:44,KU,Jack Casey,,False,False
+keiser,2023,12740,10/25/2023,66:00,KU,Malte Schmale,,False,False
+keiser,2023,12740,10/25/2023,79:23,KU,Belmin Ramdedovic,Scott Wood,False,False
+keiser,2023,12741,10/28/2023,59:50,KU,Chilli Casaubon,"Jakob Schnitzler , Santiago Nebot",False,False
+keiser,2023,12742,11/7/2023,26:21,KU,Fami Konate,Santiago Duque,False,False
+keiser,2023,12742,11/7/2023,39:20,SEU,Kory Nekoloff,Marko Pengili,False,False
+keiser,2023,12742,11/7/2023,48:53,SEU,Marko Pengili,,False,False
+keiser,2023,12742,11/7/2023,89:46,KU,Kael Richards,Belmin Ramdedovic,False,True
+keiser,2023,12742,11/7/2023,104:17,KU,Fami Konate,Aldair Chavez,False,False
+keiser,2023,13130,11/10/2023,10:29,STU,Tomas Persico,Hernando Suarez,False,True
+keiser,2023,13130,11/10/2023,14:38,KU,Mikael Baisotti,Jack Casey,False,False
+keiser,2023,12744,11/18/2023,24:21,KU,Mikael Baisotti,,True,False
+keiser,2023,12744,11/18/2023,38:54,FNU,Bautista Dominguez,Marcos Bakale,False,False
+keiser,2023,12744,11/18/2023,62:33,FNU,Manuel Rodriguez,Fabio Zandona Tajra,False,False
+keiser,2023,12744,11/18/2023,88:07,KU,Timo Boomkens,Fami Konate,False,False
+keiser,2023,12746,11/28/2023,35:50,KU,Mikael Baisotti,,True,False
+keiser,2023,12746,11/28/2023,57:11,IUTECH,Douglas Appiah Kubi,Felix Jung,False,True
+keiser,2023,12746,11/28/2023,86:33,IUTECH,Warren Moss,,False,False

@@ -29,13 +29,20 @@ GAME_LABELS = {
 
 @st.cache_data
 def get_data():
-    return eda.load_games(), eda.load_players()
+    return eda.load_games(), eda.load_players(), eda.load_goals()
+
+
+@st.cache_data
+def get_backtest(games, half_life):
+    # slow (it rebuilds the model for every game), so only run it once
+    return sc.backtest(games, half_life=half_life)
 
 
 try:
-    games, players = get_data()
+    games, players, goals = get_data()
 except FileNotFoundError:
-    st.error("Data files not found. Run `python scraper.py` and then `python clean.py` first.")
+    st.error("Data files not found. Run `python scraper.py`, `python boxscores.py`, `python weather.py` "
+             "and then `python clean.py` first.")
     st.stop()
 
 name_to_key = {v: k for k, v in eda.TEAM_NAMES.items()}
@@ -49,6 +56,9 @@ picked = st.sidebar.multiselect("Seasons to learn from", seasons, default=[2025,
                                 help="Recent seasons show current form. Add more seasons for a bigger sample.")
 conf_only = st.sidebar.toggle("Conference games only", value=True,
                               help="Conference games are the fairest comparison: every team plays the same opponents.")
+recent = st.sidebar.toggle("Count recent games more", value=True,
+                           help="A game from a year ago counts half as much as one from this week.")
+half_life = 365 if recent else None
 st.sidebar.caption("New College joined the Sun Conference in 2024 (2023 was friendlies). "
                    "2026 is the current season.")
 
@@ -57,7 +67,7 @@ if not picked:
     st.stop()
 
 g = sc.pick_games(games, picked, conf_only)
-prof = sc.team_profile(g)
+prof = sc.team_profile(g, half_life)
 if us not in prof.index:
     st.warning(f"{our_name} has no games for these settings. Try other seasons or turn off 'Conference games only'.")
     st.stop()
@@ -159,9 +169,41 @@ with tab_scout:
         for label, rank, value in weak:
             st.error(f"**{label}**: {value:.1f} (#{rank} of {total})")
 
+    # --- when goals happen ---
+    st.subheader(f"⏱️ When {opp_name} scores and concedes")
+    timing = sc.goal_timing(goals, opp, picked, conf_only)
+    if timing.sum().sum() == 0:
+        st.info("No box scores for these settings.")
+    else:
+        t = timing.reset_index().melt(id_vars="window", var_name="Type", value_name="Goals")
+        t["Share"] = t["Goals"] / t.groupby("Type")["Goals"].transform("sum").replace(0, 1) * 100
+        st.altair_chart(
+            alt.Chart(t).mark_bar().encode(
+                x=alt.X("window:N", sort=sc.WINDOW_NAMES, title="Minute of the game", axis=alt.Axis(labelAngle=0)),
+                xOffset=alt.XOffset("Type:N", sort=["Goals scored", "Goals allowed"]),
+                y=alt.Y("Share:Q", title="% of their goals"),
+                color=alt.Color("Type:N", scale=alt.Scale(domain=["Goals scored", "Goals allowed"],
+                                                          range=[THEM_COLOR, "#7b8794"]),
+                                legend=alt.Legend(orient="top", title=None)),
+                tooltip=[alt.Tooltip("window:N", title="Minutes"), "Type", "Goals",
+                         alt.Tooltip("Share:Q", format=".0f", title="% of their goals")],
+            ).properties(height=260),
+            width="stretch")
+        st.caption(f"From {timing['Goals scored'].sum()} goals scored and {timing['Goals allowed'].sum()} allowed "
+                   "in the box scores of the seasons you picked.")
+
+    # --- who to watch ---
+    st.subheader(f"👀 Who to watch on {opp_name}")
+    danger = sc.dangerous_players(goals, opp, picked, conf_only)
+    if danger.empty:
+        st.info("No goals in the box scores for these settings.")
+    else:
+        d = danger.reset_index().rename(columns={"index": "Player"})
+        st.dataframe(d, hide_index=True, width="stretch")
+
     # --- game plan ---
     st.subheader("📋 Game plan")
-    for tip in sc.game_plan(prof, us, opp):
+    for tip in sc.game_plan(prof, us, opp, timing):
         st.markdown(f"- {tip}")
 
     with st.expander("How is the chance to win calculated?"):
@@ -172,12 +214,13 @@ with tab_scout:
             "(and the other way around), adjusted for home field.\n"
             "3. A **Poisson distribution** turns expected goals into the chance of every score from 0-0 to 10-10, "
             "and we add up the wins, ties and losses.\n\n"
-            "**Does it work?** We trained it on 2024–2025 and predicted 2026 conference games it had never seen.")
-        bt = sc.backtest(games)
+            "**Does it work?** For every 2025 and 2026 conference game, we ran the model using only the "
+            "games played before that day (like a coach preparing for it) and checked what happened.")
+        bt = get_backtest(games, half_life)
         b1, b2 = st.columns(2)
         b1.metric("Model picked the right result", f"{bt['correct'].mean() * 100:.0f}%", help=f"{len(bt)} games")
-        test = games[(games["season"] == 2026) & games["conference_game"] & games["home_away"].isin(["home", "away"])]
-        home_rule = ((test["home_away"] == "home") == (test["result"] == "W")).mean() * 100
+        ha = bt[bt["home_away"].isin(["home", "away"])]
+        home_rule = ((ha["home_away"] == "home") == (ha["actual"] == "Win")).mean() * 100
         b2.metric("Just guessing 'home team wins'", f"{home_rule:.0f}%")
         st.caption("Small samples (about 20 games per team) mean the numbers are a guide, not a guarantee.")
 
@@ -279,6 +322,27 @@ with tab_wins:
         hc2.caption(f"Home teams also score {home_row['goals_for_pg']:.1f} goals per game vs "
                     f"{away_row['goals_for_pg']:.1f} away.")
 
+    st.subheader("Does the heat matter?")
+    st.caption("Game-day high temperature from the Open-Meteo weather API, at the home team's field.")
+    heat = eda.weather_table(g)
+    if heat.empty:
+        st.info("No weather for these settings.")
+    else:
+        st.altair_chart(
+            alt.Chart(heat).mark_bar(size=50).encode(
+                x=alt.X("heat:N", sort=list(heat["heat"]), title="Game-day high", axis=alt.Axis(labelAngle=0)),
+                y=alt.Y("goals_per_game:Q", title="Goals per game (both teams)"),
+                color=alt.value(US_COLOR),
+                tooltip=[alt.Tooltip("heat:N", title="High"), alt.Tooltip("goals_per_game:Q", format=".2f",
+                         title="Goals per game"), alt.Tooltip("games:Q", title="Team-games")],
+            ).properties(height=260),
+            width="stretch")
+        most = heat.loc[heat["goals_per_game"].idxmax()]
+        fewest = heat.loc[heat["goals_per_game"].idxmin()]
+        st.info(f"**Takeaway:** the most goals come on {most['heat']} days ({most['goals_per_game']:.1f} per game) "
+                f"and the fewest on {fewest['heat']} days ({fewest['goals_per_game']:.1f}). The smallest group has "
+                f"only {heat['games'].min()} team-games, so treat this as a hint, not a rule.")
+
 # =====================================================================
 # 4. PLAYERS
 # =====================================================================
@@ -330,13 +394,19 @@ with tab_data:
     st.markdown(
         "- Scraped with `scraper.py` from the stats page of each Sun Conference school's athletics website "
         "(New College, Keiser, St. Thomas, SCAD Savannah, Southeastern, Florida Memorial, Webber, Ave Maria, Warner).\n"
+        "- Box scores of every game scraped with `boxscores.py` (goal minutes, scorers, assists, fouls).\n"
+        "- Game-day weather from the **Open-Meteo** historical weather API with `weather.py`.\n"
         "- Cleaned with `clean.py`: names fixed, dates unified, scores split into for/against, "
-        "conference games tagged.\n"
-        f"- **{len(games)} games** and **{len(players)} player seasons**, 2023 to 2026.")
+        "conference games tagged, box scores and weather matched to each game.\n"
+        f"- **{len(games)} games**, **{len(goals)} goals** with the minute and scorer, and "
+        f"**{len(players)} player seasons**, 2023 to 2026.")
 
     st.subheader("Missing data")
-    st.markdown("After cleaning there are **no empty cells**. The gaps are whole games: "
-                "New College has no 2023 conference games (it joined in 2024), and 2026 is still being played.")
+    st.markdown("The main stats have **no empty cells** after cleaning. The gaps are whole games: "
+                "New College has no 2023 conference games (it joined in 2024), and 2026 is still being played. "
+                f"Box score extras are missing for {games['fouls_for'].isna().sum()} games, and weather is missing for "
+                f"{games['temp_max_f'].isna().sum()} games played away from the 9 conference fields (we only know "
+                "where those 9 fields are).")
     counts = eda.games_per_team_season(games).reset_index().melt(id_vars="team_name", var_name="season",
                                                                  value_name="games")
     st.altair_chart(

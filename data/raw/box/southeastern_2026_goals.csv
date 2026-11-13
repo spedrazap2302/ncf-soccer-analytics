@@ -1,0 +1,60 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+southeastern,2026,10368,8/22/2026,66:27,SEU,Tapiwa Kufakurowa,"Pablo Lobon , Lennard Schneider",False,False
+southeastern,2026,10368,8/22/2026,79:10,SEU,Koren Klein,Noah Murray-Hawkins,False,False
+southeastern,2026,10370,8/29/2026,5:01,SEU,Koren Klein,Pablo Lobon,False,False
+southeastern,2026,10370,8/29/2026,12:30,CU,Ollie Jagroop,Izan Garcia Gancedo,False,False
+southeastern,2026,10370,8/29/2026,22:44,CU,Izan Garcia Gancedo,,True,False
+southeastern,2026,10370,8/29/2026,66:03,CU,Alessandro Martinez,,False,False
+southeastern,2026,10370,8/29/2026,75:01,SEU,Pablo Lobon,Miguel Londono,False,False
+southeastern,2026,10371,8/31/2026,26:43,SEU,Pablo Lobon,Koren Klein,False,False
+southeastern,2026,10371,8/31/2026,57:15,GGC,Pedro Nunes,"Ousmane Fall , Francisco Osorio",False,False
+southeastern,2026,10372,9/7/2026,42:20,SMC,Yahir Rivera,Jaime Castro,False,False
+southeastern,2026,10372,9/7/2026,49:05,SEU,Fabian Perez,,False,False
+southeastern,2026,10372,9/7/2026,51:39,SEU,Fabio De Paula,"Koren Klein , Pablo Lobon",False,False
+southeastern,2026,10372,9/7/2026,62:37,SEU,Fabio De Paula,Filipe Santana,False,False
+southeastern,2026,10373,9/8/2026,65:26,SEU,Koren Klein,Thomas Andrade Hardouin,False,False
+southeastern,2026,10523,9/19/2026,10:29,SEU,Thomas Andrade Hardouin,,False,False
+southeastern,2026,10523,9/19/2026,26:33,SEU,Filipe Santana,"Thomas Andrade Hardouin , Bruno Almeida",False,False
+southeastern,2026,10523,9/19/2026,71:07,SEU,Pablo Lobon,"Tomas Gomes , Koren Klein",False,False
+southeastern,2026,10374,9/22/2026,3:43,SEU,Pablo Lobon,,False,False
+southeastern,2026,10374,9/22/2026,33:32,SEU,Koren Klein,"Fabian Perez , Miguel Londono",False,False
+southeastern,2026,10374,9/22/2026,38:37,FNU,Michael Olszewski,,True,False
+southeastern,2026,10375,9/25/2026,6:33,SEU,Koren Klein,"Pablo Lobon , JP Quaresma",False,False
+southeastern,2026,10375,9/25/2026,10:24,SEU,Koren Klein,,False,False
+southeastern,2026,10375,9/25/2026,88:49,SEU,Thomas Hardouin,,True,False
+southeastern,2026,10376,9/30/2026,14:30,SEU,Thomas Hardouin,"Filipe Santana , Pablo Lobon",False,False
+southeastern,2026,10376,9/30/2026,27:37,SEU,Koren Klein,,False,False
+southeastern,2026,10376,9/30/2026,29:07,SEU,Koren Klein,Noah Murray-Hawkins,False,False
+southeastern,2026,10376,9/30/2026,48:29,SEU,Fabio De Paula,Adam Cooil,False,False
+southeastern,2026,10376,9/30/2026,59:12,SEU,Fabian Perez,,False,False
+southeastern,2026,10376,9/30/2026,76:47,SEU,Lennard Schneider,Ethan Otto,False,False
+southeastern,2026,10377,10/3/2026,24:13,SEU,Thomas Hardouin,Filipe Santana,False,False
+southeastern,2026,10377,10/3/2026,45:52,FMU,Frank Sanchez,,False,False
+southeastern,2026,10377,10/3/2026,78:01,SEU,Ricardo Agote Perez,,False,False
+southeastern,2026,10379,10/10/2026,16:18,SEU,Thomas Hardouin,"Adam Cooil , Filipe Santana",False,False
+southeastern,2026,10379,10/10/2026,26:04,WIU,Dylan Salomon,,True,False
+southeastern,2026,10380,10/14/2026,76:34,KU,Raul Cedillo,"Mikael Baisotti , Santiago Duque",False,False
+southeastern,2026,10381,10/17/2026,10:34,NCF,Ducamel Jeannestin,"Micah Nelson , Cuba Soerensen",False,False
+southeastern,2026,10381,10/17/2026,14:30,SEU,Tomas Gomes,,True,False
+southeastern,2026,10381,10/17/2026,18:43,SEU,Koren Klein,,False,False
+southeastern,2026,10381,10/17/2026,31:53,SEU,Thomas Hardouin,,False,False
+southeastern,2026,10381,10/17/2026,62:44,NCF,Micah Nelson,Cameron Johnson,False,False
+southeastern,2026,10381,10/17/2026,76:46,NCF,Angel Frias,Cameron Johnson,False,False
+southeastern,2026,10381,10/17/2026,81:23,SEU,Pablo Lobon,,False,False
+southeastern,2026,10382,10/24/2026,28:55,WU,Vance Wheeler,Xavier Lozada,False,False
+southeastern,2026,10382,10/24/2026,64:27,SEU,Filipe Santana,,False,False
+southeastern,2026,10382,10/24/2026,68:02,SEU,Tomas Gomes,"Koren Klein , Thomas Hardouin",False,False
+southeastern,2026,10382,10/24/2026,85:50,WU,Wade Bishop,Xavier Lozada,False,False
+southeastern,2026,10383,10/28/2026,52:25,STU,Julien Laborde,Manuel Dominguez,False,False
+southeastern,2026,10383,10/28/2026,68:36,SEU,Adam Cooil,Miguel Londono,False,False
+southeastern,2026,10383,10/28/2026,76:34,STU,Ellef Herstad,Okan Erkocu,False,False
+southeastern,2026,10533,10/31/2026,63:22,SEU,Tomas Gomes,Pablo Lobon,False,False
+southeastern,2026,10533,10/31/2026,75:33,SCAD,Moritz Prattes,,False,False
+southeastern,2026,10384,11/4/2026,4:50,SEU,Koren Klein,Pablo Lobon,False,False
+southeastern,2026,10384,11/4/2026,14:28,SEU,Koren Klein,Noah Murray-Hawkins,False,False
+southeastern,2026,10384,11/4/2026,30:57,NCF,Cameron Johnson,,True,False
+southeastern,2026,10384,11/4/2026,38:44,NCF,Micah Nelson,,False,False
+southeastern,2026,10384,11/4/2026,62:08,SEU,Pablo Lobon,"Miguel Londono , JP Quaresma",False,False
+southeastern,2026,10384,11/4/2026,63:47,SEU,João Rubens,Miguel Londono,False,False
+southeastern,2026,10384,11/4/2026,85:56,SEU,Pablo Lobon,,True,False
+southeastern,2026,10384,11/4/2026,86:57,SEU,Owen Nelson,,True,False

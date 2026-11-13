@@ -1,0 +1,33 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+ncf,2026,1119,8/22/2026,NCF,New College of Florida,1,2,5,9,11,0,2,4,9
+ncf,2026,1119,8/22/2026,FAULKNER,Faulkner (AL),2,13,21,0,1,10,15,3,4
+ncf,2026,1121,9/5/2026,NCF,New College of Florida,2,5,7,1,4,1,2,6,12
+ncf,2026,1121,9/5/2026,GGC,Georgia Gwinnett,5,5,16,1,2,7,11,2,13
+ncf,2026,1122,9/7/2026,NCF,New College of Florida,3,0,7,4,8,0,1,14,28
+ncf,2026,1122,9/7/2026,DSC,Dalton State (GA),3,8,19,0,1,3,11,7,18
+ncf,2026,1124,9/11/2026,FLORIDA,Florida College (FL),0,2,9,3,6,1,3,4,7
+ncf,2026,1124,9/11/2026,NCF,New College of Florida,5,7,18,1,4,0,2,1,8
+ncf,2026,1125,9/16/2026,NCF,New College of Florida,1,7,15,3,7,3,5,4,11
+ncf,2026,1125,9/16/2026,FNU,Florida National (FL),4,14,24,1,4,4,9,4,9
+ncf,2026,1126,9/19/2026,FL POLY,Florida Polytechnic University,1,5,12,3,7,3,5,5,13
+ncf,2026,1126,9/19/2026,NCF,New College of Florida,1,6,22,1,3,2,6,3,9
+ncf,2026,1128,9/22/2026,SFBC,South Florida Bible College,0,2,3,5,9,0,0,1,4
+ncf,2026,1128,9/22/2026,NCF,New College of Florida,11,23,36,1,2,8,11,4,10
+ncf,2026,1129,9/26/2026,WU,Warner (FL),1,4,9,3,5,1,5,6,12
+ncf,2026,1129,9/26/2026,NCF,New College of Florida,1,9,13,0,2,2,3,10,18
+ncf,2026,1130,9/30/2026,KU,Keiser,3,9,16,1,2,2,7,7,11
+ncf,2026,1130,9/30/2026,NCF,New College of Florida,3,3,7,4,7,4,6,8,15
+ncf,2026,1131,10/3/2026,NCF,New College of Florida,3,4,10,3,3,1,2,8,17
+ncf,2026,1131,10/3/2026,WIU,Webber International (FL),2,5,7,1,2,1,4,8,15
+ncf,2026,1132,10/9/2026,NCF,New College of Florida,2,5,11,2,4,3,4,5,10
+ncf,2026,1132,10/9/2026,SCAD,SCAD Savannah,2,6,23,1,5,2,10,7,10
+ncf,2026,1133,10/14/2026,STU,St. Thomas,1,12,22,1,2,3,8,7,14
+ncf,2026,1133,10/14/2026,NCF,New College of Florida,1,5,8,2,6,0,6,9,14
+ncf,2026,1134,10/17/2026,NCF,New College of Florida,3,5,15,1,4,1,4,7,12
+ncf,2026,1134,10/17/2026,SEU,Southeastern,4,7,16,1,3,1,3,6,9
+ncf,2026,1135,10/21/2026,NCF,New College of Florida,2,5,22,1,3,2,11,2,2
+ncf,2026,1135,10/21/2026,FMU,Florida Memorial (FL),1,3,13,1,6,1,7,7,11
+ncf,2026,1136,10/28/2026,AVE,Ave Maria (FL),1,5,8,5,8,3,4,4,14
+ncf,2026,1136,10/28/2026,NCF,New College of Florida,1,8,19,2,2,2,6,8,12
+ncf,2026,1344,11/4/2026,NCF,New College of Florida,2,6,11,0,1,4,5,4,7
+ncf,2026,1344,11/4/2026,SEU,Southeastern,6,5,17,1,2,2,3,3,7

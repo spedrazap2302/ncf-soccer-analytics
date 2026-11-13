@@ -1,0 +1,49 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+webber,2024,10152,9/7/2024,64:52,NEW COLL,Matthew Dynarski,Andrew Scott,False,False
+webber,2024,10152,9/7/2024,79:02,WEBBER I,Tyler Keating,,False,False
+webber,2024,10153,9/14/2024,25:00,FMU,Frank Sanchez,Johan Arevalo,False,False
+webber,2024,10153,9/14/2024,64:29,WIU,Jonathan Mindegaard,,False,False
+webber,2024,10153,9/14/2024,65:18,WIU,Jesus Solarbe,,False,False
+webber,2024,10153,9/14/2024,77:03,WIU,Lucianno Vera,"Jesus Solarbe , Nelu Calcai",False,False
+webber,2024,10154,9/16/2024,7:16,WEBBER I,Jesus Solarbe,Marco De Rosa,False,False
+webber,2024,10154,9/16/2024,68:23,WEBBER I,Connor Wood,,False,False
+webber,2024,10155,9/18/2024,8:56,STU,Bouget Bouzis,,False,False
+webber,2024,10155,9/18/2024,88:19,STU,Guido Cacciabue,,False,False
+webber,2024,10156,9/21/2024,39:56,WEBBER I,Sho Furukawa,Thiago Silva,False,False
+webber,2024,10156,9/21/2024,49:39,WEBBER I,Jesus Solarbe,,False,False
+webber,2024,10156,9/21/2024,86:20,WARNER (,Filip Mo,,False,False
+webber,2024,10157,9/25/2024,37:35,WIU,Miguel de Silva,,False,False
+webber,2024,10157,9/25/2024,43:11,SCAD,Michael O'Brien,,False,False
+webber,2024,10157,9/25/2024,78:46,SCAD,Moritz Prattes,Raffael Mohr,False,False
+webber,2024,10157,9/25/2024,83:22,SCAD,Raffael Mohr,,False,False
+webber,2024,10158,9/28/2024,57:34,FLORIDA,Yao Bleoussi,James Mwakyonde,False,False
+webber,2024,10158,9/28/2024,76:56,WEBBER I,Jesus Solarbe,,False,False
+webber,2024,10158,9/28/2024,87:50,WEBBER I,Jesus Solarbe,,False,False
+webber,2024,10159,10/5/2024,20:20,KEISER,Francis Bolland,Ian Garnero,False,False
+webber,2024,10159,10/5/2024,65:55,KEISER,Jakob Schnitzler,Mikael Baisotti,False,False
+webber,2024,10162,10/16/2024,20:11,SCAD SAV,Tim Rothe,Michael O'Brien,False,False
+webber,2024,10162,10/16/2024,36:27,SCAD SAV,Raffael Mohr,Tim Rothe,False,False
+webber,2024,10162,10/16/2024,47:59,SCAD SAV,German Moreno,Tim Rothe,False,False
+webber,2024,10162,10/16/2024,60:06,SCAD SAV,Danny Palma,,False,False
+webber,2024,10162,10/16/2024,62:10,SCAD SAV,Moritz Prattes,Tim Rothe,False,False
+webber,2024,10163,10/19/2024,88:07,WIU,Jesus Perez,Gian Luca Fink,False,False
+webber,2024,10256,10/21/2024,7:44,FMU,Carlos Montenegro,,False,False
+webber,2024,10256,10/21/2024,12:42,Webber,Lucianno Vera,,True,False
+webber,2024,10256,10/21/2024,26:12,FMU,Adam Gonzalez,Juan Rizo,False,False
+webber,2024,10256,10/21/2024,41:10,Webber,Marco De Rosa,,True,False
+webber,2024,10256,10/21/2024,62:50,FMU,Carlo Lopez,Frank Sanchez,False,False
+webber,2024,10256,10/21/2024,70:43,FMU,Frank Sanchez,,False,False
+webber,2024,10256,10/21/2024,75:55,Webber,David Gomez,,False,False
+webber,2024,10164,10/23/2024,11:09,WIU,Miguel de Silva,"Dylan Hawley , David Poledda",False,False
+webber,2024,10164,10/23/2024,16:03,WIU,Jesus Perez,,False,False
+webber,2024,10164,10/23/2024,23:42,FNU,Henrique Jordao,Patrick De Oliveira,False,False
+webber,2024,10164,10/23/2024,30:45,FNU,Team,,False,False
+webber,2024,10164,10/23/2024,48:13,WIU,Lucianno Vera,,True,False
+webber,2024,10164,10/23/2024,75:40,FNU,Marcos Bakale,,False,False
+webber,2024,10165,10/27/2024,15:22,STU,Nicolas Lund,Lorenzo DiMercurio,False,False
+webber,2024,10165,10/27/2024,16:03,STU,Nicolas Lund,Hugo Rego,False,False
+webber,2024,10268,11/4/2024,26:17,WIU,Jonathan Mindegaard,KJ Mann,False,False
+webber,2024,10268,11/4/2024,68:31,WU,Vlad Andersen,,False,False
+webber,2024,10275,11/7/2024,8:47,SEU,Arthur Bello,,False,False
+webber,2024,10275,11/7/2024,20:16,WIU,Gian Luca Fink,Lucianno Vera,False,False
+webber,2024,10275,11/7/2024,105:35,SEU,Kory Nekoloff,,False,False

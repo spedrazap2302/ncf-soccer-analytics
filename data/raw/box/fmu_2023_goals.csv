@@ -1,0 +1,72 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+fmu,2023,2573,8/20/2023,4:55,FNU,Blas Barrancos,Bautista Dominguez,False,False
+fmu,2023,2573,8/20/2023,24:55,FMU,Felix Paberger,,False,False
+fmu,2023,2573,8/20/2023,65:59,FNU,Bautista Dominguez,,False,False
+fmu,2023,2575,9/1/2023,37:00,FMU,Geovannie Lake,Brad Malik Tulley,False,False
+fmu,2023,2575,9/1/2023,42:17,MBU,Sean Bannon,Jack Griffiths,False,False
+fmu,2023,2576,9/4/2023,3:46,PBA,Nicklas Clausen,Giancarlo Dostilio,False,False
+fmu,2023,2576,9/4/2023,22:00,FMU,Felix Paberger,,False,False
+fmu,2023,2576,9/4/2023,49:41,FMU,Jeremiah Johnson,,False,False
+fmu,2023,2576,9/4/2023,56:34,FMU,Thomas Cole,Matthis Couinet,False,False
+fmu,2023,2576,9/4/2023,61:54,FMU,Geovannie Lake,Thomas Cole,False,False
+fmu,2023,2576,9/4/2023,64:56,PBA,Giancarlo Dostilio,Jared Brown,False,False
+fmu,2023,2577,9/13/2023,3:43,FMU,Kervens Josheph,Bryce Dickerson,False,False
+fmu,2023,2577,9/13/2023,49:27,KU,Alessio Silva,Noah Southwell,False,False
+fmu,2023,2577,9/13/2023,52:40,KU,Elias Jassim,Alessio Silva,False,False
+fmu,2023,2577,9/13/2023,83:46,FMU,Noah Link,Tramaine Lawson,False,False
+fmu,2023,2578,9/16/2023,21:04,FMU,Jeremiah Johnson,Kervens Joseph,False,False
+fmu,2023,2578,9/16/2023,39:57,FMU,Brad Malik Tulley,,False,False
+fmu,2023,2578,9/16/2023,74:38,FMU,Brad Malik Tulley,Andres Rojas Garbanzo,False,False
+fmu,2023,2580,9/23/2023,57:30,STU,Guido Cacciabue,,False,False
+fmu,2023,2581,9/27/2023,41:31,FMU,Jahiem Rose,Luis Constantini,False,False
+fmu,2023,2581,9/27/2023,73:18,SEU,Kory Nekoloff,Edward Alderson,False,False
+fmu,2023,2581,9/27/2023,76:49,FMU,Felix Paberger,,False,False
+fmu,2023,2582,10/1/2023,72:20,SCAD SAV,Caio Lara,Tim Rothe,False,False
+fmu,2023,2583,10/4/2023,19:47,WEBBER I,Ruben Marquez,,False,False
+fmu,2023,2583,10/4/2023,49:45,WEBBER I,Mathew Loo,,False,False
+fmu,2023,2583,10/4/2023,52:55,WEBBER I,Ruben Marquez,,False,False
+fmu,2023,2583,10/4/2023,63:14,WEBBER I,Noah Setterberg,,False,False
+fmu,2023,2584,10/7/2023,5:15,STU,Nick In’t Zand,,False,False
+fmu,2023,2584,10/7/2023,69:32,STU,Tomas Persico,Pascal Agostini,False,False
+fmu,2023,2584,10/7/2023,78:40,FLORIDA,Brad Malik Tulley,Geovannie Lake,False,False
+fmu,2023,2584,10/7/2023,81:03,STU,Guido Cacciabue,,False,False
+fmu,2023,2680,10/9/2023,10:03,WARNER (,Deven Ingley,Carson Hoben,False,False
+fmu,2023,2680,10/9/2023,25:45,FLORIDA,Brad Malik Tulley,,False,False
+fmu,2023,2680,10/9/2023,44:49,FLORIDA,Geovannie Lake,Brad Malik Tulley,False,False
+fmu,2023,2680,10/9/2023,54:50,FLORIDA,Geovannie Lake,Jeremiah Johnson,False,False
+fmu,2023,2585,10/11/2023,13:54,FLORIDA,Geovannie Lake,Jeremiah Johnson,False,False
+fmu,2023,2585,10/11/2023,57:01,FLORIDA,Jeremiah Johnson,Brad Malik Tulley,False,False
+fmu,2023,2585,10/11/2023,62:26,FLORIDA,Geovannie Lake,,False,False
+fmu,2023,2585,10/11/2023,69:26,FLORIDA,Andres Rojas Garbanzo,Alan Vilas Boas,False,False
+fmu,2023,2586,10/14/2023,36:58,KU,Team,,False,False
+fmu,2023,2586,10/14/2023,40:50,KU,Aldair Chavez,Jakob Schnitzler,False,False
+fmu,2023,2586,10/14/2023,68:49,KU,Finn Syson,"Alessio Silva , Jack Casey",False,False
+fmu,2023,2586,10/14/2023,80:17,KU,Jack Casey,,False,False
+fmu,2023,2587,10/18/2023,5:24,FMU,Geovannie Lake,Sam Richards,False,False
+fmu,2023,2587,10/18/2023,13:17,FMU,Burak Cuban,Brad Malik Tulley,False,False
+fmu,2023,2587,10/18/2023,29:59,WEBBER,Gabe Shelton,Mathew Loo,False,False
+fmu,2023,2587,10/18/2023,33:56,FMU,Thomas Cole,,False,False
+fmu,2023,2587,10/18/2023,50:21,FMU,Geovannie Lake,Zach Stokes,False,False
+fmu,2023,2587,10/18/2023,78:12,FMU,Noah Link,Andres Rojas Garbanzo,False,False
+fmu,2023,2587,10/18/2023,79:32,WEBBER,Ruben Marquez,,False,False
+fmu,2023,2588,10/22/2023,8:14,FMU,Brad Malik Tulley,Tramaine Lawson,False,False
+fmu,2023,2588,10/22/2023,66:22,SCAD SAV,Ryan Holmes,,False,False
+fmu,2023,2588,10/22/2023,80:58,FMU,Burak Cuban,Brad Malik Tulley,False,False
+fmu,2023,2589,10/25/2023,20:59,FMU,Matthis Couinet,Tibo Gobet,False,False
+fmu,2023,2589,10/25/2023,44:44,FMU,Kervens Joseph,,False,False
+fmu,2023,2589,10/25/2023,57:52,SEU,Murilo Ramos,Gianluca Contegno,False,False
+fmu,2023,2589,10/25/2023,62:52,SEU,Victor Cavalcante,,False,False
+fmu,2023,2589,10/25/2023,79:48,SEU,Victor Cavalcante,,False,False
+fmu,2023,2590,10/28/2023,4:15,FMU,Thomas Cole,Jeremiah Johnson,False,False
+fmu,2023,2590,10/28/2023,18:30,FMU,Alejandro Caicedo,Thomas Cole,False,False
+fmu,2023,2590,10/28/2023,39:49,FMU,Jasen Velken,,False,False
+fmu,2023,2590,10/28/2023,49:22,FMU,Brad Malik Tulley,,False,False
+fmu,2023,2590,10/28/2023,68:38,FMU,Brad Malik Tulley,Luis Constantini,False,False
+fmu,2023,2590,10/28/2023,69:55,FMU,Kervens Joseph,Brad Malik Tulley,False,False
+fmu,2023,2736,11/4/2023,5:40,FMU,Brad Malik Tulley,Tramaine Lawson,False,False
+fmu,2023,2736,11/4/2023,6:29,FMU,Brad Malik Tulley,Jahiem Rose,False,False
+fmu,2023,2736,11/4/2023,67:44,FMU,Tyrieke Spaulding,,False,False
+fmu,2023,2736,11/4/2023,81:08,FMU,Noah Link,Jahiem Rose,False,False
+fmu,2023,2737,11/7/2023,9:24,FMU,Burak Cuban,Thomas Cole,False,False
+fmu,2023,2737,11/7/2023,9:36,STU,Angelo Bernandes,Tomas Persico,False,False
+fmu,2023,2737,11/7/2023,49:58,STU,Guido Cacciabue,,False,False

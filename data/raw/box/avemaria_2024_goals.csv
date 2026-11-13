@@ -1,0 +1,45 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+avemaria,2024,5908,8/24/2024,55:25,AVE MARI,Padraic Pierson,Andre Betioli,False,False
+avemaria,2024,5908,8/24/2024,62:49,AVE MARI,Andre Betioli,,False,False
+avemaria,2024,5908,8/24/2024,73:19,AVE MARI,Padraic Pierson,,False,False
+avemaria,2024,5908,8/24/2024,79:11,AVE MARI,Grant Goduti,Jerron Dopwell,False,False
+avemaria,2024,5909,8/31/2024,10:49,AVE MARI,Andre Betioli,Anderson Duggan,False,False
+avemaria,2024,5909,8/31/2024,53:09,FLORIDA,James Mwakyonde,Jhon Solis,False,False
+avemaria,2024,5909,8/31/2024,55:22,FLORIDA,Jhon Solis,James Mwakyonde,False,False
+avemaria,2024,5910,9/3/2024,52:41,LIFE,Wilfred Tchoupa Kamd,Manuel Carrillo,False,False
+avemaria,2024,5910,9/3/2024,84:06,LIFE,Thomas Rodella,Ervin Sula,False,False
+avemaria,2024,5910,9/3/2024,85:35,LIFE,Ervin Sula,"Diego Pereira , Thomas Rodella",False,False
+avemaria,2024,5912,9/14/2024,1:51,SEU,Colton Eliasen,Murilo Ramos,False,False
+avemaria,2024,5912,9/14/2024,23:58,AVE,Edwin Parraga,Balsa Medenica,False,False
+avemaria,2024,5912,9/14/2024,71:22,SEU,Victor Cavalcante,,False,False
+avemaria,2024,5912,9/14/2024,82:15,SEU,Arthur Bello,,False,False
+avemaria,2024,5913,9/18/2024,23:58,WU,Joseph Street,,False,False
+avemaria,2024,5913,9/18/2024,38:08,AVE,Mateo Rolon,Jael Parraga,False,False
+avemaria,2024,5913,9/18/2024,41:42,WU,Bryce Himes,Chad McAuliff,False,False
+avemaria,2024,5913,9/18/2024,82:08,WU,Vlad Andersen,,False,False
+avemaria,2024,5913,9/18/2024,82:49,AVE,Mateo Rolon,Nikolas Briceno,False,False
+avemaria,2024,5913,9/18/2024,85:54,AVE,Sava Cadjenovic,Jerron Dopwell,False,False
+avemaria,2024,5914,9/21/2024,78:26,NCF,Andrew Scott,,False,False
+avemaria,2024,5915,9/25/2024,58:48,STU,Guido Cacciabue,,False,False
+avemaria,2024,5916,9/28/2024,64:25,FNU,Jose Luis Hurtado,Christian Omar Herna,False,False
+avemaria,2024,5916,9/28/2024,68:20,FNU,Diogo De Grutolla Ra,Patrick De Oliveira,False,False
+avemaria,2024,5917,10/5/2024,17:06,WARNER (,Filip Mo,Vlad Andersen,False,False
+avemaria,2024,5920,10/16/2024,27:45,FMU,Rafael Coronado,Cesar Herrero,False,False
+avemaria,2024,5920,10/16/2024,65:02,FMU,Burak Cuban,Carlo Lopez,False,False
+avemaria,2024,5920,10/16/2024,73:29,FMU,Adam Gonzalez,Burak Cuban,False,False
+avemaria,2024,5920,10/16/2024,87:25,AveMaria,Mateo Rolon,,False,False
+avemaria,2024,5921,10/19/2024,29:47,KU,Mikael Baisotti,,True,False
+avemaria,2024,5921,10/19/2024,33:00,AMU,Sava Cadjenovic,Mateo Rolon,False,False
+avemaria,2024,5921,10/19/2024,48:19,AMU,Mateo Rolon,Jael Parraga,False,False
+avemaria,2024,5921,10/19/2024,71:34,KU,Aldair Chavez,Ian Garnero,False,False
+avemaria,2024,5921,10/19/2024,80:28,KU,Ian Garnero,,False,False
+avemaria,2024,6175,10/21/2024,4:50,AVE,Jael Parraga,,False,False
+avemaria,2024,5922,10/24/2024,10:54,SCAD,Daire Russell,Tim Rothe,False,False
+avemaria,2024,5922,10/24/2024,54:09,SCAD,Caio Lara,,False,False
+avemaria,2024,5922,10/24/2024,84:45,AVE,Levi Orlando,Luca Viana,False,False
+avemaria,2024,5922,10/24/2024,89:21,SCAD,Mario Goic,,False,False
+avemaria,2024,5924,11/2/2024,21:05,AVE MARI,Sava Cadjenovic,Team,False,False
+avemaria,2024,5924,11/2/2024,25:16,STU,Nicolas Lund,Brian Schiegg,False,False
+avemaria,2024,5924,11/2/2024,60:11,STU,Bouget Bouzis,Guido Cacciabue,False,False
+avemaria,2024,5924,11/2/2024,66:53,STU,Francisco Tolaba,,False,False
+avemaria,2024,5924,11/2/2024,74:16,AVE MARI,Mateo Rolon,Sava Cadjenovic,False,False

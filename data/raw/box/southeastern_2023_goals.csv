@@ -1,0 +1,78 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+southeastern,2023,8167,9/1/2023,4:08,PPU,Philipp Harder,Moritz Sarfert,False,False
+southeastern,2023,8167,9/1/2023,6:15,SEU,Edoardo Venutolo,Gianluca Contegno,False,False
+southeastern,2023,8167,9/1/2023,10:29,SEU,Roque Viegas Jr.,Marko Pengili,False,False
+southeastern,2023,8167,9/1/2023,26:06,SEU,Gianluca Contegno,,False,False
+southeastern,2023,8167,9/1/2023,48:23,PPU,Philipp Harder,Jaume Genovard,False,False
+southeastern,2023,8167,9/1/2023,50:09,SEU,Victor Cavalcante,,False,False
+southeastern,2023,8167,9/1/2023,64:06,SEU,Gianluca Contegno,Edoardo Venutolo,False,False
+southeastern,2023,8168,9/3/2023,62:47,SEU,Roque Viegas Jr.,Chris Thorpe,False,False
+southeastern,2023,8169,9/7/2023,5:41,GGC,Antoine Ferez,Diego Milessi,False,False
+southeastern,2023,8169,9/7/2023,71:23,SEU,Victor Calvalcante,Roque Viegas Jr.,False,False
+southeastern,2023,8170,9/13/2023,5:22,SEU,Marko Pengili,,False,False
+southeastern,2023,8170,9/13/2023,30:37,SEU,Kory Nekoloff,Luca Baldestein,False,False
+southeastern,2023,8170,9/13/2023,56:56,SEU,Edoardo Venutolo,Roque Viegas Jr.,False,False
+southeastern,2023,8172,9/20/2023,68:04,STU,Joaquin Domber,,False,False
+southeastern,2023,8172,9/20/2023,90:00,STU,Benjamin Stein,Hernando Suarez,False,False
+southeastern,2023,8173,9/23/2023,27:20,SEU,Victor Cavalcante,Roque Viegas Jr.,False,False
+southeastern,2023,8173,9/23/2023,30:59,WU,Philip Joergensen,,False,False
+southeastern,2023,8173,9/23/2023,52:05,SEU,Ridwane Boukraa,,False,False
+southeastern,2023,8173,9/23/2023,80:58,SEU,Victor Cavalcante,Chris Thorpe,False,False
+southeastern,2023,8173,9/23/2023,82:50,WU,Bryce Himes,,False,False
+southeastern,2023,8171,9/16/2023,71:38,KU,Mikael Baisotti,Tristan Silva,False,False
+southeastern,2023,8171,9/16/2023,73:13,SEU,Roque Viegas Jr.,,False,False
+southeastern,2023,8174,9/27/2023,41:31,FMU,Jahiem Rose,Luis Constantini,False,False
+southeastern,2023,8174,9/27/2023,73:18,SEU,Kory Nekoloff,Edward Alderson,False,False
+southeastern,2023,8174,9/27/2023,76:49,FMU,Felix Paberger,,False,False
+southeastern,2023,8175,9/30/2023,23:55,SEU,Roque Viegas Jr.,Marko Pengili,False,False
+southeastern,2023,8175,9/30/2023,31:47,SEU,Gianluca Contegno,Chris Thorpe,False,False
+southeastern,2023,8175,9/30/2023,34:32,SEU,Victor Cavalcante,,False,False
+southeastern,2023,8175,9/30/2023,44:04,WIU,Arnor Magnusson,,False,False
+southeastern,2023,8176,10/5/2023,36:14,SEU,Kory Nekoloff,Ridwane Boukraa,False,False
+southeastern,2023,8176,10/5/2023,56:51,SCAD,Kimi Husler,Lewis Gamble,False,False
+southeastern,2023,8176,10/5/2023,64:32,SEU,Edoardo Venutolo,Marko Pengili,False,False
+southeastern,2023,8176,10/5/2023,71:54,SEU,Kory Nekoloff,,False,False
+southeastern,2023,8176,10/5/2023,83:31,SEU,Victor Cavalcante,,False,False
+southeastern,2023,8177,10/7/2023,11:33,SEU,Gianluca Contegno,Victor Cavalcante,False,False
+southeastern,2023,8177,10/7/2023,38:55,SEU,Victor Cavalcante,Gianluca Contegno,False,False
+southeastern,2023,8177,10/7/2023,50:00,SEU,Chris Thorpe,Victor Cavalcante,False,False
+southeastern,2023,8177,10/7/2023,58:47,SEU,Roque Viegas Jr.,Victor Cavalcante,False,False
+southeastern,2023,8177,10/7/2023,72:06,SEU,Edward Alderson,,False,False
+southeastern,2023,8177,10/7/2023,80:06,SEU,Agustin Alcantara,Murilo Ramos,False,False
+southeastern,2023,8177,10/7/2023,80:07,SEU,Kory Nekoloff,Murilo Ramos,False,False
+southeastern,2023,8177,10/7/2023,88:11,SEU,Luca Baldestein,,False,False
+southeastern,2023,8178,10/11/2023,23:22,STU,Team,,False,False
+southeastern,2023,8178,10/11/2023,36:23,STU,Benjamin Stein,Nicolas Lund,False,False
+southeastern,2023,8178,10/11/2023,51:41,SEU,Chris Thorpe,,False,False
+southeastern,2023,8178,10/11/2023,54:38,STU,Guido Cacciabue,,False,False
+southeastern,2023,8178,10/11/2023,68:12,STU,Tomas Persico,Guido Cacciabue,False,False
+southeastern,2023,8179,10/14/2023,3:55,WARNER,Pablo Sanchez,,False,False
+southeastern,2023,8179,10/14/2023,20:03,SOUTHEAS,Gianluca Contegno,,False,False
+southeastern,2023,8179,10/14/2023,34:16,SOUTHEAS,Kory Nekoloff,Roque Viegas Jr.,False,False
+southeastern,2023,8179,10/14/2023,66:04,SOUTHEAS,Gianluca Contegno,,False,False
+southeastern,2023,8179,10/14/2023,82:44,SOUTHEAS,Gianluca Contegno,,False,False
+southeastern,2023,8180,10/18/2023,59:44,KU,Finn Syson,Aldair Chavez,False,False
+southeastern,2023,8180,10/18/2023,63:32,SEU,Victor Cavalcante,,False,False
+southeastern,2023,8180,10/18/2023,73:11,KU,Mikael Baisotti,Jack Casey,False,False
+southeastern,2023,8181,10/21/2023,3:48,SOUTHEAS,Gianluca Contegno,Edoardo Venutolo,False,False
+southeastern,2023,8181,10/21/2023,8:28,WEBBER I,Ruben Marquez,,True,False
+southeastern,2023,8181,10/21/2023,43:41,SOUTHEAS,Chris Thorpe,,False,False
+southeastern,2023,8181,10/21/2023,45:56,SOUTHEAS,Victor Cavalcante,,False,False
+southeastern,2023,8181,10/21/2023,54:01,SOUTHEAS,Edoardo Venutolo,Gianluca Contegno,False,False
+southeastern,2023,8182,10/25/2023,20:59,FMU,Matthis Couinet,Tibo Gobet,False,False
+southeastern,2023,8182,10/25/2023,44:44,FMU,Kervens Joseph,,False,False
+southeastern,2023,8182,10/25/2023,57:52,SEU,Murilo Ramos,Gianluca Contegno,False,False
+southeastern,2023,8182,10/25/2023,62:52,SEU,Victor Cavalcante,,False,False
+southeastern,2023,8182,10/25/2023,79:48,SEU,Victor Cavalcante,,False,False
+southeastern,2023,8183,10/28/2023,19:34,SCAD SAV,Ryan Holmes,Lewis Gamble,False,False
+southeastern,2023,8183,10/28/2023,45:00,SCAD SAV,Ryan Holmes,Lewis Gamble,False,False
+southeastern,2023,8183,10/28/2023,75:50,SOUTHEAS,Edoardo Venutolo,,False,False
+southeastern,2023,8183,10/28/2023,80:19,SOUTHEAS,Gianluca Contegno,Sebastian Rosica,False,False
+southeastern,2023,8184,11/4/2023,6:09,SEU,Gianluca Contegno,Roque Viegas Jr.,False,False
+southeastern,2023,8184,11/4/2023,28:03,SEU,Gianluca Contegno,,False,False
+southeastern,2023,8184,11/4/2023,50:36,SEU,Gianluca Contegno,Edoardo Venutolo,False,False
+southeastern,2023,8431,11/7/2023,26:21,KU,Fami Konate,Santiago Duque,False,False
+southeastern,2023,8431,11/7/2023,39:20,SEU,Kory Nekoloff,Marko Pengili,False,False
+southeastern,2023,8431,11/7/2023,48:53,SEU,Marko Pengili,,False,False
+southeastern,2023,8431,11/7/2023,89:46,KU,Kael Richards,Belmin Ramdedovic,False,True
+southeastern,2023,8431,11/7/2023,104:17,KU,Fami Konate,Aldair Chavez,False,False

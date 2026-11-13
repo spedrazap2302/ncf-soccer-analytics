@@ -1,0 +1,75 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+scad,2024,7687,8/17/2024,46:30,SCADSAV,Raffael Mohr,,False,False
+scad,2024,7687,8/17/2024,63:17,GGC,Hugo Luengo,Nic Peranitsch,False,False
+scad,2024,7687,8/17/2024,73:39,GGC,Alejandro Contrera,Josefa Simoa,False,False
+scad,2024,7688,8/22/2024,24:31,MOBILE,Joseph McMahon,,False,False
+scad,2024,7688,8/22/2024,48:20,MOBILE,Joseph McMahon,,False,False
+scad,2024,7688,8/22/2024,84:18,MOBILE,Team,,False,False
+scad,2024,7689,8/24/2024,2:40,SCAD SAV,Moritz Prattes,,False,False
+scad,2024,7689,8/24/2024,5:15,FAULKNER,Leo Freire,Jose Riofrio,False,False
+scad,2024,7689,8/24/2024,59:21,SCAD SAV,Caio Lara,Murilo Lara,False,False
+scad,2024,7689,8/24/2024,76:12,SCAD SAV,Mario Goic,Raffael Mohr,False,False
+scad,2024,7689,8/24/2024,81:05,FAULKNER,Konsti Witte,José Lucca,False,False
+scad,2024,7690,8/31/2024,18:21,SCAD SAV,Daire Russell,Mario Goic,False,False
+scad,2024,7690,8/31/2024,44:54,LIFE,Thomas Rodella,,False,False
+scad,2024,7691,9/11/2024,63:12,SCADSAV,Mario Goic,,False,False
+scad,2024,7692,9/14/2024,40:16,THOMAS,Alex Ruane,Connor Parry,False,False
+scad,2024,7692,9/14/2024,52:06,SCAD SAV,Mario Goic,"Kimi Husler , Murilo Lara",False,False
+scad,2024,7693,9/18/2024,7:12,SCADSAV,Caio Lara,"Moritz Prattes , Raffael Mohr",False,False
+scad,2024,7693,9/18/2024,32:28,SCADSAV,Mario Goic,"Moritz Prattes , Raffael Mohr",False,False
+scad,2024,7693,9/18/2024,46:33,NCF,Fabian Donal,,False,False
+scad,2024,7693,9/18/2024,53:10,NCF,Fabian Donal,,False,False
+scad,2024,7693,9/18/2024,61:03,SCADSAV,Mario Goic,,False,False
+scad,2024,7693,9/18/2024,77:02,SCADSAV,Kimi Husler,Mario Goic,False,False
+scad,2024,7694,9/21/2024,55:57,SEU,Kory Nekoloff,Liam Fisch,False,False
+scad,2024,7694,9/21/2024,82:21,SEU,Enrico Lazzari,,False,False
+scad,2024,7695,9/25/2024,37:35,WIU,Miguel de Silva,,False,False
+scad,2024,7695,9/25/2024,43:11,SCAD,Michael O'Brien,,False,False
+scad,2024,7695,9/25/2024,78:46,SCAD,Moritz Prattes,Raffael Mohr,False,False
+scad,2024,7695,9/25/2024,83:22,SCAD,Raffael Mohr,,False,False
+scad,2024,7696,9/28/2024,2:05,SCAD SAV,Mario Goic,,False,False
+scad,2024,7696,9/28/2024,7:29,SCAD SAV,Mario Goic,Caio Lara,False,False
+scad,2024,7696,9/28/2024,23:58,WARNER (,Vlad Andersen,Joseph Street,False,False
+scad,2024,7696,9/28/2024,84:32,SCAD SAV,Raffael Mohr,Moritz Prattes,False,False
+scad,2024,7699,10/16/2024,20:11,SCAD SAV,Tim Rothe,Michael O'Brien,False,False
+scad,2024,7699,10/16/2024,36:27,SCAD SAV,Raffael Mohr,Tim Rothe,False,False
+scad,2024,7699,10/16/2024,47:59,SCAD SAV,German Moreno,Tim Rothe,False,False
+scad,2024,7699,10/16/2024,60:06,SCAD SAV,Danny Palma,,False,False
+scad,2024,7699,10/16/2024,62:10,SCAD SAV,Moritz Prattes,Tim Rothe,False,False
+scad,2024,7700,10/19/2024,0:43,SCADSAV,Mario Goic,,True,False
+scad,2024,7700,10/19/2024,3:19,WU,Filip Mo,Joseph Street,False,False
+scad,2024,7700,10/19/2024,10:27,SCADSAV,Moritz Prattes,"Tim Rothe , Raffael Mohr",False,False
+scad,2024,7700,10/19/2024,57:58,WU,Filip Mo,,True,False
+scad,2024,7700,10/19/2024,66:24,SCADSAV,Mario Goic,Raffael Mohr,False,False
+scad,2024,7700,10/19/2024,68:39,SCADSAV,Tim Rothe,Raffael Mohr,False,False
+scad,2024,7700,10/19/2024,80:07,SCADSAV,Mario Goic,,False,False
+scad,2024,7700,10/19/2024,86:44,SCADSAV,Caio Lara,,False,False
+scad,2024,7701,10/24/2024,10:54,SCAD,Daire Russell,Tim Rothe,False,False
+scad,2024,7701,10/24/2024,54:09,SCAD,Caio Lara,,False,False
+scad,2024,7701,10/24/2024,84:45,AVE,Levi Orlando,Luca Viana,False,False
+scad,2024,7701,10/24/2024,89:21,SCAD,Mario Goic,,False,False
+scad,2024,7702,10/26/2024,38:59,KEISER,Santiago Duque,,False,False
+scad,2024,7702,10/26/2024,54:49,SCAD SAV,Mario Goic,,False,False
+scad,2024,7702,10/26/2024,57:07,KEISER,Manu Cordeviola,"Gabi Villafane , Justin Bangura",False,False
+scad,2024,7702,10/26/2024,85:00,SCAD SAV,Mario Goic,,True,False
+scad,2024,7702,10/26/2024,89:56,SCAD SAV,Caio Lara,Raffael Mohr,False,False
+scad,2024,7703,10/30/2024,76:51,SCADSAV,Raffael Mohr,,False,False
+scad,2024,7704,11/2/2024,4:40,FMU,Johan Arevalo,Frank Sanchez,False,False
+scad,2024,7704,11/2/2024,28:07,FMU,Adam Gonzalez,,False,False
+scad,2024,7704,11/2/2024,31:48,SCADSAV,Mario Goic,,True,False
+scad,2024,7704,11/2/2024,63:34,FMU,Juan Rizo,,False,False
+scad,2024,7704,11/2/2024,71:28,FMU,Adam Gonzalez,,False,False
+scad,2024,7704,11/2/2024,81:43,SCADSAV,Raffael Mohr,Leon Grube,False,False
+scad,2024,7704,11/2/2024,84:14,SCADSAV,Mario Goic,,True,False
+scad,2024,7704,11/2/2024,84:48,FMU,Carlos Montenegro,,False,False
+scad,2024,7706,11/11/2024,6:37,ST. THOM,Angelo Bernandes,Francisco Tolaba,False,False
+scad,2024,7706,11/11/2024,13:59,SCAD SAV,Mario Goic,,True,False
+scad,2024,7706,11/11/2024,39:43,SCAD SAV,Mario Goic,,True,False
+scad,2024,7706,11/11/2024,64:46,SCAD SAV,Raffael Mohr,Murilo Lara,False,False
+scad,2024,7706,11/11/2024,80:43,ST. THOM,Francisco Tolaba,,False,False
+scad,2024,7707,11/14/2024,9:05,SCADSAV,Moritz Prattes,Caio Lara,False,False
+scad,2024,7707,11/14/2024,21:17,SCADSAV,Michael O'Brien,Raffael Mohr,False,False
+scad,2024,7707,11/14/2024,45:46,SEU,Liam Fisch,,False,False
+scad,2024,7707,11/14/2024,51:33,SCADSAV,Daire Russell,Tim Rothe,False,False
+scad,2024,7707,11/14/2024,82:34,SEU,Liam Fisch,Colton Eliasen,False,False
+scad,2024,7707,11/14/2024,87:58,SEU,Victor Cavalcante,,True,False

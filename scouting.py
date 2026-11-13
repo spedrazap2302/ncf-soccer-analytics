@@ -22,10 +22,16 @@ LABELS = {
     "corners_for": "Corners per game",
     "corners_against": "Corners allowed per game",
     "yellows_for": "Yellow cards per game",
+    "fouls_for": "Fouls committed per game",
+    "fouls_against": "Fouls drawn per game",
 }
 
 # for these stats a LOWER number is better
-LOWER_IS_BETTER = ["goals_against", "shots_against", "sog_against", "corners_against", "yellows_for"]
+LOWER_IS_BETTER = ["goals_against", "shots_against", "sog_against", "corners_against", "yellows_for", "fouls_for"]
+
+# 15-minute windows for goal timing
+WINDOWS = [0, 15, 30, 45, 60, 75, 90, 200]
+WINDOW_NAMES = ["0-15'", "16-30'", "31-45'", "46-60'", "61-75'", "76-90'", "Overtime"]
 
 
 def pick_games(games, seasons, conference_only=True):
@@ -35,27 +41,39 @@ def pick_games(games, seasons, conference_only=True):
     return g
 
 
-def team_profile(g):
-    # one row per team with per-game averages and efficiency stats
-    prof = g.groupby("team").agg(
-        games=("result", "size"),
-        win_pct=("result", lambda r: (r == "W").mean() * 100),
-        points_pg=("points", "mean"),
-        goals_for=("goals_for", "mean"),
-        goals_against=("goals_against", "mean"),
-        shots_for=("shots_for", "mean"),
-        shots_against=("shots_against", "mean"),
-        sog_for=("sog_for", "mean"),
-        sog_against=("sog_against", "mean"),
-        corners_for=("corners_for", "mean"),
-        corners_against=("corners_against", "mean"),
-        yellows_for=("yellows_for", "mean"),
-    )
+def add_weights(g, half_life=None):
+    # recent form: a game loses half its weight every `half_life` days
+    # (half_life=None means every game counts the same)
+    g = g.copy()
+    if half_life is None:
+        g["weight"] = 1.0
+    else:
+        days_ago = (g["date"].max() - g["date"]).dt.days
+        g["weight"] = 0.5 ** (days_ago / half_life)
+    return g
+
+
+def team_profile(g, half_life=None):
+    # one row per team with (weighted) per-game averages and efficiency stats
+    g = add_weights(g, half_life)
+    g["win"] = (g["result"] == "W") * 100
+    stats = {"win_pct": "win", "points_pg": "points", "goals_for": "goals_for",
+             "goals_against": "goals_against", "shots_for": "shots_for", "shots_against": "shots_against",
+             "sog_for": "sog_for", "sog_against": "sog_against", "corners_for": "corners_for",
+             "corners_against": "corners_against", "yellows_for": "yellows_for",
+             "fouls_for": "fouls_for", "fouls_against": "fouls_against"}
+    sums = pd.DataFrame({"team": g["team"]})
+    weights = pd.DataFrame({"team": g["team"]})
+    for name, col in stats.items():
+        # a few games have no box score (no fouls), so only count the weight where there is a number
+        sums[name] = g[col] * g["weight"]
+        weights[name] = g["weight"].where(g[col].notna())
+    prof = sums.groupby("team").sum() / weights.groupby("team").sum()
+    prof.insert(0, "games", g.groupby("team").size())
     # efficiency: use totals so one weird game doesn't dominate
-    totals = g.groupby("team")[["goals_for", "goals_against", "shots_for", "sog_for", "sog_against"]].sum()
-    prof["shot_accuracy"] = totals["sog_for"] / totals["shots_for"] * 100
-    prof["finishing"] = totals["goals_for"] / totals["sog_for"] * 100
-    prof["save_pct"] = (1 - totals["goals_against"] / totals["sog_against"]) * 100
+    prof["shot_accuracy"] = prof["sog_for"] / prof["shots_for"] * 100
+    prof["finishing"] = prof["goals_for"] / prof["sog_for"] * 100
+    prof["save_pct"] = (1 - prof["goals_against"] / prof["sog_against"]) * 100
     prof["team_name"] = prof.index.map(TEAM_NAMES)
     return prof.round(2)
 
@@ -78,6 +96,34 @@ def strengths_weaknesses(prof, team, n=3):
     strong = [(LABELS[s], int(r), float(prof.loc[team, s])) for s, r in ranks.head(n).items() if r <= total / 2]
     weak = [(LABELS[s], int(r), float(prof.loc[team, s])) for s, r in ranks.tail(n)[::-1].items() if r > total / 2]
     return strong, weak, total
+
+
+def goal_timing(goals, team, seasons, conference_only=True):
+    # how many of a team's goals (scored and allowed) come in each 15-minute window
+    g = goals[(goals["team"] == team) & goals["season"].isin(seasons)]
+    if conference_only:
+        g = g[g["conference_game"]]
+    g = g.assign(window=pd.cut(g["minute"], WINDOWS, labels=WINDOW_NAMES, right=True))
+    table = g.groupby(["side", "window"], observed=False).size().unstack(0, fill_value=0)
+    table = table.reindex(columns=["for", "against"], fill_value=0)
+    table.columns = ["Goals scored", "Goals allowed"]
+    return table
+
+
+def dangerous_players(goals, team, seasons, conference_only=True, n=5):
+    # who scores and assists for a team in the chosen games
+    g = goals[(goals["team"] == team) & goals["season"].isin(seasons) & (goals["side"] == "for")]
+    if conference_only:
+        g = g[g["conference_game"]]
+    scored = g.groupby("scorer").size().rename("Goals")
+    assists = g[g["assist"].fillna("") != ""]
+    # "A, B" means two players assisted
+    names = assists["assist"].str.split(r",\s*|;\s*").explode().str.strip()
+    assisted = names.value_counts().rename("Assists")
+    table = pd.concat([scored, assisted], axis=1).fillna(0).astype(int)
+    table = table.drop(index=["", "Team", "TEAM"], errors="ignore")
+    table["Goals + assists"] = table["Goals"] + table["Assists"]
+    return table.sort_values(["Goals + assists", "Goals"], ascending=False).head(n)
 
 
 def head_to_head(games, team, opp):
@@ -132,25 +178,26 @@ def likely_scores(our_xg, their_xg, n=3):
     return sorted(scores, key=lambda s: s[2], reverse=True)[:n]
 
 
-def backtest(games, train_seasons=(2024, 2025), test_season=2026):
-    # does the model work? learn from past seasons, predict this season's games,
-    # and count how often the most likely result was the real result
-    g = pick_games(games, list(train_seasons))
-    prof = team_profile(g)
-    test = games[(games["season"] == test_season) & games["conference_game"]]
+def backtest(games, test_seasons=(2025, 2026), first_season=2024, half_life=None):
+    # does the model work? for every conference game, use ONLY the games played
+    # before that day (like a coach would) and check if the most likely result happened
+    conf = games[games["conference_game"] & (games["season"] >= first_season)]
     rows = []
-    for _, game in test.iterrows():
+    for _, game in conf[conf["season"].isin(test_seasons)].iterrows():
+        past = conf[conf["date"] < game["date"]]
+        prof = team_profile(past, half_life)
         if game["team"] not in prof.index or game["opp_key"] not in prof.index:
             continue
-        chances = result_chances(*expected_goals(g, prof, game["team"], game["opp_key"], game["home_away"]))
+        chances = result_chances(*expected_goals(past, prof, game["team"], game["opp_key"], game["home_away"]))
         guess = max(chances, key=chances.get)
         real = {"W": "Win", "T": "Tie", "L": "Loss"}[game["result"]]
-        rows.append({"team": game["team"], "opponent": game["opp_key"], "predicted": guess,
-                     "actual": real, "correct": guess == real})
+        rows.append({"season": game["season"], "team": game["team"], "opponent": game["opp_key"],
+                     "home_away": game["home_away"], "predicted": guess, "actual": real,
+                     "correct": guess == real})
     return pd.DataFrame(rows)
 
 
-def game_plan(prof, team, opp):
+def game_plan(prof, team, opp, timing=None):
     # simple rules that turn the numbers into advice
     us, them = prof.loc[team], prof.loc[opp]
     avg = prof.mean(numeric_only=True)
@@ -175,6 +222,25 @@ def game_plan(prof, team, opp):
     if us["shot_accuracy"] < avg["shot_accuracy"]:
         tips.append(f"For us: only {us['shot_accuracy']:.0f}% of our shots hit the target. "
                     "Pick better moments to shoot.")
+    if them["fouls_for"] > avg["fouls_for"] and them["yellows_for"] <= avg["yellows_for"]:
+        tips.append(f"They commit {them['fouls_for']:.1f} fouls per game. Run at them and make set pieces count.")
+    if timing is not None:
+        scored, allowed = timing["Goals scored"], timing["Goals allowed"]
+        # only trust a pattern if there are enough goals behind it
+        if allowed.sum() >= 8:
+            late_allowed = allowed[["61-75'", "76-90'"]].sum() / allowed.sum() * 100
+            if late_allowed >= 40:
+                tips.append(f"They fade late: {late_allowed:.0f}% of the goals they allow come after the 60th minute. "
+                            "Keep legs fresh and push in the last half hour.")
+        if scored.sum() >= 8:
+            early_scored = scored[["0-15'", "16-30'"]].sum() / scored.sum() * 100
+            late_scored = scored[["76-90'", "Overtime"]].sum() / scored.sum() * 100
+            if early_scored >= 35:
+                tips.append(f"They start fast: {early_scored:.0f}% of their goals come in the first 30 minutes. "
+                            "Be switched on from kickoff.")
+            if late_scored >= 25:
+                tips.append(f"They keep pushing to the end: {late_scored:.0f}% of their goals come after the 75th minute. "
+                            "Don't switch off when you're ahead.")
     if us["goals_against"] > them["goals_for"]:
         tips.append("Our defense has been allowing more goals than they usually score. Stay organized early.")
     return tips
@@ -193,9 +259,10 @@ if __name__ == "__main__":
             print(opp, venue, xg, {k: round(v) for k, v in result_chances(*xg).items()}, likely_scores(*xg))
     print(strengths_weaknesses(prof, "keiser"))
     print(head_to_head(games, "ncf", "keiser"))
-    bt = backtest(games)
-    print("backtest games:", len(bt), "correct %:", round(bt["correct"].mean() * 100, 1))
-    test = games[(games["season"] == 2026) & games["conference_game"] & games["home_away"].isin(["home", "away"])]
-    print("baseline 'home team wins' %:", round(((test["home_away"] == "home") == (test["result"] == "W")).mean() * 100, 1))
+    for hl in [None, 180, 365]:
+        bt = backtest(games, half_life=hl)
+        print("half life", hl, "games:", len(bt), "correct %:", round(bt["correct"].mean() * 100, 1))
+    ha = bt[bt["home_away"].isin(["home", "away"])]
+    print("baseline 'home team wins' %:", round(((ha["home_away"] == "home") == (ha["actual"] == "Win")).mean() * 100, 1))
     for t in game_plan(prof, "ncf", "keiser"):
         print("-", t)

@@ -1,0 +1,60 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+keiser,2024,13643,8/31/2024,11:30,BETHEL,Jelle Born,Miguel Martins,False,False
+keiser,2024,13643,8/31/2024,53:05,BETHEL,Piero Sabroso,Miguel Martins,False,True
+keiser,2024,13643,8/31/2024,53:20,KU,Aldair Chavez,"Ichiya Yaegashi , Bailey Newton",False,True
+keiser,2024,13643,8/31/2024,62:56,KU,Jakob Schnitzler,Gabi Villafane,False,False
+keiser,2024,13644,9/2/2024,35:36,CUMBERLA,Salvador Martinez,Bart-Jan Braams,False,False
+keiser,2024,13644,9/2/2024,41:00,CUMBERLA,Shuma Sasaki,"Adrian Choco , Abdulah Adams",False,False
+keiser,2024,13644,9/2/2024,48:15,CUMBERLA,Salvador Martinez,Rodrigo Riveros,False,False
+keiser,2024,13646,9/14/2024,6:30,KU,Justin Bangura,Jakob Schnitzler,False,False
+keiser,2024,13647,9/18/2024,6:49,KU,Manu Cordeviola,"Gabi Villafane , Santiago Duque",False,False
+keiser,2024,13647,9/18/2024,19:03,SOUTHEAS,Liam Fisch,,False,False
+keiser,2024,13647,9/18/2024,19:43,KU,Manu Cordeviola,Gabi Villafane,False,False
+keiser,2024,13647,9/18/2024,73:41,KU,Mikael Baisotti,Gabi Villafane,False,False
+keiser,2024,13647,9/18/2024,81:48,KU,Aldair Chavez,Mikael Baisotti,False,False
+keiser,2024,13740,9/23/2024,12:35,KEISER,Team,,False,False
+keiser,2024,13740,9/23/2024,52:40,KEISER,Justin Bangura,"Manu Cordeviola , Fami Konate",False,False
+keiser,2024,13740,9/23/2024,60:55,KEISER,Alessio Silva,"Manu Cordeviola , Gabi Villafane",False,False
+keiser,2024,13648,9/25/2024,11:07,KU,Manex Landa,Manu Cordeviola,False,False
+keiser,2024,13648,9/25/2024,47:51,KU,Mikael Baisotti,Ian Garnero,False,False
+keiser,2024,13648,9/25/2024,58:37,KU,Mikael Baisotti,Santiago Nebot,False,False
+keiser,2024,13648,9/25/2024,68:41,KU,Gabi Villafane,Fami Konate,False,False
+keiser,2024,13648,9/25/2024,70:05,KU,Francis Bolland,"Timo Boomkens , Mikael Baisotti",False,False
+keiser,2024,13648,9/25/2024,73:17,KU,Santiago Duque,,False,False
+keiser,2024,13648,9/25/2024,84:50,KU,Gabi Villafane,,False,False
+keiser,2024,13648,9/25/2024,88:52,KU,Chili Casaubon,Fami Konate,False,False
+keiser,2024,13649,9/28/2024,11:10,KU,Jakob Schnitzler,Manex Landa,False,True
+keiser,2024,13650,10/5/2024,20:20,KU,Francis Bolland,Ian Garnero,False,False
+keiser,2024,13650,10/5/2024,65:55,KU,Jakob Schnitzler,Mikael Baisotti,False,False
+keiser,2024,13654,10/19/2024,29:47,KU,Mikael Baisotti,,True,False
+keiser,2024,13654,10/19/2024,33:00,AMU,Sava Cadjenovic,Mateo Rolon,False,False
+keiser,2024,13654,10/19/2024,48:19,AMU,Mateo Rolon,Jael Parraga,False,False
+keiser,2024,13654,10/19/2024,71:34,KU,Aldair Chavez,Ian Garnero,False,False
+keiser,2024,13654,10/19/2024,80:28,KU,Ian Garnero,,False,False
+keiser,2024,13656,10/26/2024,38:59,KU,Santiago Duque,,False,False
+keiser,2024,13656,10/26/2024,54:49,SCADSAV,Mario Goic,,False,False
+keiser,2024,13656,10/26/2024,57:07,KU,Manu Cordeviola,"Justin Bangura , Gabi Villafane",False,False
+keiser,2024,13656,10/26/2024,85:00,SCADSAV,Mario Goic,,True,False
+keiser,2024,13656,10/26/2024,89:56,SCADSAV,Caio Lara,Raffael Mohr,False,False
+keiser,2024,13652,10/28/2024,10:48,FMU,Diego Olguín,,False,False
+keiser,2024,13652,10/28/2024,16:17,FMU,Rafael Coronado,Johan Arevalo,False,False
+keiser,2024,13652,10/28/2024,29:25,FMU,Johan Arevalo,,False,False
+keiser,2024,13652,10/28/2024,36:55,KU,Alessio Silva,Timo Boomkens,False,False
+keiser,2024,13652,10/28/2024,56:16,KU,Gabi Villafane,Justin Bangura,False,False
+keiser,2024,13652,10/28/2024,78:24,KU,Santiago Duque,,False,False
+keiser,2024,13657,10/30/2024,11:38,K,Gabi Villafane,,False,False
+keiser,2024,13657,10/30/2024,67:49,K,Mikael Baisotti,Gabi Villafane,False,False
+keiser,2024,13657,10/30/2024,72:35,K,Manu Cordeviola,Timo Boomkens,False,False
+keiser,2024,13659,11/11/2024,2:41,SEU,Liam Fisch,Kory Nekoloff,False,False
+keiser,2024,13659,11/11/2024,84:09,KU,Santiago Duque,Gabi Villafane,False,True
+keiser,2024,13659,11/11/2024,103:53,SEU,Kory Nekoloff,Elia Michelotti,False,False
+keiser,2024,13661,11/21/2024,1:49,KU,Justin Bangura,Ethan Barimo,False,False
+keiser,2024,13661,11/21/2024,29:37,UNIONCO,Isa Bramble,Callum Edwards,False,False
+keiser,2024,13661,11/21/2024,34:02,KU,Justin Bangura,Timo Boomkens,False,False
+keiser,2024,13661,11/21/2024,36:21,KU,Gabi Villafane,Justin Bangura,False,False
+keiser,2024,13661,11/21/2024,67:06,KU,Mikael Baisotti,,False,False
+keiser,2024,13661,11/21/2024,74:04,KU,Manex Landa,,False,False
+keiser,2024,13661,11/21/2024,75:32,KU,Manex Landa,,True,False
+keiser,2024,14013,11/23/2024,18:08,KU,Manu Cordeviola,Gabi Villafane,False,False
+keiser,2024,14013,11/23/2024,59:37,MOBILE,Jeb Scarbrough,,False,False
+keiser,2024,14013,11/23/2024,89:10,MOBILE,Emilio Cazares,Noah Miller,False,False

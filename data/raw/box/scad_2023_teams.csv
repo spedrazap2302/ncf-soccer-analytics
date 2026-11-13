@@ -1,0 +1,37 @@
+team,season,game_id,date,abbr,name,goals,shots_1st_half,shots,saves_1st_half,saves,corner_kicks_1st_half,corner_kicks,fouls_1st_half,fouls
+scad,2023,7165,8/17/2023,FAULKNER,Faulkner (AL),1,3,10,1,4,3,5,3,7
+scad,2023,7165,8/17/2023,SCAD SAV,SCAD Savannah,1,4,8,0,2,2,3,2,6
+scad,2023,7166,8/26/2023,BREWTON-,Brewton-Parker (GA),0,2,8,4,6,0,3,2,7
+scad,2023,7166,8/26/2023,SCAD SAV,SCAD Savannah,2,11,16,1,4,1,2,3,7
+scad,2023,7167,9/7/2023,SCAD SAV,SCAD Savannah,2,3,8,1,2,0,5,4,13
+scad,2023,7167,9/7/2023,THOMAS,Thomas,3,6,12,2,2,4,6,3,7
+scad,2023,7255,9/13/2023,WARNER (,Warner (FL),1,7,11,2,4,1,4,3,7
+scad,2023,7255,9/13/2023,SCAD SAV,SCAD Savannah,1,9,17,4,5,1,2,5,6
+scad,2023,7256,9/16/2023,WEBBER I,Webber International,0,6,10,2,4,1,3,3,8
+scad,2023,7256,9/16/2023,SCAD SAV,SCAD Savannah,2,7,10,2,4,5,8,3,9
+scad,2023,7257,9/21/2023,SCAD,SCAD,0,5,13,2,4,3,5,3,6
+scad,2023,7257,9/21/2023,KU,Keiser,4,8,15,1,3,1,3,6,9
+scad,2023,7258,9/23/2023,SCAD,SCAD Savannah,2,5,12,4,6,3,4,9,17
+scad,2023,7258,9/23/2023,AVE,Ave Maria (FL),1,7,10,2,5,1,2,5,11
+scad,2023,7259,9/27/2023,ST. THOM,St. Thomas,6,11,20,3,9,5,7,4,9
+scad,2023,7259,9/27/2023,SCAD SAV,SCAD Savannah,3,4,15,6,7,2,4,2,6
+scad,2023,7260,10/1/2023,FLORIDA,Florida Memorial (FL,0,7,13,2,4,5,5,6,15
+scad,2023,7260,10/1/2023,SCAD SAV,SCAD Savannah,1,3,12,4,8,0,1,7,13
+scad,2023,7261,10/5/2023,SCAD,SCAD Savannah,1,4,11,4,5,1,3,8,13
+scad,2023,7261,10/5/2023,SEU,Southeastern,4,12,20,2,4,1,3,6,10
+scad,2023,7262,10/7/2023,SCAD SAV,SCAD Savannah,3,4,12,0,3,2,6,7,14
+scad,2023,7262,10/7/2023,WARNER (,Warner (FL),2,4,13,2,4,2,4,6,10
+scad,2023,7263,10/11/2023,KEISER,Keiser,2,6,19,1,3,4,7,3,6
+scad,2023,7263,10/11/2023,SCAD SAV,SCAD Savannah,2,7,14,3,7,1,2,3,9
+scad,2023,7264,10/14/2023,AVE MARI,Ave Maria (FL),1,3,6,2,7,1,3,1,2
+scad,2023,7264,10/14/2023,SCAD SAV,SCAD Savannah,7,12,32,0,1,2,4,3,10
+scad,2023,7265,10/19/2023,SCAD SAV,SCAD Savannah,1,4,7,3,6,0,3,2,5
+scad,2023,7265,10/19/2023,STU,St. Thomas,4,10,22,0,2,4,8,6,12
+scad,2023,7266,10/22/2023,SCAD SAV,SCAD Savannah,1,3,9,4,4,0,1,5,9
+scad,2023,7266,10/22/2023,FMU,Florida Memorial (FL),2,13,21,1,2,5,10,10,15
+scad,2023,7267,10/25/2023,SCAD SAV,SCAD Savannah,0,7,18,1,3,1,10,2,4
+scad,2023,7267,10/25/2023,WEBBER I,Webber International,3,2,8,4,8,1,3,4,7
+scad,2023,7268,10/28/2023,SOUTHEAS,Southeastern,2,8,16,2,7,3,3,5,13
+scad,2023,7268,10/28/2023,SCAD SAV,SCAD Savannah,2,8,19,5,10,0,3,7,16
+scad,2023,7464,11/4/2023,SCAD SAV,SCAD Savannah,0,4,9,0,1,2,3,4,7
+scad,2023,7464,11/4/2023,FMU,Florida Memorial (FL),4,3,11,1,3,4,7,10,26

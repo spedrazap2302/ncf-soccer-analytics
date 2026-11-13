@@ -1,0 +1,73 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+avemaria,2023,5249,8/25/2023,13:39,PROVIDEN,Jose Vasquez,,False,False
+avemaria,2023,5249,8/25/2023,33:56,AVE MARI,Levi Orlando,,False,False
+avemaria,2023,5249,8/25/2023,54:16,AVE MARI,Levi Orlando,Cade Williams,False,False
+avemaria,2023,5249,8/25/2023,54:46,PROVIDEN,Eduardo Sidoine,,False,False
+avemaria,2023,5249,8/25/2023,82:14,PROVIDEN,Rylan Pate,Hugo Gil,False,False
+avemaria,2023,5249,8/25/2023,87:59,PROVIDEN,Liam Vaux,Tomeu Nebot,False,False
+avemaria,2023,5250,8/27/2023,8:54,ROCKY,Tor Swann,Angel Mange,False,False
+avemaria,2023,5250,8/27/2023,11:44,ROCKY,Angel Mange,Maddox Gallia,False,False
+avemaria,2023,5250,8/27/2023,26:52,ROCKY,Team,,False,False
+avemaria,2023,5251,9/2/2023,19:40,FNU,Nicolas Martinez,"Vinicius Mallmann , Francisco Crimi",False,False
+avemaria,2023,5251,9/2/2023,31:53,AMU,Luis Mendoza,Cade Williams,False,False
+avemaria,2023,5251,9/2/2023,60:34,FNU,Marcos Bakale,Christian Omar Herna,False,False
+avemaria,2023,5251,9/2/2023,76:48,FNU,Ricardo Delwing,"Bautista Dominguez , Marcos Bakale",False,False
+avemaria,2023,5251,9/2/2023,77:46,AMU,Edwin Parraga,,False,False
+avemaria,2023,5251,9/2/2023,86:50,FNU,Francisco Crimi,"Marcos Bakale , Mateo Mantchoff",False,False
+avemaria,2023,5531,9/9/2023,17:07,AVE,Luis Mendoza,Cade Williams,False,False
+avemaria,2023,5531,9/9/2023,88:51,JOHNSON,Santiago Sasamoto,,False,False
+avemaria,2023,5322,9/13/2023,5:22,SEU,Marko Pengili,,False,False
+avemaria,2023,5322,9/13/2023,30:37,SEU,Kory Nekoloff,Luca Baldestein,False,False
+avemaria,2023,5322,9/13/2023,56:56,SEU,Edoardo Venutolo,Roque Viegas Jr.,False,False
+avemaria,2023,5323,9/16/2023,21:04,FMU,Jeremiah Johnson,Kervens Joseph,False,False
+avemaria,2023,5323,9/16/2023,39:57,FMU,Brad Malik Tulley,,False,False
+avemaria,2023,5323,9/16/2023,74:38,FMU,Brad Malik Tulley,Andres Rojas Garbanzo,False,False
+avemaria,2023,5324,9/20/2023,57:42,WEBBER I,Ruben Marquez,,False,False
+avemaria,2023,5325,9/23/2023,54:51,SCAD,Ryan Holmes,Tim Rothe,False,False
+avemaria,2023,5325,9/23/2023,64:49,AVE,Levi Orlando,Cade Williams,False,False
+avemaria,2023,5325,9/23/2023,70:54,SCAD,Giovanny Lares,Lewis Gamble,False,False
+avemaria,2023,5326,9/27/2023,52:25,KU,Tristan Silva,Aldair Chavez,False,True
+avemaria,2023,5326,9/27/2023,62:07,KU,Malte Schmale,Jack Casey,False,False
+avemaria,2023,5326,9/27/2023,70:36,KU,Aldair Chavez,"Emanuel Teixeira , Jack Casey",False,True
+avemaria,2023,5326,9/27/2023,81:53,KU,Aldair Chavez,Noah Southwell,False,False
+avemaria,2023,5326,9/27/2023,84:58,KU,Fami Konate,,False,False
+avemaria,2023,5327,9/30/2023,19:04,AVE MARI,Jerron Dopwell,Andre Betioli,False,False
+avemaria,2023,5327,9/30/2023,63:20,WARNER (,Deven Ingley,,False,False
+avemaria,2023,5327,9/30/2023,64:16,AVE MARI,Jerron Dopwell,Cade Williams,False,False
+avemaria,2023,5327,9/30/2023,72:02,AVE MARI,Padraic Pierson,Andre Betioli,False,False
+avemaria,2023,5328,10/4/2023,43:48,STU,Federico Testoni,Nicolas Lund,False,False
+avemaria,2023,5328,10/4/2023,61:47,STU,Nicolas Lund,Federico Testoni,False,False
+avemaria,2023,5329,10/7/2023,11:33,SEU,Gianluca Contegno,Victor Cavalcante,False,False
+avemaria,2023,5329,10/7/2023,38:55,SEU,Victor Cavalcante,Gianluca Contegno,False,False
+avemaria,2023,5329,10/7/2023,50:00,SEU,Chris Thorpe,Victor Cavalcante,False,False
+avemaria,2023,5329,10/7/2023,58:47,SEU,Roque Viegas Jr.,Victor Cavalcante,False,False
+avemaria,2023,5329,10/7/2023,72:06,SEU,Edward Alderson,,False,False
+avemaria,2023,5329,10/7/2023,80:06,SEU,Agustin Alcantara,Murilo Ramos,False,False
+avemaria,2023,5329,10/7/2023,80:07,SEU,Kory Nekoloff,Murilo Ramos,False,False
+avemaria,2023,5329,10/7/2023,88:11,SEU,Luca Baldestein,,False,False
+avemaria,2023,5330,10/11/2023,13:54,FLORIDA,Geovannie Lake,Jeremiah Johnson,False,False
+avemaria,2023,5330,10/11/2023,57:01,FLORIDA,Jeremiah Johnson,Brad Malik Tulley,False,False
+avemaria,2023,5330,10/11/2023,62:26,FLORIDA,Geovannie Lake,,False,False
+avemaria,2023,5330,10/11/2023,69:26,FLORIDA,Andres Rojas Garbanzo,Alan Vilas Boas,False,False
+avemaria,2023,5331,10/14/2023,7:56,SCAD SAV,Phillip Holtgen,,False,False
+avemaria,2023,5331,10/14/2023,21:59,SCAD SAV,Phillip Holtgen,"Giovanny Lares , Caio Lara",False,False
+avemaria,2023,5331,10/14/2023,34:13,SCAD SAV,Fabian Ekblom,Tim Rothe,False,False
+avemaria,2023,5331,10/14/2023,49:18,SCAD SAV,Giovanny Lares,Ryan Holmes,False,False
+avemaria,2023,5331,10/14/2023,62:34,SCAD SAV,Ryan Holmes,Jake Murphy,False,False
+avemaria,2023,5331,10/14/2023,65:06,SCAD SAV,Phillip Holtgen,,False,False
+avemaria,2023,5331,10/14/2023,70:21,AVE MARI,Padraic Pierson,Cade Williams,False,False
+avemaria,2023,5331,10/14/2023,86:47,SCAD SAV,Ryan Holmes,Fabian Ekblom,False,False
+avemaria,2023,5332,10/18/2023,39:59,AVE,Edwin Parraga,"Jerron Dopwell , Cade Williams",False,False
+avemaria,2023,5332,10/18/2023,58:18,AVE,Andre Betioli,Blake Joseph,False,False
+avemaria,2023,5332,10/18/2023,60:55,AVE,Blake Joseph,Luis Mendoza,False,False
+avemaria,2023,5333,10/21/2023,28:53,KU,Mikael Baisotti,Gabi Villafane,False,False
+avemaria,2023,5334,10/25/2023,27:40,STU,Federico Testoni,Osaghae Oghogho,False,False
+avemaria,2023,5334,10/25/2023,63:41,STU,Joaquin Domber,Beknur Nurlanbek,False,False
+avemaria,2023,5334,10/25/2023,80:04,STU,Guido Cacciabue,Team,False,False
+avemaria,2023,5335,10/28/2023,21:00,WIU,Ekil Prackel,Emanuel Barajas,False,False
+avemaria,2023,5335,10/28/2023,50:14,WIU,Samer Jawhari,,False,False
+avemaria,2023,5335,10/28/2023,51:58,WIU,Ruben Marquez,,False,False
+avemaria,2023,5335,10/28/2023,58:30,WIU,Ekil Prackel,,False,False
+avemaria,2023,5335,10/28/2023,67:43,AVE,Jerron Dopwell,,False,False
+avemaria,2023,5335,10/28/2023,83:20,WIU,Marco De Rosa,,False,False
+avemaria,2023,5335,10/28/2023,84:48,AVE,Jerron Dopwell,,False,False

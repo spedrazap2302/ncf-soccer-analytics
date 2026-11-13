@@ -1,0 +1,44 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+ncf,2024,213,8/22/2024,18:05,NCF,Joel Fluvia,,False,False
+ncf,2024,213,8/22/2024,34:57,NCF,Fabian Donal,Arthur Prado,False,False
+ncf,2024,213,8/22/2024,55:50,NCF,Sebastian Pedraza,Jose Gutierrez,False,False
+ncf,2024,213,8/22/2024,78:28,NCF,Kais Sabic,Jose Gutierrez,False,False
+ncf,2024,215,8/30/2024,32:14,BLUE MOU,Ruben Santos,Marcelo Rodrigues,False,False
+ncf,2024,215,8/30/2024,80:15,NEW COLL,Pedro Serpa Bacellar,Alexander Greaves,False,False
+ncf,2024,216,8/31/2024,34:25,FAULKNER,Caio Pereira,"Caio de Luna Gomes , Alex Barros",False,False
+ncf,2024,216,8/31/2024,51:25,NEW COLL,Alexander Greaves,Robbie Lloyd Jones,False,False
+ncf,2024,216,8/31/2024,70:03,FAULKNER,Caio de Luna Gomes,"Leo Freire , Tiago Miki",False,False
+ncf,2024,217,9/7/2024,64:52,NEW COLL,Matthew Dynarski,Andrew Scott,False,False
+ncf,2024,217,9/7/2024,79:02,WEBBER I,Tyler Keating,,False,False
+ncf,2024,219,9/14/2024,6:30,KU,Justin Bangura,Jakob Schnitzler,False,False
+ncf,2024,220,9/18/2024,7:12,SCADSAV,Caio Lara,"Moritz Prattes , Raffael Mohr",False,False
+ncf,2024,220,9/18/2024,32:28,SCADSAV,Mario Goic,"Moritz Prattes , Raffael Mohr",False,False
+ncf,2024,220,9/18/2024,46:33,NCF,Fabian Donal,,False,False
+ncf,2024,220,9/18/2024,53:10,NCF,Fabian Donal,,False,False
+ncf,2024,220,9/18/2024,61:03,SCADSAV,Mario Goic,,False,False
+ncf,2024,220,9/18/2024,77:02,SCADSAV,Kimi Husler,Mario Goic,False,False
+ncf,2024,221,9/21/2024,78:26,NCF,Andrew Scott,,False,False
+ncf,2024,352,9/24/2024,50:00,NCF,Alexander Greaves,,False,False
+ncf,2024,352,9/24/2024,61:09,NCF,Kais Sabic,Fabian Donal,False,False
+ncf,2024,352,9/24/2024,72:52,FNU,Filipe Sette Ribeiro,,False,False
+ncf,2024,222,10/1/2024,15:08,FMU,Rafael Coronado,Frank Sanchez,False,False
+ncf,2024,222,10/1/2024,26:06,FMU,Rafael Coronado,Luis Gutierrez,False,False
+ncf,2024,222,10/1/2024,55:54,FMU,Adam Gonzalez,,False,False
+ncf,2024,222,10/1/2024,62:17,FMU,Johan Arevalo,Adam Gonzalez,False,False
+ncf,2024,222,10/1/2024,68:42,FMU,Johan Arevalo,,False,False
+ncf,2024,222,10/1/2024,82:35,FMU,Carlos Montenegro,Frank Sanchez,False,False
+ncf,2024,223,10/5/2024,36:54,SEU,Victor Cavalcante,,False,False
+ncf,2024,223,10/5/2024,60:36,NCF,Randy Otoo,,False,False
+ncf,2024,223,10/5/2024,75:28,SEU,Enrico Lazzari,Nico Munari,False,False
+ncf,2024,223,10/5/2024,82:40,SEU,Kory Nekoloff,Fabio De Paula,False,False
+ncf,2024,227,10/19/2024,88:07,WIU,Jesus Perez,Gian Luca Fink,False,False
+ncf,2024,224,10/21/2024,4:50,AVE,Jael Parraga,,False,False
+ncf,2024,228,10/23/2024,51:19,STU,Guido Cacciabue,Kay Maletzki,False,False
+ncf,2024,229,10/26/2024,19:35,NCF,Fabian Donal,Robbie Lloyd Jones,False,False
+ncf,2024,229,10/26/2024,39:19,FMU,Johan Arevalo,Rafael Coronado,False,False
+ncf,2024,229,10/26/2024,45:39,FMU,Johan Arevalo,Adam Gonzalez,False,False
+ncf,2024,229,10/26/2024,68:27,NCF,Andrew Scott,Jose Gutierrez,False,False
+ncf,2024,229,10/26/2024,81:00,FMU,Rafael Coronado,Johan Arevalo,False,False
+ncf,2024,229,10/26/2024,89:45,FMU,Rafael Coronado,Johan Arevalo,False,False
+ncf,2024,230,11/2/2024,54:16,NEW COLL,Robbie Lloyd Jones,Alexander Greaves,False,False
+ncf,2024,230,11/2/2024,84:51,WARNER (,Pablo Sanches,Filip Mo,False,False

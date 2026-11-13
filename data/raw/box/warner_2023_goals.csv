@@ -1,0 +1,66 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+warner,2023,7350,8/23/2023,50:20,FLORIDA,Matias Leaniz,Marcos Bakale,False,False
+warner,2023,7350,8/23/2023,55:27,FLORIDA,Geronimo Luna Grebe,Marcos Bakale,False,False
+warner,2023,7350,8/23/2023,60:56,WARNER (,Deven Ingley,Joseph Street,False,False
+warner,2023,7400,8/26/2023,1:58,NEW COLL,Kais Sabic,Manuel Rodriguez,False,False
+warner,2023,7400,8/26/2023,14:06,WARNER,Bryce Himes,Carson Hoben,False,False
+warner,2023,7400,8/26/2023,89:14,WARNER,Hector Revelo,,False,False
+warner,2023,7353,9/1/2023,36:50,THOMAS,Aaron Sindhar,,False,False
+warner,2023,7353,9/1/2023,76:07,THOMAS,Kieran McCombe,Diego Azar,False,False
+warner,2023,7354,9/3/2023,57:47,WARNER (,Joseph Street,Vlad Andersen,False,False
+warner,2023,7354,9/3/2023,82:06,POINT PA,Korby Ring,,False,False
+warner,2023,7354,9/3/2023,87:35,WARNER (,Joseph Street,,False,False
+warner,2023,7357,9/13/2023,49:06,SCAD SAV,Ryan Holmes,,False,False
+warner,2023,7357,9/13/2023,89:27,WARNER (,Bryce Himes,,False,False
+warner,2023,7358,9/16/2023,2:25,STU,Osaghae Oghogho,Angelo Bernandes,False,False
+warner,2023,7358,9/16/2023,6:47,STU,Osaghae Oghogho,"Team , Pascal Agostini",False,False
+warner,2023,7358,9/16/2023,37:49,STU,Benjamin Stein,,False,False
+warner,2023,7358,9/16/2023,54:18,STU,Federico Testoni,Evan Bjerke,False,False
+warner,2023,7358,9/16/2023,89:32,STU,Alvaro Bode,,False,False
+warner,2023,7360,9/23/2023,27:20,SEU,Victor Cavalcante,Roque Viegas Jr.,False,False
+warner,2023,7360,9/23/2023,30:59,WU,Philip Joergensen,,False,False
+warner,2023,7360,9/23/2023,52:05,SEU,Ridwane Boukraa,,False,False
+warner,2023,7360,9/23/2023,80:58,SEU,Victor Cavalcante,Chris Thorpe,False,False
+warner,2023,7360,9/23/2023,82:50,WU,Bryce Himes,,False,False
+warner,2023,7362,9/30/2023,19:04,AVE MARI,Jerron Dopwell,Andre Betioli,False,False
+warner,2023,7362,9/30/2023,63:20,WARNER (,Deven Ingley,,False,False
+warner,2023,7362,9/30/2023,64:16,AVE MARI,Jerron Dopwell,Cade Williams,False,False
+warner,2023,7362,9/30/2023,72:02,AVE MARI,Padraic Pierson,Andre Betioli,False,False
+warner,2023,7363,10/4/2023,28:02,KU,Mikael Baisotti,,True,False
+warner,2023,7363,10/4/2023,31:11,KU,Finn Syson,Mikael Baisotti,False,False
+warner,2023,7363,10/4/2023,48:34,KU,Mikael Baisotti,"Aldair Chavez , Jakob Schnitzler",False,False
+warner,2023,7363,10/4/2023,49:49,KU,Aldair Chavez,Mikael Baisotti,False,False
+warner,2023,7363,10/4/2023,57:32,KU,Aldair Chavez,,False,False
+warner,2023,7363,10/4/2023,78:56,KU,Aldair Chavez,Belmin Ramdedovic,False,False
+warner,2023,7364,10/7/2023,9:02,SCAD SAV,Phillip Holtgen,,False,False
+warner,2023,7364,10/7/2023,49:30,SCAD SAV,Ryan Holmes,Phillip Holtgen,False,False
+warner,2023,7364,10/7/2023,51:43,SCAD SAV,Giovanny Lares,Ryan Holmes,False,False
+warner,2023,7364,10/7/2023,64:28,WARNER (,Pablo Sanchez,Antonio Giovanni,False,False
+warner,2023,7364,10/7/2023,76:20,WARNER (,Leyton Shaw,,False,False
+warner,2023,7505,10/9/2023,10:03,WARNER (,Deven Ingley,Carson Hoben,False,False
+warner,2023,7505,10/9/2023,25:45,FLORIDA,Brad Malik Tulley,,False,False
+warner,2023,7505,10/9/2023,44:49,FLORIDA,Geovannie Lake,Brad Malik Tulley,False,False
+warner,2023,7505,10/9/2023,54:50,FLORIDA,Geovannie Lake,Jeremiah Johnson,False,False
+warner,2023,7365,10/11/2023,8:30,WEBBER I,Jesus Sanchez,Noah Setterberg,False,False
+warner,2023,7365,10/11/2023,40:49,WARNER (,Bryce Himes,,False,False
+warner,2023,7365,10/11/2023,60:37,WEBBER I,Ruben Marquez,,False,False
+warner,2023,7365,10/11/2023,63:38,WEBBER I,Gabe Shelton,Marco De Rosa,False,False
+warner,2023,7365,10/11/2023,70:57,WARNER (,Hector Revelo,,False,False
+warner,2023,7366,10/14/2023,3:55,WARNER,Pablo Sanchez,,False,False
+warner,2023,7366,10/14/2023,20:03,SOUTHEAS,Gianluca Contegno,,False,False
+warner,2023,7366,10/14/2023,34:16,SOUTHEAS,Kory Nekoloff,Roque Viegas Jr.,False,False
+warner,2023,7366,10/14/2023,66:04,SOUTHEAS,Gianluca Contegno,,False,False
+warner,2023,7366,10/14/2023,82:44,SOUTHEAS,Gianluca Contegno,,False,False
+warner,2023,7367,10/18/2023,39:59,AVE,Edwin Parraga,"Jerron Dopwell , Cade Williams",False,False
+warner,2023,7367,10/18/2023,58:18,AVE,Andre Betioli,Blake Joseph,False,False
+warner,2023,7367,10/18/2023,60:55,AVE,Blake Joseph,Luis Mendoza,False,False
+warner,2023,7368,10/21/2023,48:48,ST. THOM,Teo Rondon,Niklas Hoener,False,False
+warner,2023,7369,10/25/2023,65:44,KEISER,Jack Casey,,False,False
+warner,2023,7369,10/25/2023,66:00,KEISER,Malte Schmale,,False,False
+warner,2023,7369,10/25/2023,79:23,KEISER,Belmin Ramdedovic,Scott Wood,False,False
+warner,2023,7370,10/28/2023,4:15,FMU,Thomas Cole,Jeremiah Johnson,False,False
+warner,2023,7370,10/28/2023,18:30,FMU,Alejandro Caicedo,Thomas Cole,False,False
+warner,2023,7370,10/28/2023,39:49,FMU,Jasen Velken,,False,False
+warner,2023,7370,10/28/2023,49:22,FMU,Brad Malik Tulley,,False,False
+warner,2023,7370,10/28/2023,68:38,FMU,Brad Malik Tulley,Luis Constantini,False,False
+warner,2023,7370,10/28/2023,69:55,FMU,Kervens Joseph,Brad Malik Tulley,False,False

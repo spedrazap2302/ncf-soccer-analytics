@@ -1,0 +1,68 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+warner,2026,8954,8/22/2026,5:57,WARNER,Jackson Davenport,Christopher Zeppieri,False,False
+warner,2026,8954,8/22/2026,51:44,WARNER,Jackson Davenport,Jason Flaming,False,False
+warner,2026,8954,8/22/2026,60:56,BREWTON,Guillem Ropero,,False,False
+warner,2026,8954,8/22/2026,63:03,WARNER,Jackson Davenport,Christopher Zeppieri,False,False
+warner,2026,8955,8/27/2026,30:59,WARNER (,Jackson Davenport,,False,False
+warner,2026,8955,8/27/2026,40:33,WARNER (,Jackson Davenport,Jason Flaming,False,False
+warner,2026,8955,8/27/2026,77:16,THOMAS,Charlie Foss,Ethan Moore,False,False
+warner,2026,8955,8/27/2026,81:13,THOMAS,Elia Casali,,False,False
+warner,2026,8955,8/27/2026,82:16,THOMAS,Ethan Moore,Elia Casali,False,False
+warner,2026,8956,8/29/2026,8:19,PCC,J Clarke,G Crawford,False,False
+warner,2026,8956,8/29/2026,18:25,WARNER,Xavier Lozada,,False,False
+warner,2026,8956,8/29/2026,46:49,PCC,J Clarke,E Romero,False,False
+warner,2026,8956,8/29/2026,57:56,PCC,A Diaz,,False,False
+warner,2026,8956,8/29/2026,68:01,WARNER,Jackson Davenport,,True,False
+warner,2026,8956,8/29/2026,85:02,WARNER,Wade Bishop,Jackson Davenport,False,False
+warner,2026,8957,9/3/2026,10:53,WU,Jackson Davenport,,True,False
+warner,2026,8957,9/3/2026,67:14,WIU,Rodnny Gonzalez,,False,False
+warner,2026,8959,9/9/2026,75:37,WU,Jackson Davenport,Euan Bunn,False,False
+warner,2026,8959,9/9/2026,81:32,FLPOLY,Tarquin Adams,Adrian Arteaga,False,False
+warner,2026,8959,9/9/2026,83:17,FLPOLY,Ahmad Hijaz,Kaden Curtin,False,False
+warner,2026,8959,9/9/2026,87:06,FLPOLY,Martin Aguilar,Kaden Curtin,False,False
+warner,2026,8960,9/12/2026,4:47,CAROLINA,Will McCamley,Sonny West,False,False
+warner,2026,8960,9/12/2026,5:42,CAROLINA,Will McCamley,"K. Chatzikraniotis , Will McCamley",False,False
+warner,2026,8960,9/12/2026,42:39,CAROLINA,Will McCamley,Jordan Julien,False,False
+warner,2026,8960,9/12/2026,68:11,CAROLINA,Will McCamley,Nicolas Meurer,False,False
+warner,2026,8960,9/12/2026,68:11,WARNER,Jackson Davenport,Zane Henriques,False,False
+warner,2026,8961,9/17/2026,77:07,WARNER (,Xavier Lozada,,False,False
+warner,2026,8961,9/17/2026,81:37,POINT,Nicolas Diaz,Ignacio Cerda,False,False
+warner,2026,9067,9/23/2026,29:00,FLORIDA,John Solis,,False,False
+warner,2026,9067,9/23/2026,34:46,FLORIDA,Victor Montes,,False,False
+warner,2026,9067,9/23/2026,46:00,WARNER (,Xavier Lozada,Christopher Zeppieri,False,False
+warner,2026,9067,9/23/2026,48:00,WARNER (,Xavier Lozada,Wade Bishop,False,False
+warner,2026,9067,9/23/2026,67:08,WARNER (,Euan Bunn,Jackson Davenport,False,False
+warner,2026,9040,9/26/2026,9:57,WU,Jackson Davenport,,True,False
+warner,2026,9040,9/26/2026,34:17,NCF,Cameron Johnson,,True,False
+warner,2026,8965,10/3/2026,2:27,SCAD,Sebastian Gomez,Moritz Zettl,False,False
+warner,2026,8965,10/3/2026,11:31,SCAD,Sebastian Gomez,Moritz Zettl,False,False
+warner,2026,8965,10/3/2026,19:51,WU,Mauricio Delgado,Xavier Lozada,False,False
+warner,2026,8965,10/3/2026,32:45,WU,Xavier Lozada,,False,False
+warner,2026,8965,10/3/2026,43:52,SCAD,Team,,False,False
+warner,2026,8965,10/3/2026,82:55,SCAD,Daire Russell,Tim Rothe,False,False
+warner,2026,8966,10/7/2026,21:38,FLORIDA,Frank Sanchez,Gabriel Zapata,False,False
+warner,2026,8966,10/7/2026,35:27,FLORIDA,Vicente Silva,Frank Sanchez,False,False
+warner,2026,8966,10/7/2026,59:59,FLORIDA,Gabriel Zapata,Frank Sanchez,False,False
+warner,2026,8966,10/7/2026,75:45,WARNER (,Wade Bishop,Xavier Lozada,False,False
+warner,2026,8967,10/10/2026,11:28,AVE,Sava Cadjenovic,Andre Betioli,False,False
+warner,2026,8967,10/10/2026,84:40,WU,Jackson Davenport,,False,False
+warner,2026,9138,10/13/2026,37:07,TRINITY,Kevine Paulino,Gabriel Bonini,False,False
+warner,2026,9138,10/13/2026,39:32,WARNER U,Noah Farrington,Kona Vega,False,False
+warner,2026,9138,10/13/2026,89:40,WARNER U,Wade Bishop,Jackson Davenport,False,False
+warner,2026,8968,10/17/2026,43:43,WU,Luis Seminario,Georg Manolov,False,False
+warner,2026,8968,10/17/2026,62:07,STU,Oscar Le guillou,Thiago Patto,False,False
+warner,2026,8968,10/17/2026,89:52,STU,Oscar Le guillou,Julien Laborde,False,False
+warner,2026,8969,10/21/2026,32:23,KU,Xabi Souto,Mikael Baisotti,False,False
+warner,2026,8969,10/21/2026,35:28,KU,Mikael Baisotti,,False,False
+warner,2026,8969,10/21/2026,85:08,KU,Sergio Padin-Rey,Raul Cedillo,False,False
+warner,2026,8970,10/24/2026,28:55,WU,Vance Wheeler,Xavier Lozada,False,False
+warner,2026,8970,10/24/2026,64:27,SEU,Filipe Santana,,False,False
+warner,2026,8970,10/24/2026,68:02,SEU,Tomas Gomes,"Koren Klein , Thomas Hardouin",False,False
+warner,2026,8970,10/24/2026,85:50,WU,Wade Bishop,Jason Flaming,False,False
+warner,2026,8971,10/28/2026,3:55,WEBBER I,Dylan Salomon,Hector Vazquez,False,False
+warner,2026,8971,10/28/2026,8:43,WARNER (,Jason Flaming,Mario Martinez,False,False
+warner,2026,8971,10/28/2026,17:49,WEBBER I,Rodnny Gonzalez,Dylan Salomon,False,False
+warner,2026,8971,10/28/2026,24:07,WEBBER I,Rodnny Gonzalez,Jack Chalmers,False,False
+warner,2026,8971,10/28/2026,59:17,WEBBER I,Sebastian Florian,Mateo Lozada,False,False
+warner,2026,8971,10/28/2026,67:59,WARNER (,Jackson Davenport,Greg Jackson II,False,False
+warner,2026,8971,10/28/2026,78:09,WARNER (,Xavier Lozada,,False,False

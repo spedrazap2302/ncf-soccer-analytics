@@ -162,6 +162,71 @@ def add_conference_flags(games):
     games["conference_game"] = games["opp_key"].notna() & ~ncf_2023
     return games
 
+
+# ---------- box scores (from boxscores.py) ----------
+
+def to_date(col):
+    d = pd.to_datetime(col, format="%m/%d/%Y", errors="coerce")
+    return d.fillna(pd.to_datetime(col, format="%Y-%m-%d", errors="coerce"))
+
+def pick_our_rows(teams, games):
+    # each box score has 2 rows (one per team); find the row of the school whose site it is
+    teams = teams.copy()
+    teams["key"] = [team_key(fix_name(str(n))) for n in teams["name"]]
+    ours = []
+    for (team, game_id), rows in teams.groupby(["team", "game_id"]):
+        mine = rows[rows["key"] == team]
+        if len(mine) != 1:
+            # name didn't match (or both did): use the final score from games.csv instead
+            g = games[(games["team"] == team) & (games["date"] == rows["date"].iloc[0])]
+            if len(g) == 1:
+                mine = rows[rows["goals"] == g["goals_for"].iloc[0]]
+        if len(mine) == 1:
+            ours.append(mine.index[0])
+    return ours
+
+def clean_boxscores(games):
+    teams = pd.concat([pd.read_csv(f) for f in sorted(glob.glob("data/raw/box/*_teams.csv"))], ignore_index=True)
+    goals = pd.concat([pd.read_csv(f) for f in sorted(glob.glob("data/raw/box/*_goals.csv"))], ignore_index=True)
+    teams["date"] = to_date(teams["date"])
+    goals["date"] = to_date(goals["date"])
+
+    ours = pick_our_rows(teams, games)
+    us = teams.loc[ours]
+    them = teams.drop(ours)
+    # one row per game: our numbers next to theirs
+    box = us.merge(them, on=["team", "game_id"], suffixes=("_us", "_them"))
+    box = box[box["abbr_us"] != box["abbr_them"]]  # can't tell the teams apart if both have the same short name
+    box_games = pd.DataFrame({
+        "team": box["team"], "date": box["date_us"], "game_id": box["game_id"],
+        "fouls_for": box["fouls_us"], "fouls_against": box["fouls_them"],
+        "shots_1st_half_for": box["shots_1st_half_us"], "shots_1st_half_against": box["shots_1st_half_them"],
+    })
+
+    # goals: which side scored, and in what minute
+    goals = goals.merge(box[["team", "game_id", "abbr_us", "abbr_them"]], on=["team", "game_id"])
+    goals["side"] = np.where(goals["abbr"] == goals["abbr_us"], "for",
+                             np.where(goals["abbr"] == goals["abbr_them"], "against", None))
+    goals["minute"] = goals["time"].str.split(":").str[0].astype(int) + 1
+    # one game (NCF vs Albizu 2025) has every goal at 0:00, so its times are useless
+    bad = goals.groupby(["team", "game_id"])["minute"].transform("max") == 1
+    goals = goals[~bad & goals["side"].notna()]
+    goals["assist"] = goals["assist"].fillna("").replace("Team", "")
+    # add opponent and conference info from games.csv
+    goals = goals.merge(games[["team", "date", "season", "opponent", "opp_key", "home_away", "conference_game"]],
+                        on=["team", "date"], suffixes=("_box", ""))
+    goals = goals[["team", "season", "date", "opponent", "opp_key", "home_away", "conference_game",
+                   "minute", "side", "scorer", "assist", "penalty", "header"]]
+    return box_games, goals
+
+def add_weather(games):
+    # weather where the game was played: our campus for home games, theirs for away games
+    weather = pd.read_csv("data/raw/weather.csv", parse_dates=["date"])
+    games = games.copy()
+    games["location"] = np.where(games["home_away"] == "home", games["team"],
+                                 np.where(games["home_away"] == "away", games["opp_key"], None))
+    return games.merge(weather, on=["location", "date"], how="left").drop(columns="location")
+
 if __name__ == "__main__":
     os.makedirs("data/combined", exist_ok=True)
     for table in TABLES:
@@ -196,3 +261,13 @@ if __name__ == "__main__":
         g.to_csv(f"data/clean/{table}.csv", index=False)
         print(f"{table}: {g.shape}, missing values: {g.isna().sum().sum()}")
     print(p.head())
+
+    # box scores and weather (run boxscores.py and weather.py first)
+    if glob.glob("data/raw/box/*_teams.csv") and os.path.exists("data/raw/weather.csv"):
+        box_games, goals = clean_boxscores(games)
+        games = games.merge(box_games.drop(columns="game_id"), on=["team", "date"], how="left")
+        games = add_weather(games)
+        games.to_csv("data/clean/games.csv", index=False)
+        goals.to_csv("data/clean/goals.csv", index=False)
+        print("\ngoals:", goals.shape, "| games with fouls:", games["fouls_for"].notna().sum(),
+              "| games with weather:", games["temp_max_f"].notna().sum(), "of", len(games))

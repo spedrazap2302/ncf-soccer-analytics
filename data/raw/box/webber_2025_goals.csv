@@ -1,0 +1,76 @@
+team,season,game_id,date,time,abbr,scorer,assist,penalty,header
+webber,2025,10611,8/21/2025,10:40,WIU,Jesus Perez,,False,False
+webber,2025,10611,8/21/2025,20:49,WIU,Jesus Perez,Gregor Graham,False,False
+webber,2025,10611,8/21/2025,41:33,FMU,Mohamed Sadiki,,True,False
+webber,2025,10611,8/21/2025,49:34,FMU,Mohamed Sadiki,,False,False
+webber,2025,10611,8/21/2025,79:26,FMU,Nasreddine Benbella,,True,False
+webber,2025,10612,8/26/2025,74:00,WEBBER I,Jack Chalmers,,False,False
+webber,2025,10613,8/30/2025,11:07,TU,Camilo Penafiel,Daniel Mauldin,False,False
+webber,2025,10613,8/30/2025,31:31,WIU,Tyler Keating,Jack Chalmers,False,False
+webber,2025,10613,8/30/2025,74:47,WIU,Jesus Perez,Miguel de Silva,False,False
+webber,2025,10614,9/4/2025,37:28,WEBBER I,Miguel de Silva,,False,False
+webber,2025,10614,9/4/2025,68:18,FAULKNER,Angel Ugwumba,Joel Gomez,False,False
+webber,2025,10614,9/4/2025,72:35,FAULKNER,Julio Cesar,"Konsti Witte , Gunner Blanchard",False,False
+webber,2025,10614,9/4/2025,74:12,FAULKNER,Konsti Witte,Julio Cesar,False,False
+webber,2025,10614,9/4/2025,83:40,WEBBER I,Miguel de Silva,,True,False
+webber,2025,10615,9/6/2025,12:33,USSU,Carter Willis,,False,False
+webber,2025,10615,9/6/2025,60:01,WIU,Miguel da Silva,,True,False
+webber,2025,10615,9/6/2025,84:43,USSU,Kipper Miller,,False,False
+webber,2025,10615,9/6/2025,87:27,WIU,Tyler Keating,,False,False
+webber,2025,10616,9/8/2025,16:36,WEBBER I,Tyler Keating,,False,False
+webber,2025,10616,9/8/2025,25:04,WEBBER I,Gregor Graham,Miguel da Silva,False,False
+webber,2025,10616,9/8/2025,52:55,WEBBER I,Hussein Elbadry,Gian Luca Fink,False,False
+webber,2025,10616,9/8/2025,54:23,TRINITY,Christy Kerry Jean F,Joao Pedro Cury Mend,False,False
+webber,2025,10616,9/8/2025,59:28,TRINITY,Christy Kerry Jean F,,False,False
+webber,2025,10617,9/15/2025,20:51,WIU,Jose Dlima,Gian Luca Fink,False,False
+webber,2025,10617,9/15/2025,34:18,FC,Jeilen Augustin,Damauri Greer,False,False
+webber,2025,10617,9/15/2025,52:21,FC,Yorgen Torres,,False,False
+webber,2025,10617,9/15/2025,59:09,FC,Yorgen Torres,Leo Hackett,False,False
+webber,2025,10618,9/20/2025,51:10,NCF,Cameron Johnson,,False,False
+webber,2025,10618,9/20/2025,89:21,NCF,Andres Garcia,,False,False
+webber,2025,10619,9/27/2025,10:56,SCADSAV,Mario Goic,,False,False
+webber,2025,10619,9/27/2025,24:03,SCADSAV,Mario Goic,Michael O'Brien,False,False
+webber,2025,10619,9/27/2025,46:10,SCADSAV,Sebastian Gomez,,False,False
+webber,2025,10620,10/1/2025,0:17,FNU,Fabio Zandona,"Juan Pugin , Juan Latorre",False,False
+webber,2025,10620,10/1/2025,22:55,FNU,Alejandro Castillo,,False,False
+webber,2025,10620,10/1/2025,24:17,FNU,Filipe Ribeiro,Juan Pugin,False,False
+webber,2025,10620,10/1/2025,45:03,FNU,Filipe Ribeiro,,False,False
+webber,2025,10620,10/1/2025,51:49,FNU,Filipe Ribeiro,,False,False
+webber,2025,10620,10/1/2025,83:21,FNU,Dylan Gibbs,"Thiago Bayer , Augusto Pugin",False,False
+webber,2025,10621,10/4/2025,6:20,NEW COLL,Ducamel Jeannestin,,False,False
+webber,2025,10621,10/4/2025,33:06,NEW COLL,Cameron Johnson,Fabien Donal,False,False
+webber,2025,10621,10/4/2025,50:41,NEW COLL,Cameron Johnson,Ducamel Jeannestin,False,False
+webber,2025,10621,10/4/2025,55:06,WEBBER I,Jesus Perez,,True,False
+webber,2025,10621,10/4/2025,78:11,NEW COLL,Fabien Donal,Cameron Johnson,False,False
+webber,2025,10621,10/4/2025,78:25,NEW COLL,Cameron Johnson,,False,False
+webber,2025,10622,10/8/2025,36:31,STU,Thiago Patto,,False,False
+webber,2025,10622,10/8/2025,76:05,STU,Manuel Domiinguez,Kay Maletzki,False,False
+webber,2025,10622,10/8/2025,83:47,STU,Kay Maletzki,,False,False
+webber,2025,10622,10/8/2025,84:57,STU,Tim Kreuzpeintner,Manuel Domiinguez,False,False
+webber,2025,10623,10/11/2025,13:42,SEU,Elia Michelotti,Sebastian Riebartsch,False,False
+webber,2025,10623,10/11/2025,25:31,SEU,Carson Cajuste,Miguel Londono,False,False
+webber,2025,10623,10/11/2025,64:50,SEU,Jman Dieng,,True,False
+webber,2025,10624,10/15/2025,22:18,WIU,Jesus Perez,Miguel da Silva,False,False
+webber,2025,10624,10/15/2025,28:54,FMU,Nasreddine Benbella,,False,False
+webber,2025,10624,10/15/2025,35:04,FMU,Frank Sanchez,,False,False
+webber,2025,10624,10/15/2025,49:19,FMU,Nasreddine Benbella,Rafael Coronado,False,False
+webber,2025,10624,10/15/2025,76:40,WIU,Brandon Apon,Jesus Perez,False,False
+webber,2025,10624,10/15/2025,80:02,FMU,Luigi Gallo,,False,False
+webber,2025,10624,10/15/2025,85:33,FMU,Nasreddine Benbella,,False,False
+webber,2025,10625,10/22/2025,55:15,WIU,Jesus Perez,,False,False
+webber,2025,10625,10/22/2025,77:20,AVE,Sava Cadjenovic,,True,False
+webber,2025,10625,10/22/2025,89:23,WIU,Jose Dlima,Davide Poledda,False,False
+webber,2025,10626,10/25/2025,16:48,KU,Alejandro Molina,Mikael Baisotti,False,False
+webber,2025,10626,10/25/2025,29:33,KU,Alejandro Molina,Keanu Does,False,False
+webber,2025,10626,10/25/2025,36:31,KU,Sergio Padin,Manu Cordeviola,False,False
+webber,2025,10626,10/25/2025,57:33,KU,Eden Barlow,Xabi Souto,False,False
+webber,2025,10626,10/25/2025,67:05,KU,Keanu Does,Fabian Pisec,False,False
+webber,2025,10627,10/29/2025,54:10,WIU,Cristian Fernandez,Emanuel Barajas,False,False
+webber,2025,10627,10/29/2025,60:26,WU,Filip Mo,,False,False
+webber,2025,10627,10/29/2025,76:55,WIU,Miguel da Silva,Jose Dlima,False,False
+webber,2025,10627,10/29/2025,83:10,WIU,Jose Dlima,Jesus Perez,False,False
+webber,2025,10628,11/1/2025,12:27,WIU,Felipe Villa,,False,False
+webber,2025,10628,11/1/2025,36:21,WIU,Jesus Perez,,False,False
+webber,2025,10628,11/1/2025,38:52,WIU,Davide Poledda,Miguel da Silva,False,False
+webber,2025,10628,11/1/2025,71:08,WIU,Team,,False,False
+webber,2025,10628,11/1/2025,87:13,WIU,Gregor Graham,,False,False
