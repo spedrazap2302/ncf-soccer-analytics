@@ -1,5 +1,9 @@
 # Streamlit app: scouting the Sun Conference for New College men's soccer
 # Run with: streamlit run app.py
+import os  # built-in: used to check if a logo file exists
+
+# Altair is the chart library that comes with Streamlit. It's like matplotlib, but the
+# charts are interactive: you can hover a bar or a dot to see the exact number.
 import altair as alt
 import pandas as pd
 import streamlit as st
@@ -27,11 +31,21 @@ GAME_LABELS = {
 }
 
 
+# @st.cache_data = "remember the result": load the CSVs once instead of on every click
 @st.cache_data
 def get_data():
     return eda.load_games(), eda.load_players(), eda.load_goals()
 
 
+# @st.cache_resource = same idea for big objects like the AI model (load it only once)
+@st.cache_resource
+def get_llm():
+    # load the language model once and keep it in memory
+    import llm
+    return llm.load_model()
+
+
+# remember this one too, since it takes a few seconds
 @st.cache_data
 def get_backtest(games, half_life):
     # slow (it rebuilds the model for every game), so only run it once
@@ -85,12 +99,35 @@ tab_scout, tab_conf, tab_wins, tab_players, tab_data = st.tabs(
 # 1. SCOUT AN OPPONENT
 # =====================================================================
 with tab_scout:
-    others = [eda.TEAM_NAMES[t] for t in prof.index if t != us]
-    c1, c2 = st.columns([2, 1])
-    opp_name = c1.selectbox("Opponent", others)
-    venue_label = c2.radio("Where is the game?", ["Home", "Away", "Neutral"], horizontal=True)
-    opp = name_to_key[opp_name]
+    others = [t for t in prof.index if t != us]
+    venue_label = st.radio("Where is the game?", ["Home", "Away", "Neutral"], horizontal=True)
     venue = venue_label.lower()
+
+    # --- pick an opponent: one card per team, click "Scout" to open its report ---
+    st.markdown("#### Pick an opponent")
+    if st.session_state.get("opp") not in others:
+        st.session_state["opp"] = others[0]
+    cols = st.columns(4)
+    for i, team in enumerate(others):
+        h2h_cards = sc.head_to_head(games, us, team)
+        record = "-".join(str((h2h_cards["result"] == r).sum()) for r in ["W", "T", "L"])
+        win = sc.result_chances(*sc.expected_goals(g, prof, us, team, venue))["Win"]
+        with cols[i % 4].container(border=True):
+            logo = f"assets/logos/{team}.png"
+            if os.path.exists(logo):
+                st.image(logo, width=70)
+            else:
+                st.markdown("### ⚽")
+            st.markdown(f"**{eda.TEAM_NAMES[team]}**")
+            st.caption(f"Our record vs them: {record} · Win chance {win:.0f}%")
+            picked_now = st.session_state["opp"] == team
+            if st.button("✓ Scouting" if picked_now else "Scout", key=f"scout_{team}", width="stretch",
+                         type="primary" if picked_now else "secondary"):
+                st.session_state["opp"] = team
+                st.rerun()
+    opp = st.session_state["opp"]
+    opp_name = eda.TEAM_NAMES[opp]
+    st.divider()
 
     # --- prediction ---
     our_xg, their_xg = sc.expected_goals(g, prof, us, opp, venue)
@@ -205,6 +242,27 @@ with tab_scout:
     st.subheader("📋 Game plan")
     for tip in sc.game_plan(prof, us, opp, timing):
         st.markdown(f"- {tip}")
+
+    # --- AI scouting report (the LLM part) ---
+    st.subheader("📝 AI scouting report")
+    st.caption("A small open-source language model (Qwen2.5, running on this computer) writes a report "
+               "from the numbers above. It only gets those facts, so it can't look anything up.")
+    report_key = f"report_{us}_{opp}_{venue}_{picked}_{conf_only}"
+    if st.button("✍️ Write the scouting report", type="primary"):
+        try:
+            import llm
+        except ImportError:
+            st.error("The LLM libraries aren't installed. Run `pip install transformers accelerate torch` and restart.")
+        else:
+            facts = llm.build_facts(our_name, opp_name, venue, chances, (our_xg, their_xg), h2h,
+                                    strong, weak, timing, danger, sc.game_plan(prof, us, opp, timing))
+            with st.spinner("Writing the report (about 20-60 seconds, longer the first time)..."):
+                generator = get_llm()
+                st.session_state[report_key] = llm.scouting_report(generator, facts)
+    if report_key in st.session_state:
+        with st.container(border=True):
+            st.markdown(st.session_state[report_key])
+        st.caption("Written by an AI model from the stats above. Double-check it before sharing with the team.")
 
     with st.expander("How is the chance to win calculated?"):
         st.markdown(

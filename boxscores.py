@@ -6,6 +6,9 @@ import re
 import sys
 import time
 
+# pd.read_html (what scraper.py uses) only gives the text of a table. Box score cells hide
+# extra info in small tags (e.g. the team's short name), so here we use lxml, the library
+# pandas itself uses under the hood, to read those tags directly.
 import lxml.html
 import pandas as pd
 import requests

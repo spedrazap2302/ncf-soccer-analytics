@@ -1,5 +1,10 @@
 # Scouting functions: compare two teams and estimate the chances of each result.
 # Everything here is plain pandas + a Poisson model (no machine learning).
+#
+# Poisson in one sentence: if a team is expected to score 1.5 goals, the Poisson formula
+# gives the chance it scores exactly 0, 1, 2, 3... goals. Doing that for both teams and
+# multiplying gives the chance of every final score (0-0, 1-0, 2-1...), and adding those up
+# gives the chance of a win, a tie or a loss.
 from math import exp, factorial
 
 import pandas as pd
