@@ -1,5 +1,6 @@
 # Streamlit app: scouting the Sun Conference for New College men's soccer
 # Run with: streamlit run app.py
+import importlib.util  # built-in: checks if a package is installed without loading it
 import os  # built-in: used to check if a logo file exists
 
 # Altair is the chart library that comes with Streamlit. It's like matplotlib, but the
@@ -248,17 +249,18 @@ with tab_scout:
     st.caption("A small open-source language model (Qwen2.5, running on this computer) writes a report "
                "from the numbers above. It only gets those facts, so it can't look anything up.")
     report_key = f"report_{us}_{opp}_{venue}_{picked}_{conf_only}"
-    if st.button("✍️ Write the scouting report", type="primary"):
-        try:
-            import llm
-        except ImportError:
-            st.error("The LLM libraries aren't installed. Run `pip install transformers accelerate torch` and restart.")
-        else:
-            facts = llm.build_facts(our_name, opp_name, venue, chances, (our_xg, their_xg), h2h,
-                                    strong, weak, timing, danger, sc.game_plan(prof, us, opp, timing))
-            with st.spinner("Writing the report (about 20-60 seconds, longer the first time)..."):
-                generator = get_llm()
-                st.session_state[report_key] = llm.scouting_report(generator, facts)
+    # the online version has no AI libraries (the model is too big for the free server), so hide the button there
+    has_llm = importlib.util.find_spec("transformers") is not None
+    if not has_llm:
+        st.info("The AI report only runs on the laptop version of this app. "
+                "The model is about 3 GB, too big for the free web server.")
+    elif st.button("✍️ Write the scouting report", type="primary"):
+        import llm
+        facts = llm.build_facts(our_name, opp_name, venue, chances, (our_xg, their_xg), h2h,
+                                strong, weak, timing, danger, sc.game_plan(prof, us, opp, timing))
+        with st.spinner("Writing the report (about 20-60 seconds, longer the first time)..."):
+            generator = get_llm()
+            st.session_state[report_key] = llm.scouting_report(generator, facts)
     if report_key in st.session_state:
         with st.container(border=True):
             st.markdown(st.session_state[report_key])

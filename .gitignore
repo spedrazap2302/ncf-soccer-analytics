@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# my own notes, not part of the app
+*.docx
+.DS_Store
