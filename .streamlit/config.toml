@@ -1,0 +1,7 @@
+# Streamlit theme in New College Mighty Banyans colors (navy and gold, taken from the banyan logo)
+[theme]
+base = "light"
+primaryColor = "#0c2340"              # navy: buttons, selected tab, sliders
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f1e6"  # light gold: sidebar and boxes
+textColor = "#0c2340"

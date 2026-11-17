@@ -94,13 +94,28 @@ def conference_ranks(prof):
 def strengths_weaknesses(prof, team, n=3):
     # the stats where a team ranks best and worst in the conference
     ranks = conference_ranks(prof).loc[team]
-    skip = ["win_pct", "points_pg"]  # those are results, not style
+    # win % and points are results, not style. Cards and fouls are discipline: being clean isn't
+    # something an opponent has to plan for, so those go in the game plan instead
+    skip = ["win_pct", "points_pg", "yellows_for", "fouls_for", "fouls_against"]
     ranks = ranks.drop(skip).sort_values()
     total = len(prof)
-    # only call it a strength if they are in the top half (and weakness if bottom half)
-    strong = [(LABELS[s], int(r), float(prof.loc[team, s])) for s, r in ranks.head(n).items() if r <= total / 2]
-    weak = [(LABELS[s], int(r), float(prof.loc[team, s])) for s, r in ranks.tail(n)[::-1].items() if r > total / 2]
+    # only call it a strength if they are top 3 in the conference (and a weakness if bottom 3)
+    strong = [(LABELS[s], int(r), float(prof.loc[team, s])) for s, r in ranks.head(n).items() if r <= 3]
+    weak = [(LABELS[s], int(r), float(prof.loc[team, s])) for s, r in ranks.tail(n)[::-1].items() if r > total - 3]
     return strong, weak, total
+
+
+def rank_words(label, rank, total):
+    # "#2 of 9" for goals allowed -> "2nd lowest of 9", so it's clear which way is good
+    stat = {v: k for k, v in LABELS.items()}[label]
+    ordinal = {1: "", 2: "2nd ", 3: "3rd "}.get(rank, f"{rank}th ")
+    if rank > 3:  # weaknesses: count from the other end ("2nd highest goals allowed")
+        back = total - rank + 1
+        ordinal = {1: "", 2: "2nd ", 3: "3rd "}.get(back, f"{back}th ")
+        word = "highest" if stat in LOWER_IS_BETTER else "lowest"
+    else:
+        word = "lowest" if stat in LOWER_IS_BETTER else "highest"
+    return f"{ordinal}{word} of {total}"
 
 
 def goal_timing(goals, team, seasons, conference_only=True):
@@ -129,6 +144,31 @@ def dangerous_players(goals, team, seasons, conference_only=True, n=5):
     table = table.drop(index=["", "Team", "TEAM"], errors="ignore")
     table["Goals + assists"] = table["Goals"] + table["Assists"]
     return table.sort_values(["Goals + assists", "Goals"], ascending=False).head(n)
+
+
+def add_roster(danger, rosters, team):
+    # add each player's class year and whether he is back next season (from roster.py)
+    d = danger.copy()
+    r = rosters[rosters["team"] == team]
+    if r.empty:
+        return d
+    from eda import simple_name
+    by_name = dict(zip(r["key"], r["class"]))
+    # last names that appear only once on the roster, for names written differently in box scores
+    last = r["key"].str.split().str[-1]
+    by_last = dict(zip(last[~last.duplicated(keep=False)], r["class"][~last.duplicated(keep=False)]))
+    classes = []
+    for player in d.index:
+        key = simple_name(player)
+        classes.append(by_name.get(key) or by_last.get(key.split()[-1] if key else ""))
+    d["Class (2026)"] = classes
+    def next_season(c):
+        if pd.isna(c):
+            return "Already gone"  # played before 2026 but isn't on the 2026 roster
+        return "❌ Leaving" if c in ["Senior", "Grad"] else "✅ Back"
+    d["Next season"] = d["Class (2026)"].map(next_season)
+    d["Class (2026)"] = d["Class (2026)"].fillna("-")
+    return d
 
 
 def head_to_head(games, team, opp):
@@ -202,54 +242,132 @@ def backtest(games, test_seasons=(2025, 2026), first_season=2024, half_life=None
     return pd.DataFrame(rows)
 
 
-def game_plan(prof, team, opp, timing=None):
-    # simple rules that turn the numbers into advice
+def season_review(games, team, season, first_season=2024, half_life=None):
+    # one team's season, game by game: what the model said BEFORE each game vs what happened
+    # (same idea as backtest, but keeps the chances and the score so we can show them)
+    conf = games[games["conference_game"] & (games["season"] >= first_season)]
+    rows = []
+    for _, game in conf[(conf["team"] == team) & (conf["season"] == season)].sort_values("date").iterrows():
+        past = conf[conf["date"] < game["date"]]
+        prof = team_profile(past, half_life)
+        if team not in prof.index or game["opp_key"] not in prof.index:
+            continue
+        our_xg, their_xg = expected_goals(past, prof, team, game["opp_key"], game["home_away"])
+        chances = result_chances(our_xg, their_xg)
+        guess = max(chances, key=chances.get)
+        real = {"W": "Win", "T": "Tie", "L": "Loss"}[game["result"]]
+        rows.append({"date": game["date"], "opponent": TEAM_NAMES.get(game["opp_key"], game["opp_key"]),
+                     "home_away": game["home_away"], "win": chances["Win"], "tie": chances["Tie"],
+                     "loss": chances["Loss"], "expected": f"{our_xg:.1f} - {their_xg:.1f}",
+                     "predicted": guess, "score": f"{game['goals_for']}-{game['goals_against']}",
+                     "actual": real, "correct": guess == real,
+                     "sog": f"{game['sog_for']:.0f}-{game['sog_against']:.0f}"})
+    return pd.DataFrame(rows)
+
+
+def clearly(value, average, higher=True, margin=0.10):
+    # True only when a stat is clearly above (or below) the conference average,
+    # so we don't give advice over tiny differences like 73% vs 71%
+    if pd.isna(value) or pd.isna(average) or average == 0:
+        return False
+    change = (value - average) / abs(average)
+    return change > margin if higher else change < -margin
+
+
+def recent_form(games, team, n=5):
+    # the team's last n conference games, newest last, like "W W T L W"
+    g = games[(games["team"] == team) & games["conference_game"]].sort_values("date").tail(n)
+    return list(g["result"])
+
+
+def game_plan(prof, team, opp, timing=None, games=None, danger=None):
+    # simple rules that turn the numbers into advice, grouped like a coach's game-week notes.
+    # Returns {section: [tips]}. A tip only shows up when the difference is clear (see clearly()).
     us, them = prof.loc[team], prof.loc[opp]
     avg = prof.mean(numeric_only=True)
-    tips = []
-    if them["save_pct"] < avg["save_pct"]:
-        tips.append(f"Test their keeper: they save only {them['save_pct']:.0f}% of shots on target "
-                    f"(conference average {avg['save_pct']:.0f}%). Shoot from distance and follow up rebounds.")
-    else:
-        tips.append(f"Their keeper is good ({them['save_pct']:.0f}% saves vs {avg['save_pct']:.0f}% average). "
-                    "Work for high-quality chances instead of shooting from anywhere.")
-    if them["shots_against"] > avg["shots_against"]:
-        tips.append(f"They give up a lot of shots ({them['shots_against']:.1f} per game). Be direct and get bodies in the box.")
-    if them["shots_for"] > avg["shots_for"]:
-        tips.append(f"They shoot a lot ({them['shots_for']:.1f} per game). Stay compact and block shots.")
-    if them["finishing"] > avg["finishing"]:
-        tips.append(f"They are clinical: {them['finishing']:.0f}% of their shots on target go in. "
-                    "Don't give their forwards free looks.")
-    if them["corners_for"] > avg["corners_for"]:
-        tips.append(f"They win {them['corners_for']:.1f} corners per game. Prepare set-piece defending.")
-    if them["yellows_for"] > avg["yellows_for"]:
-        tips.append(f"They pick up {them['yellows_for']:.1f} yellows per game. Run at defenders and draw fouls.")
-    if us["shot_accuracy"] < avg["shot_accuracy"]:
-        tips.append(f"For us: only {us['shot_accuracy']:.0f}% of our shots hit the target. "
-                    "Pick better moments to shoot.")
-    if them["fouls_for"] > avg["fouls_for"] and them["yellows_for"] <= avg["yellows_for"]:
-        tips.append(f"They commit {them['fouls_for']:.1f} fouls per game. Run at them and make set pieces count.")
+    plan = {"When we have the ball": [], "When they have the ball": [], "Set pieces and discipline": [],
+            "Game management": []}
+    attack, defend = plan["When we have the ball"], plan["When they have the ball"]
+    sets, manage = plan["Set pieces and discipline"], plan["Game management"]
+
+    # --- attacking them ---
+    if clearly(them["save_pct"], avg["save_pct"], higher=False, margin=0.04):
+        attack.append(f"Test their keeper: they save only {them['save_pct']:.0f}% of shots on target "
+                      f"(conference average {avg['save_pct']:.0f}%). Shoot early, from distance too, and follow up rebounds.")
+    elif clearly(them["save_pct"], avg["save_pct"], margin=0.04):
+        attack.append(f"Their keeper is one of the better ones ({them['save_pct']:.0f}% saves vs {avg['save_pct']:.0f}% "
+                      "average). Work the ball into the box for clear chances instead of shooting from range.")
+    if clearly(them["shots_against"], avg["shots_against"]):
+        attack.append(f"They give up a lot of shots ({them['shots_against']:.1f} per game vs {avg['shots_against']:.1f} "
+                      "average). Be direct and get bodies in the box.")
+    elif clearly(them["shots_against"], avg["shots_against"], higher=False):
+        attack.append(f"They are hard to shoot against ({them['shots_against']:.1f} shots allowed per game). "
+                      "Be patient, move them side to side and wait for the gap.")
+    if clearly(us["shot_accuracy"], avg["shot_accuracy"], higher=False):
+        attack.append(f"For us: only {us['shot_accuracy']:.0f}% of our shots hit the target "
+                      f"(average {avg['shot_accuracy']:.0f}%). Pick better moments to shoot and work it closer.")
+
+    # --- defending them ---
+    if danger is not None and len(danger) and them["goals_for"] > 0 and games is not None:
+        top = danger.index[0]
+        total = danger["Goals"].sum()
+        if total and danger["Goals"].iloc[0] / total >= 0.3:
+            defend.append(f"{top} is their main threat ({danger['Goals'].iloc[0]} of the goals in our data). "
+                          "Know where he is at all times and don't let him turn.")
+    if clearly(them["shots_for"], avg["shots_for"]):
+        line = f"They shoot a lot ({them['shots_for']:.1f} per game vs {avg['shots_for']:.1f} average). Stay compact and block shots."
+        if clearly(us["shots_against"], avg["shots_against"]):
+            line += f" This is a problem matchup: we also allow {us['shots_against']:.1f} shots per game."
+        defend.append(line)
+    if clearly(them["finishing"], avg["finishing"]):
+        defend.append(f"They are clinical: {them['finishing']:.0f}% of their shots on target go in "
+                      f"(average {avg['finishing']:.0f}%). Don't give their forwards free looks.")
+    elif clearly(them["finishing"], avg["finishing"], higher=False):
+        defend.append(f"They waste chances: only {them['finishing']:.0f}% of their shots on target go in. "
+                      "Stay calm if they have spells of pressure.")
+    if clearly(us["goals_against"], them["goals_for"], margin=0.0):
+        defend.append(f"We have been allowing {us['goals_against']:.1f} goals per game, more than the "
+                      f"{them['goals_for']:.1f} they usually score. Stay organized early.")
+
+    # --- set pieces and discipline ---
+    if clearly(them["corners_for"], avg["corners_for"]):
+        sets.append(f"They win {them['corners_for']:.1f} corners per game (average {avg['corners_for']:.1f}). "
+                    "Prepare set-piece defending and clear the first ball.")
+    if clearly(them["corners_against"], avg["corners_against"]):
+        sets.append(f"They give away {them['corners_against']:.1f} corners per game. Have our corner routines ready.")
+    if clearly(them["yellows_for"], avg["yellows_for"], margin=0.2):
+        sets.append(f"They pick up {them['yellows_for']:.1f} yellows per game. Run at defenders and draw fouls.")
+    elif clearly(them["fouls_for"], avg["fouls_for"]):
+        sets.append(f"They commit {them['fouls_for']:.1f} fouls per game. Run at them and make free kicks count.")
+
+    # --- game management: when they score and allow goals, and their form ---
     if timing is not None:
         scored, allowed = timing["Goals scored"], timing["Goals allowed"]
         # only trust a pattern if there are enough goals behind it
         if allowed.sum() >= 8:
             late_allowed = allowed[["61-75'", "76-90'"]].sum() / allowed.sum() * 100
             if late_allowed >= 40:
-                tips.append(f"They fade late: {late_allowed:.0f}% of the goals they allow come after the 60th minute. "
-                            "Keep legs fresh and push in the last half hour.")
+                manage.append(f"They fade late: {late_allowed:.0f}% of the goals they allow come after the 60th minute. "
+                              "Keep legs fresh and push in the last half hour.")
         if scored.sum() >= 8:
             early_scored = scored[["0-15'", "16-30'"]].sum() / scored.sum() * 100
             late_scored = scored[["76-90'", "Overtime"]].sum() / scored.sum() * 100
             if early_scored >= 35:
-                tips.append(f"They start fast: {early_scored:.0f}% of their goals come in the first 30 minutes. "
-                            "Be switched on from kickoff.")
+                manage.append(f"They start fast: {early_scored:.0f}% of their goals come in the first 30 minutes. "
+                              "Be switched on from kickoff.")
             if late_scored >= 25:
-                tips.append(f"They keep pushing to the end: {late_scored:.0f}% of their goals come after the 75th minute. "
-                            "Don't switch off when you're ahead.")
-    if us["goals_against"] > them["goals_for"]:
-        tips.append("Our defense has been allowing more goals than they usually score. Stay organized early.")
-    return tips
-
+                manage.append(f"They keep pushing to the end: {late_scored:.0f}% of their goals come after the 75th "
+                              "minute. Don't switch off when you're ahead.")
+    if games is not None:
+        form = recent_form(games, opp)
+        if len(form) >= 3:
+            wins, losses = form.count("W"), form.count("L")
+            if wins >= len(form) - 1:
+                manage.append(f"They are in form: {' '.join(form)} in their last {len(form)} conference games.")
+            elif losses >= len(form) - 1:
+                manage.append(f"They are struggling: {' '.join(form)} in their last {len(form)} conference games. "
+                              "An early goal could break them.")
+    return {section: tips for section, tips in plan.items() if tips}
 
 if __name__ == "__main__":
     # quick check: python scouting.py
@@ -269,5 +387,5 @@ if __name__ == "__main__":
         print("half life", hl, "games:", len(bt), "correct %:", round(bt["correct"].mean() * 100, 1))
     ha = bt[bt["home_away"].isin(["home", "away"])]
     print("baseline 'home team wins' %:", round(((ha["home_away"] == "home") == (ha["actual"] == "Win")).mean() * 100, 1))
-    for t in game_plan(prof, "ncf", "keiser"):
-        print("-", t)
+    for section, tips in game_plan(prof, "ncf", "keiser", games=g).items():
+        print(section, tips)

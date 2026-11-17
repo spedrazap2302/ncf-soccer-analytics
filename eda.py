@@ -1,6 +1,8 @@
 # EDA functions for the NCF soccer project.
 # Each function returns a table (DataFrame) or a chart (matplotlib figure),
 # so the Streamlit app can show them.
+import difflib  # built-in: finds names that are spelled almost the same
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -41,7 +43,78 @@ def weather_table(games):
         goals_per_game=("total_goals", "mean"),
         shots_per_game=("shots_for", "mean"),
     ).round(2)
-    return table.reset_index()
+    # skip groups with too few games to say anything
+    return table[table["games"] >= 10].reset_index()
+
+
+def simple_name(name):
+    # "José  Pérez-Ruiz" -> "jose perez ruiz", so box-score names and roster names match
+    import unicodedata
+    name = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode()
+    return " ".join(name.lower().replace("-", " ").replace(".", "").replace("'", "").split())
+
+
+def class_year(text):
+    # roster class names differ by site ("Sr.", "Senior", "Gr.", "5th", "R-Jr.")
+    t = str(text).lower()
+    for key, label in [("gr", "Grad"), ("5", "Grad"), ("4th", "Senior"), ("3rd", "Junior"), ("2nd", "Sophomore"),
+                       ("1st", "Freshman"), ("sr", "Senior"), ("sen", "Senior"), ("jr", "Junior"),
+                       ("jun", "Junior"), ("so", "Sophomore"), ("fr", "Freshman"), ("fresh", "Freshman")]:
+        if key in t:
+            return label
+    return None
+
+
+def load_rosters(folder="data/raw/rosters"):
+    # every team's roster from roster.py (empty table if it hasn't been run)
+    import glob
+    files = glob.glob(f"{folder}/*.csv")
+    if not files:
+        return pd.DataFrame(columns=["team", "player", "year", "class", "leaving", "key"])
+    rosters = pd.concat([pd.read_csv(f) for f in files], ignore_index=True)
+    rosters["class"] = rosters["year"].map(class_year)
+    # seniors and grad students on the 2026 roster won't be back next season
+    rosters["leaving"] = rosters["class"].isin(["Senior", "Grad"])
+    rosters["key"] = rosters["player"].map(simple_name)
+    return rosters
+
+
+def add_status(players, rosters):
+    # cross-check each player with his team's 2026 roster:
+    #   on the roster and not a senior/grad -> back next season
+    #   on the roster as a senior/grad     -> leaving after 2026
+    #   not on the 2026 roster             -> already gone
+    p = players.copy()
+    p["key"] = p["player"].map(simple_name)
+    p["class_2026"] = None
+    for team, r in rosters.groupby("team"):
+        by_name = dict(zip(r["key"], r["class"]))
+        last = r["key"].str.split().str[-1]
+        unique = ~last.duplicated(keep=False)
+        by_last = dict(zip(last[unique], r["class"][unique]))  # fallback when first names are spelled differently
+        rows = p["team"] == team
+
+        def find(k):
+            if not k:
+                return None
+            if k in by_name:
+                return by_name[k]
+            # small spelling differences ("Vazquez" vs "Vasquez"): difflib finds names that are 85%+ the same
+            close = difflib.get_close_matches(k, list(by_name), n=1, cutoff=0.85)
+            if close:
+                return by_name[close[0]]
+            return by_last.get(k.split()[-1])
+        p.loc[rows, "class_2026"] = p.loc[rows, "key"].map(find)
+    has_roster = p["team"].isin(rosters["team"])
+
+    def status(row):
+        if not has_roster[row.name]:
+            return "No roster"
+        if row["class_2026"] is None or pd.isna(row["class_2026"]):
+            return "Gone"
+        return "Leaving after 2026" if row["class_2026"] in ["Senior", "Grad"] else "Back next season"
+    p["status"] = p.apply(status, axis=1)
+    return p.drop(columns="key")
 
 
 def load_players(path="data/clean/players.csv"):

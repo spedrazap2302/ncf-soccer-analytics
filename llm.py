@@ -46,6 +46,9 @@ def build_facts(our_name, opp_name, venue, chances, xg, h2h, strong, weak, timin
     if not danger.empty:
         lines.append(f"{opp_name} key players: " +
                      "; ".join(f"{p} ({r['Goals']} goals, {r['Assists']} assists)" for p, r in danger.iterrows()))
+    # tips come grouped by section ({"When we have the ball": [...], ...}), so flatten them
+    if isinstance(tips, dict):
+        tips = [tip for section in tips.values() for tip in section]
     lines.append("Tactical notes from the stats: " + " ".join(tips))
     return "\n".join(lines)
 
@@ -85,7 +88,7 @@ if __name__ == "__main__":
     facts = build_facts("New College", "Keiser", "home", sc.result_chances(*xg), xg,
                         sc.head_to_head(games, "ncf", "keiser"), strong, weak, timing,
                         sc.dangerous_players(goals, "keiser", [2025, 2026]),
-                        sc.game_plan(prof, "ncf", "keiser", timing))
+                        sc.game_plan(prof, "ncf", "keiser", timing, games=games))
     print(facts, "\n")
     start = time.time()
     generator = load_model()
