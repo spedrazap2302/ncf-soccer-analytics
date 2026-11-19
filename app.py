@@ -545,8 +545,17 @@ with tab_players:
     all_players = eda.add_status(players, rosters) if not rosters.empty else players.assign(status="No roster")
 
     st.subheader("Player leaderboard")
-    pl = all_players[all_players["season"].isin(picked)]
-    pc1, pc2, pc3 = st.columns(3)
+    pc0, pc1, pc2, pc3 = st.columns([1, 1.3, 1.3, 1.6])
+    season_options = sorted(all_players["season"].unique(), reverse=True) + ["All seasons combined"]
+    season_pick = pc0.selectbox("Season", season_options)
+    if season_pick == "All seasons combined":
+        # one row per player: add up his seasons (so nobody shows up twice)
+        latest = all_players.sort_values("season").groupby(["team", "player"]).last()
+        totals = all_players.groupby(["team", "player"])[["games", "goals", "assists", "points", "shots", "sog"]].sum()
+        pl = totals.join(latest[["team_name", "status", "season"]]).reset_index()
+        pl["season"] = "all"
+    else:
+        pl = all_players[all_players["season"] == season_pick]
     team_pick = pc1.selectbox("Team", ["All teams"] + list(eda.TEAM_NAMES.values()), index=1 + list(eda.TEAM_NAMES).index(us))
     stat_names = {"Goals": "goals", "Assists": "assists", "Points (2 per goal, 1 per assist)": "points",
                   "Shots": "shots", "Shots on target": "sog", "Games played": "games"}
@@ -561,7 +570,7 @@ with tab_players:
     if top.empty or top[col].max() == 0:
         st.info("No players with this stat for these settings.")
     else:
-        top["label"] = top["player"] + " (" + top["season"].astype(str) + ")"
+        top["label"] = top["player"] if team_pick != "All teams" else top["player"] + " (" + top["team_name"] + ")"
         st.altair_chart(
             alt.Chart(top).mark_bar().encode(
                 x=alt.X(f"{col}:Q", title=stat_pick),
@@ -584,6 +593,7 @@ with tab_players:
         st.info("No player has 15+ shots for these settings.")
     else:
         eff["Next season"] = pl.loc[eff.index, "status"].map(STATUS_ICONS)
+        eff = eff.drop(columns="season")  # the season is already picked above
         eff = eff.rename(columns={"player": "Player", "team_name": "Team", "season": "Season", "goals": "Goals",
                                   "shots": "Shots", "goals_per_shot": "Goals per shot"})
         st.dataframe(eff, hide_index=True, width="stretch")
