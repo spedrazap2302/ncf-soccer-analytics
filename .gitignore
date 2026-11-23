@@ -222,3 +222,7 @@ __marimo__/
 # my own notes, not part of the app
 *.docx
 .DS_Store
+
+# Presentation files (not part of the code)
+*.pptx
+~$*
