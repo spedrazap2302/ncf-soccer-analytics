@@ -227,6 +227,7 @@ def backtest(games, test_seasons=(2025, 2026), first_season=2024, half_life=None
     # does the model work? for every conference game, use ONLY the games played
     # before that day (like a coach would) and check if the most likely result happened
     conf = games[games["conference_game"] & (games["season"] >= first_season)]
+    points = {"W": 3, "T": 1, "L": 0}
     rows = []
     for _, game in conf[conf["season"].isin(test_seasons)].iterrows():
         past = conf[conf["date"] < game["date"]]
@@ -236,9 +237,19 @@ def backtest(games, test_seasons=(2025, 2026), first_season=2024, half_life=None
         chances = result_chances(*expected_goals(past, prof, game["team"], game["opp_key"], game["home_away"]))
         guess = max(chances, key=chances.get)
         real = {"W": "Win", "T": "Tie", "L": "Loss"}[game["result"]]
+        # simple rules to compare the model against:
+        # 1) the home team always wins (away teams always lose)
+        home_pick = "Win" if game["home_away"] == "home" else "Loss"
+        # 2) the team with more points per game in the earlier conference games wins
+        #    (if they are level, the home team wins)
+        ppg = past.assign(pts=past["result"].map(points)).groupby("team")["pts"].mean()
+        ours, theirs = ppg.get(game["team"]), ppg.get(game["opp_key"])
+        record_pick = "Win" if ours > theirs else "Loss" if ours < theirs else home_pick
         rows.append({"season": game["season"], "team": game["team"], "opponent": game["opp_key"],
                      "home_away": game["home_away"], "predicted": guess, "actual": real,
-                     "correct": guess == real})
+                     "correct": guess == real,
+                     "home_pick_correct": home_pick == real,
+                     "record_pick_correct": record_pick == real})
     return pd.DataFrame(rows)
 
 
@@ -385,7 +396,7 @@ if __name__ == "__main__":
     for hl in [None, 180, 365]:
         bt = backtest(games, half_life=hl)
         print("half life", hl, "games:", len(bt), "correct %:", round(bt["correct"].mean() * 100, 1))
-    ha = bt[bt["home_away"].isin(["home", "away"])]
-    print("baseline 'home team wins' %:", round(((ha["home_away"] == "home") == (ha["actual"] == "Win")).mean() * 100, 1))
+    print("baseline 'home team wins' %:", round(bt["home_pick_correct"].mean() * 100, 1))
+    print("baseline 'better record wins' %:", round(bt["record_pick_correct"].mean() * 100, 1))
     for section, tips in game_plan(prof, "ncf", "keiser", games=g).items():
         print(section, tips)

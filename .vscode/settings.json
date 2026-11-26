@@ -1,7 +1,0 @@
-{
-  "python.defaultInterpreterPath": "/Users/sebas/venvs/ncf-soccer/bin/python",
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/.DS_Store": true
-  }
-}

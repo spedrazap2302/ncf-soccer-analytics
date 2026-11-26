@@ -226,3 +226,6 @@ __marimo__/
 # Presentation files (not part of the code)
 *.pptx
 ~$*
+
+# editor settings (local paths)
+.vscode/

@@ -320,11 +320,20 @@ with tab_scout:
             "**Does it work?** For every 2025 and 2026 conference game, we ran the model using only the "
             "games played before that day (like a coach preparing for it) and checked what happened.")
         bt = get_backtest(games, half_life)
-        b1, b2 = st.columns(2)
+        b1, b2, b3 = st.columns(3)
         b1.metric("Model picked the right result", f"{bt['correct'].mean() * 100:.0f}%", help=f"{len(bt)} games")
-        ha = bt[bt["home_away"].isin(["home", "away"])]
-        home_rule = ((ha["home_away"] == "home") == (ha["actual"] == "Win")).mean() * 100
-        b2.metric("Just guessing 'home team wins'", f"{home_rule:.0f}%")
+        b2.metric("Guessing 'the better record wins'", f"{bt['record_pick_correct'].mean() * 100:.0f}%",
+                  help="Pick the team with more points per game in the earlier conference games "
+                       "(home team if they are level). This is the tougher rule to beat.")
+        b3.metric("Guessing 'the home team wins'", f"{bt['home_pick_correct'].mean() * 100:.0f}%")
+        # one season can look very different from the other, so show them separately too
+        by_season = bt.groupby("season")[["correct", "record_pick_correct"]].mean() * 100
+        st.caption("By season: " + " · ".join(
+            f"{s}: model {row['correct']:.0f}% vs better record {row['record_pick_correct']:.0f}%"
+            for s, row in by_season.iterrows())
+            + ". Ties: " + " · ".join(f"{s}: {t:.0f}% of games" for s, t in
+                                      (bt.groupby("season")["actual"].apply(lambda a: (a == "Tie").mean() * 100)).items())
+            + ". The model almost never picks a tie, so a season with many ties is much harder to call.")
         # is 76% real or luck? each game is in the data twice (once from each team's side),
         # so count half the rows as real games and build a 95% range around the accuracy
         acc = bt["correct"].mean()
@@ -332,7 +341,8 @@ with tab_scout:
         margin = 1.96 * (acc * (1 - acc) / real_games) ** 0.5
         st.caption(f"That is about {real_games:.0f} real games (each one shows up once for each team). "
                    f"With that many games the true accuracy is likely between {(acc - margin) * 100:.0f}% "
-                   f"and {(acc + margin) * 100:.0f}%, so the model clearly beats guessing. "
+                   f"and {(acc + margin) * 100:.0f}%, so the model clearly beats guessing 'home team wins' "
+                   "and is ahead of 'better record wins'. "
                    "Team averages are less certain: with about 20 games per team, middle-of-the-table "
                    "teams are often too close to tell apart.")
 
