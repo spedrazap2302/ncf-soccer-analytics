@@ -136,7 +136,15 @@ with tab_scout:
     # --- pick an opponent: one card per team, click "Scout" to open its report ---
     if st.session_state.get("opp") not in others:
         st.session_state["opp"] = others[0]
-    cols = st.columns(len(others))  # one small card per team, all in one row
+    # one small card per team in one row; on narrow screens the cards wrap onto a
+    # second row instead of getting squeezed (the CSS targets only this container)
+    st.markdown("""<style>
+    @media (max-width: 1300px) and (min-width: 641px) {
+      .st-key-opp_cards [data-testid="stHorizontalBlock"] {flex-wrap: wrap;}
+      .st-key-opp_cards [data-testid="stColumn"] {flex: 0 0 calc(25% - 0.75rem); min-width: 0;}
+    }
+    </style>""", unsafe_allow_html=True)
+    cols = st.container(key="opp_cards").columns(len(others))
     for i, team in enumerate(others):
         h2h_cards = sc.head_to_head(games, us, team)
         record = "-".join(str((h2h_cards["result"] == r).sum()) for r in ["W", "T", "L"])
