@@ -2,7 +2,7 @@
 
 A Streamlit app for New College of Florida men's soccer. Pick a Sun Conference opponent and the app shows how likely New College is to win, what the opponent is good and bad at, when they score and concede, the players to watch, and a game plan. A local AI model can also write a short scouting report from those numbers.
 
-**Live app:** _coming soon_
+**Live app:** [ncf-soccer-analytic-6vekkn85epmgvhte2uniz6.streamlit.app](https://ncf-soccer-analytic-6vekkn85epmgvhte2uniz6.streamlit.app/)
 
 ![Scout an opponent](assets/screenshots/scout.png)
 
